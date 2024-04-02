@@ -19,6 +19,7 @@
   <material name="thunderbird.png" shader="alphatest"/>
   <material name="bubblegum_shield.png" shader="alphablend" disable-z-write="Y"/>
   <material name="bubblegum_shield_nolok.png" shader="alphablend" disable-z-write="Y"/>
+  <material name="electro_shield.png" shader="alphablend" disable-z-write="Y"/>
   <material name="parachute.png" backface-culling="n" ignore="Y"/>
   <material name="zipper.png" shader="unlit" zipper="Y"/>
 </materials>

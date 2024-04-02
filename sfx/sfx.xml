@@ -61,7 +61,9 @@
    <sfx filename="splash.ogg"           volume="1.0" positional="true" rolloff="0.05" />
    <sfx filename="start_race.ogg"       volume="1.0" positional="false" />
    <sfx filename="strike.ogg"           volume="1.0" positional="true" rolloff="0.05"  />
-   <sfx filename="swap.ogg"             volume="1.0" positional="true" rolloff="0.05" />
+   <sfx filename="sudo_bad.ogg"         volume="1.0" positional="false" />
+   <sfx filename="sudo_good.ogg"        volume="1.0" positional="false" />
+   <sfx filename="swap.ogg"             volume="1.0" positional="false" />
    <sfx filename="swatter.ogg"          volume="1.0" positional="true" rolloff="0.05" />
    <sfx filename="thunder.ogg"          volume="1.0" positional="false" />
    <sfx filename="track_intro.ogg"      volume="1.0" positional="false" />

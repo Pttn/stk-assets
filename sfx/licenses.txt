@@ -362,6 +362,18 @@ Comment:
  qubodup obtained permission to reuse under the CC-BY-SA 3.0. Freesound only offers the CC-BY
  as an option and thus the freesound.org links above mention the CC-BY.
 
+Files: sudo_bad.ogg
+Copyright: 2017 flood-mix
+License: CC0
+Comment:
+ From https://freesound.org/people/flood-mix/sounds/413393/
+
+Files: sudo_good.ogg
+Copyright: 2019 victorhfs
+License: CC0
+Comment:
+ From https://freesound.org/people/victorhfs/sounds/469782/
+
 Files: swap.ogg
 Copyright: Copyright 2007 "Stephan"
 License: public-domain CC0

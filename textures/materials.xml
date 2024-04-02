@@ -126,16 +126,17 @@
     <material name="gfx_sandJetblast_a.png"  shader="alphablend" ignore="Y"/> 
     <material name="gfx_earthJetblast_a.png" shader="alphablend" ignore="Y"/> 
 
-  <material name="smoke_brown.png"       shader="alphablend" ignore="Y"/>
-  <material name="smoke_red.png"         shader="alphablend" ignore="Y"/>
-  <material name="smoke_black.png"       shader="alphablend" ignore="Y"/>
-  <material name="snowflake.png"         shader="alphablend" ignore="Y"/>
-  <material name="nitro-particle.png"    shader="additive" ignore="Y" />
-  <material name="skid-particle1.png"    shader="additive" ignore="Y"/>
-  <material name="skid-particle2.png"    shader="additive" ignore="Y"/>
-  <material name="gfx_blueStars_a.png"   shader="additive" ignore="Y"/>
-  <material name="zipper-particle.png"   shader="additive" ignore="Y"/>
-  <material name="waterparticles.png"    shader="alphablend" ignore="Y"/>
+  <material name="smoke_brown.png"         shader="alphablend" ignore="Y"/>
+  <material name="smoke_red.png"           shader="alphablend" ignore="Y"/>
+  <material name="smoke_black.png"         shader="alphablend" ignore="Y"/>
+  <material name="snowflake.png"           shader="alphablend" ignore="Y"/>
+  <material name="nitro-particle.png"      shader="additive" ignore="Y" />
+  <material name="nitro-hack-particle.png" shader="additive" ignore="Y" />
+  <material name="skid-particle1.png"      shader="additive" ignore="Y"/>
+  <material name="skid-particle2.png"      shader="additive" ignore="Y"/>
+  <material name="gfx_blueStars_a.png"     shader="additive" ignore="Y"/>
+  <material name="zipper-particle.png"     shader="additive" ignore="Y"/>
+  <material name="waterparticles.png"      shader="alphablend" ignore="Y"/>
 
   <material name="stkcrowd_ghost_a.png"    shader="alphablend" ignore="Y"/>
   
