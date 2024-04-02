@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="acid_lake.jpg" falling-effect="Y"/>
+  <material name="blueFuzz.png" normal-map="blueFuzzNormal.png" collision-detect="Y" collision-reaction="push" collision-particles="sparks.xml"/>
+  <material name="glassMars.png" shader="alphablend"/>
+  <material name="grayDivision.png" normal-map="grayDivisionNormal.png"/>
+  <material name="greenMotion.png" normal-map="greenMotionNormal.png" collision-detect="Y" collision-reaction="push" collision-particles="sparks.xml"/>
+  <material name="marsRock.jpg" gloss-map="marsRockMap.jpg" normal-map="marsRockNormal.jpg"/>
+  <material name="purpleVeins.png" normal-map="purpleVeinsNormal.png" slowdown-time="2.00" max-speed="0.65"/>
+  <material name="redCrystal.png" normal-map="redCrystalNormal.png" collision-detect="Y" collision-reaction="push" collision-particles="sparks.xml"/>
+  <material name="redSand.jpg" gloss-map="redSandMap.jpg" normal-map="redSandNormal.jpg" max-speed="0.55">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="redzipper.png" shader="alphatest" gloss-map="emiMP.png" mirror-axis="V">
+    <zipper duration="1.2000000476837158" max-speed-increase="7.5" fade-out-time="1.5" speed-gain="4.5" min-speed="-1.0"/>
+  </material>
+  <material name="road_dirt_red.jpg" has-gravity="Y"/>
+  <material name="trail-metal.png" has-gravity="Y"/>
+  <material name="transparence.png" shader="alphatest" falling-effect="Y"/>
+</materials>

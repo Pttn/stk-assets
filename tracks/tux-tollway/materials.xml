@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 6563 -->
+<materials>
+  <material name="asphalt_3cross.png" anisotropic="Y" gloss-map="roadgloss.png" normal-map="cross2normal.png">
+    <particles base="smoke.xml" condition="skid" />
+  </material>
+  
+  <material name="asphalt_plain.png" anisotropic="Y" gloss-map="roadgloss.png" normal-map="plainnormal.png">
+    <particles base="smoke.xml" condition="skid" />
+  </material>
+  
+  <material name="asphalt_straight.png" anisotropic="Y" gloss-map="roadgloss.png" normal-map="roadnormal.png">
+    <particles base="smoke.xml" condition="skid" />
+  </material>
+  
+  <material name="asphalt_straight_noline.png" anisotropic="Y" gloss-map="roadgloss.png" normal-map="crossnormal.png">
+    <particles base="smoke.xml" condition="skid" />
+  </material>
+  
+  <material name="asphalt_straight_transition.png" anisotropic="Y" gloss-map="roadgloss.png" normal-map="roadnormal.png">
+    <particles base="smoke.xml" condition="skid" />
+  </material>
+  
+  <material name="asphalt_straight_tunnel.png" anisotropic="Y" gloss-map="roadgloss.png" normal-map="roadnormal.png">
+    <particles base="smoke.xml" condition="skid" />
+  </material>
+  
+  <material name="bush3.png" transparency="Y" light="N" ignore="Y"/>
+  <material name="bush4.png" transparency="Y" light="N" ignore="Y"/>
+  <material name="bush5.png" transparency="Y" light="N" ignore="Y"/>
+  <material name="grass4.png" slowdown-time="4.0" max-speed="0.5"/>
+  <material name="light_spot.png" anisotropic="Y" gloss-map="light_spotgloss.png"/>
+  <material name="pump_green.png" anisotropic="Y" gloss-map="pump_gloss.png"/>
+  <material name="pump_red.png" anisotropic="Y" gloss-map="pump_gloss.png"/>
+  <material name="pump_yellow.png" anisotropic="Y" gloss-map="pump_gloss.png"/>
+  <material name="road_barrier.png" transparency="Y"/>
+  <material name="tiles.png" anisotropic="Y"/>
+  <material name="tree_leaves1.png" transparency="Y" light="N" ignore="Y" shader="grass"/>
+  <material name="tree_leaves2.png" transparency="Y" light="N" ignore="Y" shader="grass"/>
+  <material name="toll_colors.png" anisotropic="Y" gloss-map="tuxel_colorsgloss.png"/>
+  <material name="toll_access.png" anisotropic="Y" gloss-map="toll_gloss2.png"/>
+  <material name="toll_denied.png" anisotropic="Y" gloss-map="toll_gloss2.png"/>
+  <material name="tunnel_lights.png" anisotropic="Y" gloss-map="tunnel_lightsgloss.png"/>
+  <material name="tuxel_text.png" anisotropic="Y" gloss-map="tuxel_textgloss.png"/>
+  <material name="tuxel_colors.png" anisotropic="Y" gloss-map="tuxel_colorsgloss.png"/>
+  <material name="tuxel_welcome.png" anisotropic="Y" gloss-map="tuxel_welcomegloss.png"/>
+  <material name="concrete_plain.png" anisotropic="Y"/>
+</materials>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="antenna_pink.png" gloss-map="FFFFFF.png" ignore="Y"/>
+  <material name="Billboards2.jpg" gloss-map="ad_gloss.png"/>
+  <material name="Billboards4.jpg" gloss-map="ad_gloss.png"/>
+  <material name="blue_neon.jpg" gloss-map="neon_gloss.jpg" ignore="Y"/>
+  <material name="BuildingBase.png" gloss-map="BuildingBase_gloss.png"/>
+  <material name="FFFFFF.png" gloss-map="white_gloss.png"/>
+  <material name="radiator.png">
+    <sfx filename="kerb.ogg" min_speed="5.00" max_speed="15.00" min_pitch="0.60" max_pitch="0.80" positional="true" rolloff="0.50"/>
+  </material>
+  <material name="red_neon.jpg" gloss-map="neon_gloss.jpg" ignore="Y"/>
+  <material name="skyscraper8.jpg" gloss-map="skyscraper8_gloss.jpg" ignore="Y"/>
+  <material name="stkflag_cupcakeAirwayLogo_a.png" gloss-map="ad_gloss.png"/>
+  <material name="stkflag_mandaravaMotors_a.png" gloss-map="FFFFFF.png" ignore="Y"/>
+  <material name="TunnelGlow.png" gloss-map="white_gloss.png" ignore="Y"/>
+</materials>
