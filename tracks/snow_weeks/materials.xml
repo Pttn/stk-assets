@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev Unknown -->
+<materials>
+  <material name="barbed_wire.png" shader="alphatest" gloss-map="barbed_wire_glossy.png"/>
+  <material name="blueZipper.png" shader="alphatest" high-adhesion="Y" has-gravity="Y" slowdown-time="0.30" max-speed="0.82"/>
+  <material name="daffodil.png" shader="alphatest" ignore="Y"/>
+  <material name="daffodil2.png" shader="alphatest" ignore="Y"/>
+  <material name="daffodil_flower.png" shader="alphatest" ignore="Y"/>
+  <material name="daffodil_leaf.png" shader="alphatest" ignore="Y"/>
+  <material name="dark-wall-wood.png" normal-map="dark-wall-wood_nm.jpg"/>
+  <material name="fir_bark.png" normal-map="fir_bark_nm.png"/>
+  <material name="Ice03_col.jpg" gloss-map="Ice03_glossy.jpg" normal-map="Ice03_nm.jpg"/>
+  <material name="ice_sign.png" shader="alphatest" gloss-map="ice_sign_glossy.jpg"/>
+  <material name="medium_speed_boost.png" shader="alphatest" high-adhesion="Y" has-gravity="Y">
+    <zipper duration="3.5" max-speed-increase="5.0" fade-out-time="3.299999952316284" speed-gain="2.5" min-speed="-1.0"/>
+  </material>
+  <material name="Metal19Cross_col.png" shader="alphatest"/>
+  <material name="snowroad.jpg" normal-map="snowroad_nm.jpg" high-adhesion="Y" has-gravity="Y">
+    <particles base="smoke_snow.xml" condition="skid"/>
+  </material>
+  <material name="start_banner.png" shader="alphablend"/>
+  <material name="stk_generic_ice_a.png" gloss-map="stk_generic_ice_a_gloss.png" normal-map="stk_generic_ice_a_Normal.png" slowdown-time="0.25" max-speed="0.70"/>
+  <material name="stk_generic_rock_to_Snow_a.png" gloss-map="stk_generic_rock_to_Snow_a_glossy.png" normal-map="stk_generic_rock_to_Snow_a_nm.png" slowdown-time="0.80" max-speed="0.50"/>
+  <material name="stk_generic_rockSnow_a.png" normal-map="stk_generic_rockSnow_a_nm.jpg"/>
+  <material name="stk_generic_snow_a.png" gloss-map="stk_generic_snow_a_gloss.png" normal-map="stk_generic_snow_a_Normal.png" slowdown-time="0.80" max-speed="0.50">
+    <particles base="smoke_snow.xml" condition="skid drive"/>
+  </material>
+  <material name="stk_generic_snowPatches_a.png" shader="alphatest" gloss-map="stk_generic_snow_a_gloss.png"/>
+  <material name="stk_pineBranch_snow_a.png" shader="grass" ignore="Y" grass-speed="1.50"/>
+  <material name="stkflag_blueCheckBorard_a.png" shader="unlit" high-adhesion="Y" has-gravity="Y"/>
+  <material name="stklib_coniferSnow_a_low.png" shader="alphatest" ignore="Y"/>
+  <material name="stklib_pinetree_c.png" shader="alphatest"/>
+  <material name="stklib_pinetreeSnowy_a_lod.png" shader="alphatest" ignore="Y"/>
+  <material name="stklib_pinetreeSnowy_b_lod.png" shader="alphatest" ignore="Y"/>
+  <material name="stklib_pinetreeSnowy_c_low.png" shader="alphatest" ignore="Y"/>
+  <material name="stktex_stoneWall_01.jpg" gloss-map="stktex_stoneWall_01_glossy.jpg" normal-map="stktex_stoneWall_01_nm.jpg"/>
+  <material name="stktex_treebark_c.jpg" normal-map="stktex_treebark_n_nm.jpg"/>
+  <material name="tuxracer_finish.png" shader="alphatest"/>
+  <material name="tuxracer_flag.png" shader="alphatest"/>
+  <material name="tuxracer_herring.png" shader="alphatest"/>
+  <material name="tuxracer_menu_title.png" shader="alphatest"/>
+  <material name="tuxracer_start.png" shader="alphatest"/>
+</materials>

@@ -2,7 +2,7 @@
 <!-- Generated with script from SVN rev 17016 -->
 <track  name           = "Snow Peak"
         version        = "7"
-        groups         = "standard"
+        groups         = "stk1"
         designer       = "Jean-Manuel Cl&#233;men&#231;on &amp; Ivar Ten Cate"
         music          = "snowmountain.music"
         screenshot     = "sshot-snowtuxpeak.jpg"
