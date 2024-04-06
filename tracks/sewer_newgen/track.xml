@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<track  name           = "Sewer_NewGen"
+        version        = "7"
+        groups         = "standard"
+        designer       = "Sven Andreas Belting"
+        music          = "mars2_3.music"
+        screenshot     = "sshot.jpg"
+        smooth-normals = "false"
+        default-number-of-laps = "3"
+        reverse        = "Y"
+        is-during-day  = "Y"
+        shadows        = "Y"
+>
+</track>

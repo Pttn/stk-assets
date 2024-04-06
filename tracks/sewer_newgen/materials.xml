@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="acid_lake.png" shader="alphablend" ignore="Y"/>
+  <material name="acid_lake_b.png" shader="alphablend"/>
+  <material name="city_concrete.png" gloss-map="city_concrete_glossy.png" normal-map="city_concrete_glossy_nm.png"/>
+  <material name="cloud.png" shader="alphablend" ignore="Y"/>
+  <material name="grey_tiles.png" normal-map="grey_tiles_nm.png"/>
+  <material name="invis_booster.png" shader="alphatest" high-adhesion="Y" has-gravity="Y">
+    <zipper duration="2.0" max-speed-increase="6.0" fade-out-time="1.5" speed-gain="1.5" min-speed="-1.0"/>
+  </material>
+  <material name="invis_magnet.png" shader="alphatest" high-adhesion="Y" has-gravity="Y"/>
+  <material name="stk_corrugMetal_a.png" gloss-map="stk_corrugMetal_a_glossy.png" normal-map="stk_corrugMetal_a_nm.png"/>
+  <material name="stk_generic_plaster_a.png" gloss-map="stk_generic_plaster_a_glossy.png" normal-map="stk_generic_plaster_a_nm.png"/>
+  <material name="stk_metaloverlap_a.png" gloss-map="stk_metaloverlap_a_glossy.jpg" normal-map="stk_metaloverlap_a_nm.jpg"/>
+  <material name="stkflag_yellowCheckBoard_a_transparent.png" shader="alphablend"/>
+  <material name="volumetric.png" shader="alphablend" ignore="Y"/>
+  <material name="waterfall.png" shader="alphablend"/>
+  <material name="zipper.png" shader="alphatest" gloss-map="zipper_glossy.png" high-adhesion="Y" has-gravity="Y"/>
+  <material name="zipper_02.png" shader="alphatest" gloss-map="zipper_02_glossy.png"/>
+</materials>

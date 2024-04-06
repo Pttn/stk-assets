@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <track model="sewer_newgen_track.spm" x="0" y="0" z="0">
+    <static-object  model="gravity_change_a.spm" xyz="72.72 -26.54 -25.26" hpr="-26.4 -0.0 -90.0" scale="4.01 9.53 4.01">
+    <animated-texture name="stkflag_yellowCheckBoard_a.png" dy="-1.00000" />
+    </static-object>
+    <static-object  model="gravity_change_a.spm" xyz="77.03 -26.55 -131.32" hpr="-148.6 0.0 -90.0" scale="4.01 9.53 4.01">
+    <animated-texture name="stkflag_yellowCheckBoard_a.png" dy="0.20000" />
+    </static-object>
+    <static-object  model="bridge_physics.spm" xyz="45.16 -25.47 -121.64" hpr="-90.0 22.3 0.0" scale="1.00 1.00 1.00" interaction="physics-only"/>
+    <static-object  model="waterfall_b.spm" xyz="-126.29 -1.81 -139.44" hpr="90.0 -0.0 0.0" scale="14.58 14.58 52.56">
+    <animated-texture name="waterfall.png" dy="0.15000" />
+    </static-object>
+    <static-object  model="waterfall.spm" xyz="-126.29 -1.81 -137.40" hpr="90.0 -0.0 0.0" scale="14.58 14.58 52.56">
+    <animated-texture name="waterfall.png" dy="0.30000" />
+    </static-object>
+    <static-object  model="gravity_change_b.spm" xyz="-34.57 -23.75 -138.20" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+    <animated-texture name="stkflag_yellowCheckBoard_a.png" dx="-1.00000"  dy="2.00000" />
+    </static-object>
+  </track>
+  <object id="BezierCurve.015" type="animation" xyz="59.04 -23.59 -111.24" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="flowing_acid_refraction_02.spm" displacing="true" skeletal-animation="false">
+    <animated-texture name="gfx_distord_AlphaTested.png" dy="-2.00000" />
+  </object>
+  <object id="BezierCurve.014" type="animation" xyz="59.04 -23.59 -111.24" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="flowing_acid_02.spm" skeletal-animation="false">
+    <animated-texture name="acid_lake_b.jpg" dy="-0.50000" />
+  </object>
+  <object id="Cube.038" type="animation" xyz="-68.19 -22.22 -84.91" hpr="6.2 128.7 4.6" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="jump_01_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper.png" dy="0.40000" />
+  </object>
+  <object id="Cube.037" type="animation" xyz="-7.68 19.81 -67.54" hpr="-0.0 180.0 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="jump_01_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper.png" dy="0.40000" />
+  </object>
+  <object id="Cube.035" type="animation" xyz="16.17 19.81 -45.94" hpr="-0.0 180.0 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="jump_01_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper.png" dy="0.40000" />
+  </object>
+  <object id="Cube.014" type="animation" xyz="6.23 20.84 -50.45" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="turn_1_orangeChecker.spm" skeletal-animation="false">
+    <animated-texture name="zipper_02.png" dy="0.50000" />
+  </object>
+  <object id="Circle.003" type="animation" xyz="-42.15 -14.53 -148.67" hpr="68.0 -0.3 -90.8" scale="2.00 2.00 0.47" interaction="ghost" model="fan_01.spm" skeletal-animation="false">
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -261.686" h1="-22.034 -261.686" h2="24.034 -261.686"/>
+      <p c="60.000 -278.314" h1="36.966 -278.314" h2="83.425 -278.314"/>
+      <p c="120.000 -261.686" h1="96.575 -261.686" h2="143.425 -261.686"/>
+    </curve>
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 0.374" h1="-22.034 0.374" h2="24.034 0.374"/>
+      <p c="60.000 -179.626" h1="36.966 -109.937" h2="83.425 -250.495"/>
+      <p c="120.000 -359.626" h1="96.575 -359.626" h2="143.425 -359.626"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 19.079" h1="-22.034 19.079" h2="24.034 19.079"/>
+      <p c="60.000 19.079" h1="36.966 19.079" h2="83.425 19.079"/>
+      <p c="120.000 19.079" h1="96.575 19.079" h2="143.425 19.079"/>
+    </curve>
+  </object>
+  <object id="Circle.002" type="animation" xyz="-55.49 -14.92 -141.95" hpr="49.8 -9.2 -101.7" scale="2.00 2.00 0.47" interaction="ghost" model="fan_02.spm" skeletal-animation="false">
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -262.297" h1="-22.034 -262.297" h2="24.034 -262.297"/>
+      <p c="60.000 -277.703" h1="36.966 -277.703" h2="83.425 -277.703"/>
+      <p c="120.000 -262.297" h1="96.575 -262.297" h2="143.425 -262.297"/>
+      <p c="180.000 -277.703" h1="156.575 -277.703" h2="203.425 -277.703"/>
+      <p c="240.000 -262.297" h1="216.575 -262.297" h2="263.425 -262.297"/>
+    </curve>
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 3.160" h1="-22.034 3.160" h2="24.034 3.160"/>
+      <p c="60.000 -176.840" h1="36.966 -107.152" h2="83.425 -247.710"/>
+      <p c="120.000 -356.840" h1="96.575 -286.566" h2="143.425 -427.114"/>
+      <p c="180.000 -536.840" h1="156.575 -466.566" h2="203.425 -607.114"/>
+      <p c="240.000 -716.840" h1="216.575 -716.840" h2="263.425 -716.840"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 38.691" h1="-22.034 38.691" h2="24.034 38.691"/>
+      <p c="60.000 38.691" h1="36.966 38.691" h2="83.425 38.691"/>
+      <p c="120.000 38.691" h1="96.575 38.691" h2="143.425 38.691"/>
+      <p c="180.000 38.691" h1="156.575 38.691" h2="203.425 38.691"/>
+      <p c="240.000 38.691" h1="216.575 38.691" h2="263.425 38.691"/>
+    </curve>
+  </object>
+  <object id="Cube.007" type="animation" xyz="-35.35 18.34 -93.50" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="jump_01_forward.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper.png" dy="0.40000" />
+  </object>
+  <object id="Cube.006" type="animation" xyz="-7.68 19.81 -67.54" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="jump_02_forward.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper.png" dy="0.40000" />
+  </object>
+  <object id="Cube.121" type="animation" xyz="-71.76 -19.47 -117.69" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="jump_011_forward.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper.png" dy="0.40000" />
+  </object>
+  <object id="Plane.043" type="animation" xyz="-27.34 -16.53 71.87" hpr="-0.0 -94.6 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="performance_test_01.spm" skeletal-animation="false">
+    <animated-texture name="acid_lake_b.png" dy="-1.00000" />
+  </object>
+  <object id="Plane.044" type="animation" xyz="-20.91 -29.46 50.28" hpr="-0.0 -90.8 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="performance_test_02.spm" skeletal-animation="false">
+  </object>
+  <object id="Plane.040" type="animation" xyz="-27.34 -16.48 71.82" hpr="-0.0 -94.6 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="flowing_acid_ref_01.spm" skeletal-animation="false">
+    <animated-texture name="gfx_distord_AlphaTested.png" dy="-1.00000" />
+  </object>
+  <object id="Plane.039" type="animation" xyz="-14.00 -14.45 40.69" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="flowing_acid_ref_01.spm" skeletal-animation="false">
+    <animated-texture name="gfx_distord_AlphaTested.png" dy="-1.00000" />
+  </object>
+  <object id="Plane.005" type="animation" xyz="-20.91 -29.41 50.28" hpr="-0.0 -90.8 -0.0" scale="1.00 1.00 1.00" interaction="reset" shape="box" model="slime_bottom_ref.spm" reset="y" skeletal-animation="false">
+  </object>
+  <object id="Plane.003" type="animation" xyz="0.61 18.64 -77.88" hpr="0.0 -44.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="jump_slime_ref.spm" skeletal-animation="false">
+  </object>
+  <object id="Plane.006" type="animation" xyz="-29.40 -33.26 -122.28" hpr="0.0 -15.8 0.0" scale="1.00 1.00 1.00" interaction="reset" shape="box" model="slime_bottom_ref_b.spm" reset="y" skeletal-animation="false">
+  </object>
+  <sun  fog="true" fog-color="3 7 5" fog-max="0.75" fog-start="25.00" fog-end="100.00" xyz="-16.59 45.35 11.23" sun-specular="176 255 143" sun-diffuse="176 255 143" ambient="123 158 123"/>
+  <sky-color rgb="21 103 14"/>
+  <sky-box texture="sewersky_top.jpg sewersky_top.jpg sewersky_east.jpg sewersky_west.jpg sewersky_south.jpg sewersky_north.jpg" sh-texture="ambient_sewersky_top.jpg ambient_sewersky_top.jpg ambient_sewersky_east.jpg ambient_sewersky_west.jpg ambient_sewersky_south.jpg ambient_sewersky_north.jpg"/>
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="2" p1="-14.09 4.17 28.47" p2="14.52 4.19 28.60"
+                same-group="1"/>
+    <check-line kind="activate" other-ids="3" p1="36.36 -26.12 6.85" p2="64.96 -26.12 6.85"
+                same-group="2"/>
+    <check-line kind="activate" other-ids="0" p1="-84.75 -16.44 -32.18" p2="-77.99 -12.90 -4.61"
+                same-group="3"/>
+  </checks>
+  <small-nitro id="Empty.015" x="-67.31" y="-20.51" z="-92.03" drop="false" />
+  <big-nitro id="Empty.014" x="-71.42" y="-20.51" z="-92.03" drop="false" />
+  <big-nitro id="Empty.013" x="-63.26" y="-20.51" z="-92.03" drop="false" />
+  <big-nitro id="Empty.012" x="55.43" y="-26.51" z="6.79" />
+  <small-nitro id="Empty.011" x="50.68" y="-26.51" z="6.79" />
+  <small-nitro id="Empty.010" x="46.19" y="-26.51" z="6.79" />
+  <item id="Empty.009" x="-19.63" y="-22.96" z="11.60" />
+  <item id="Empty.008" x="-19.63" y="-22.96" z="15.72" />
+  <item id="Empty.007" x="-19.63" y="-22.96" z="20.10" />
+  <small-nitro id="Empty.006" x="-35.22" y="-0.97" z="89.33" />
+  <small-nitro id="Empty.005" x="-31.65" y="-1.21" z="85.81" />
+  <small-nitro id="Empty.004" x="-28.24" y="-1.31" z="82.24" />
+  <light xyz="30.49 -26.76 -31.98" id="Lamp.047" distance="25.00" energy="1.00" color="255 9 7">
+  </light>
+  <light xyz="20.88 -26.71 -18.08" id="Lamp.046" distance="25.00" energy="1.00" color="255 9 7">
+  </light>
+  <light xyz="32.84 -26.81 -7.07" id="Lamp.045" distance="25.00" energy="1.00" color="255 9 7">
+  </light>
+  <light xyz="47.91 -26.66 0.14" id="Lamp.044" distance="25.00" energy="1.00" color="255 9 7">
+  </light>
+  <light xyz="47.62 -26.83 14.42" id="Lamp.043" distance="25.00" energy="1.00" color="255 9 7">
+  </light>
+  <light xyz="29.98 -26.84 20.70" id="Lamp.042" distance="25.00" energy="1.00" color="255 9 7">
+  </light>
+  <light xyz="9.98 -26.78 17.92" id="Lamp.039" distance="25.00" energy="2.00" color="255 9 7">
+  </light>
+  <light xyz="-10.02 -25.30 15.49" id="Lamp.037" distance="25.00" energy="1.00" color="255 9 7">
+  </light>
+  <light xyz="-104.15 31.95 -117.28" id="Lamp.051" distance="40.00" energy="4.00" color="0 72 255">
+  </light>
+  <light xyz="-105.51 25.60 -118.76" id="Lamp.050" distance="40.00" energy="4.00" color="0 72 255">
+  </light>
+  <light xyz="-104.65 20.28 -120.44" id="Lamp.049" distance="40.00" energy="4.00" color="0 72 255">
+  </light>
+  <light xyz="-108.93 37.43 -114.70" id="Lamp.048" distance="40.00" energy="4.00" color="0 72 255">
+  </light>
+  <light xyz="51.03 -14.25 -22.10" id="Lamp.065" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="67.91 -14.25 -30.38" id="Lamp.064" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="83.91 -14.25 -37.45" id="Lamp.063" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="97.79 -14.25 -44.35" id="Lamp.062" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="113.38 -14.25 -55.64" id="Lamp.061" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="122.96 -14.25 -64.89" id="Lamp.060" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="125.19 -14.25 -79.78" id="Lamp.059" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="120.68 -14.25 -93.36" id="Lamp.058" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="109.69 -14.25 -103.70" id="Lamp.057" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="48.93 -14.25 -137.90" id="Lamp.056" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="65.65 -14.25 -127.74" id="Lamp.055" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="79.05 -14.25 -121.42" id="Lamp.054" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="93.76 -14.25 -113.38" id="Lamp.053" distance="30.00" energy="2.00" color="255 165 60">
+  </light>
+  <light xyz="-20.29 3.16 15.10" id="Lamp.035" distance="40.00" energy="4.00" color="255 41 5">
+  </light>
+  <light xyz="-15.92 -16.71 15.10" id="Lamp.033" distance="40.00" energy="4.00" color="255 41 5">
+  </light>
+  <light xyz="-16.80 -10.57 15.10" id="Lamp.031" distance="40.00" energy="4.00" color="255 41 5">
+  </light>
+  <light xyz="-15.40 -3.37 15.10" id="Lamp.029" distance="40.00" energy="4.00" color="255 41 5">
+  </light>
+  <light xyz="-107.10 9.03 -35.08" id="Lamp.027" distance="50.00" energy="7.00" color="72 160 255">
+  </light>
+  <light xyz="-100.63 11.08 -64.35" id="Lamp.025" distance="50.00" energy="7.00" color="255 126 28">
+  </light>
+  <light xyz="-116.61 26.01 -106.91" id="Lamp.023" distance="0.10" energy="700.00" color="72 160 255">
+  </light>
+  <light xyz="-105.72 -3.25 -11.19" id="Lamp.021" distance="50.00" energy="7.00" color="72 160 255">
+  </light>
+  <light xyz="-67.00 -8.56 -36.84" id="Lamp.019" distance="50.00" energy="7.00" color="255 7 6">
+  </light>
+  <light xyz="-5.12 -32.21 -163.29" id="Lamp.017" distance="20.00" energy="5.00" color="151 255 77">
+  </light>
+  <light xyz="28.39 -32.21 -143.01" id="Lamp.015" distance="40.00" energy="5.00" color="151 255 77">
+  </light>
+  <light xyz="59.55 -32.21 -104.49" id="Lamp.013" distance="40.00" energy="5.00" color="151 255 77">
+  </light>
+  <light xyz="67.21 -32.21 -53.50" id="Lamp.011" distance="40.00" energy="5.00" color="151 255 77">
+  </light>
+  <light xyz="89.27 -32.21 -77.73" id="Lamp.009" distance="40.00" energy="5.00" color="151 255 77">
+  </light>
+  <light xyz="-15.72 -20.11 11.49" id="Lamp.040" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-26.49 -17.47 11.59" id="Lamp.038" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-37.04 -14.29 13.45" id="Lamp.036" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-46.95 -11.21 17.69" id="Lamp.034" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-55.09 -8.50 24.66" id="Lamp.032" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-60.01 -5.76 34.18" id="Lamp.030" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-61.78 -3.27 44.81" id="Lamp.028" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-61.28 -1.05 55.66" id="Lamp.026" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-58.97 0.65 66.36" id="Lamp.024" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-53.89 1.90 76.12" id="Lamp.022" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-46.15 2.91 83.78" id="Lamp.020" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-36.26 3.85 88.58" id="Lamp.018" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-25.35 4.99 89.84" id="Lamp.016" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-14.72 6.28 87.45" id="Lamp.014" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="-5.55 7.51 81.32" id="Lamp.012" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="0.79 8.40 72.37" id="Lamp.010" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="3.86 8.77 61.67" id="Lamp.008" distance="40.00" energy="1.00" color="255 150 52">
+  </light>
+  <light xyz="20.98 16.74 -73.42" id="Lamp.007" distance="25.00" energy="1.00" color="255 255 255">
+  </light>
+  <light xyz="11.32 16.75 -61.59" id="Lamp.006" distance="25.00" energy="1.00" color="255 255 255">
+  </light>
+  <light xyz="3.94 16.74 -47.87" id="Lamp.005" distance="25.00" energy="1.00" color="255 255 255">
+  </light>
+  <light xyz="0.72 16.73 -31.41" id="Lamp.004" distance="25.00" energy="1.00" color="255 255 255">
+  </light>
+  <light xyz="0.03 16.74 -16.21" id="Lamp.003" distance="25.00" energy="1.00" color="255 255 255">
+  </light>
+  <light xyz="0.03 16.74 -1.21" id="Lamp.002" distance="25.00" energy="1.00" color="255 255 255">
+  </light>
+  <light xyz="0.03 16.74 13.79" id="Lamp.001" distance="25.00" energy="1.00" color="255 255 255">
+  </light>
+  <light xyz="0.03 16.74 28.79" id="Lamp" distance="25.00" energy="1.00" color="255 255 255">
+  </light>
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.50"
+                 sidewards-distance="1.80"
+                 upwards-distance  ="1.10"/>
+  <library name="stklib_industrialLamp_a" id="stklib_industrialLamp_a_main_proxy.003" xyz="-60.68 -16.18 -87.84" hpr="-90.8 82.8 -6.3" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_industrialLamp_a" id="stklib_industrialLamp_a_main_proxy.002" xyz="-75.12 -12.07 -53.87" hpr="29.8 -91.1 -114.5" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_industrialLamp_a" id="stklib_industrialLamp_a_main_proxy.001" xyz="-60.77 -13.84 -64.97" hpr="-88.5 93.2 -4.3" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_industrialLamp_a" id="stklib_industrialLamp_a_main_proxy" xyz="-76.16 -14.91 -77.01" hpr="-114.9 -87.7 30.0" scale="1.00 1.00 1.00">
+  </library>
+</scene>
