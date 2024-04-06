@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<kart name="Dashie (Cyber Bunny)"
+    version="3"
+    model-file="dashie (cyber bunny).spm"
+    icon-file="icon.png"
+    minimap-icon-file="icon-mini.png"
+    shadow-file="genericshadow.png"
+    type="medium-h"
+    groups="standard"
+    rgb="1.00 1.00 1.00"
+    revision="1">
+    <sounds engine="large"/>
+    <animations selection-start="0" selection-end="39" left="49" straight="69" right="89" backpedal-left="94" backpedal="114" backpedal-right="134" start-winning="149" start-winning-loop="219" end-winning="259" start-losing="267" start-losing-loop="289" end-losing="349" start-jump="359" end-jump="379"/>
+    <wheels>
+        <rear-right position="0.319962 0.182903 -0.499958" model="wheel-rear-right.spm"/>
+        <rear-left position="-0.319962 0.182903 -0.499958" model="wheel-rear-left.spm"/>
+        <front-left position="-0.247100 0.132034 0.323334" model="wheel-front-left.spm"/>
+        <front-right position="0.247100 0.132034 0.323334" model="wheel-front-right.spm"/>
+    </wheels>
+    <nitro-emitter>
+        <nitro-emitter-a position="-0.158291 0.206379 -0.589873"/>
+        <nitro-emitter-b position="0.158291 0.206379 -0.589873"/>
+    </nitro-emitter>
+</kart>
