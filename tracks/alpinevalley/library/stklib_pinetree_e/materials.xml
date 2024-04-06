@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="fir_bark.png" normal-map="fir_bark_nm.png"/>
+  <material name="stklib_pinetree_c.png" shader="alphatest"/>
+  <material name="stklib_pinetree_c_low.png" shader="alphatest"/>
+</materials>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <lod>
+   <group name="stklib_pinetree_d">
+    <static-object lod_distance="80" lod_group="stklib_pinetree_d" model="stklib_pinetree_d_high.spm" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="170" lod_group="stklib_pinetree_d" model="stklib_pinetree_d_mid.spm" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="stklib_pinetree_d" model="stklib_pinetree_d_low.spm" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+  </lod>
+  <object id="collider" type="animation" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="physicsonly" shape="exact" model="collider.spm" skeletal-animation="false">
+  </object>
+  <object id="stklib_pinetree_d_main" type="animation" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost"  lod_instance="true" lod_group="stklib_pinetree_d" skeletal-animation="false">
+  </object>
+</scene>

@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <lod>
+   <group name="WaterPlant1">
+    <static-object lod_distance="100" lod_group="WaterPlant1" model="TyphaLatifolia.spm" xyz="13.43 0.00 -7.80" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="none" skeletal-animation="false"/>
+    <static-object lod_distance="300" lod_group="WaterPlant1" model="WaterPlant1.lod.low.spm" xyz="16.32 0.94 -7.10" hpr="-90.0 -0.0 0.0" scale="0.86 0.86 0.86" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_churche_1_LOD1">
+    <static-object lod_distance="400" lod_group="_single_lod_churche_1_LOD1" model="churche_1_LOD1.spm" xyz="155.95 26.41 -217.78" hpr="-0.0 -127.6 -0.0" scale="1.45 1.45 1.45" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="treea_01">
+    <static-object lod_distance="75" lod_group="treea_01" model="treeaA_LOD0.spm" xyz="0.00 0.00 -41.16" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="150" lod_group="treea_01" model="treeaA_LOD1.spm" xyz="0.00 0.00 -41.16" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="treea_01" model="treeaA_LOD2.spm" xyz="0.00 0.00 -41.16" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="fine_grass">
+    <static-object lod_distance="80" lod_group="fine_grass" model="fine_grass.spm" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="sheep">
+    <static-object lod_distance="60" lod_group="sheep" model="animated_sheep.spm" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" skeletal-animation="true"/>
+   </group>
+   <group name="forestPlant1">
+    <static-object lod_distance="100" lod_group="forestPlant1" model="OsmundaCinnamoneaS.005.spm" xyz="13.64 -0.18 -10.82" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="flower1">
+    <static-object lod_distance="100" lod_group="flower1" model="ClethraAlnifolia.spm" xyz="9.36 0.25 -4.45" hpr="0.0 -0.0 0.0" scale="0.46 0.46 0.46" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="flower2">
+    <static-object lod_distance="100" lod_group="flower2" model="MyasotisScorpioides.spm" xyz="6.75 0.00 -5.47" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="flower3">
+    <static-object lod_distance="100" lod_group="flower3" model="Eupatorium.spm" xyz="8.65 -0.15 -12.02" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="flower4">
+    <static-object lod_distance="100" lod_group="flower4" model="RudbeckiaHirta.spm" xyz="10.63 0.00 -12.20" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="plant1">
+    <static-object lod_distance="150" lod_group="plant1" model="ArctinumMinus.spm" xyz="15.35 -0.41 -11.70" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="edelweiss">
+    <static-object lod_distance="75" lod_group="edelweiss" model="edelweis_LODModel.spm" xyz="0.00 0.00 0.00" hpr="-1.5 -0.0 -0.1" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+  </lod>
+  <track model="alpinevalley_track.spm" x="0" y="0" z="0">
+    <static-object  lod_instance="true" lod_group="_single_lod_churche_1_LOD1" xyz="155.95 26.41 -217.78" hpr="-0.0 -127.6 -0.0" scale="1.45 1.45 1.45"/>
+    <static-object  lod_instance="true" lod_group="treea_01" xyz="-101.44 6.28 148.52" hpr="0.0 -0.0 0.0" scale="1.04 1.04 1.04"/>
+    <static-object  model="mountain_02.spm" xyz="335.31 14.40 77.16" hpr="-3.8 -3.5 17.7" scale="0.62 1.98 0.62"/>
+    <static-object  model="mountain_01.spm" xyz="203.47 6.83 222.41" hpr="-2.7 0.0 5.6" scale="0.62 1.25 0.62"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="201.47 4.02 -5.98" hpr="9.7 -71.3 -26.2" scale="1.21 1.21 1.21"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="202.54 4.50 -12.03" hpr="29.9 76.5 18.2" scale="1.21 1.21 1.21"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-9.15 0.83 5.23" hpr="0.0 -59.9 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-9.59 0.91 7.15" hpr="-0.0 111.3 -0.0" scale="0.16 0.16 0.16"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-10.22 0.96 8.90" hpr="0.0 18.9 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-9.07 1.01 9.94" hpr="-1.7 -20.1 -3.3" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-7.40 0.98 8.45" hpr="0.0 83.2 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-7.00 0.95 7.04" hpr="0.0 66.2 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-6.83 0.83 4.20" hpr="-0.0 171.6 -0.0" scale="0.26 0.26 0.26"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-9.07 0.71 3.74" hpr="0.0 20.2 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-11.45 0.79 5.71" hpr="0.0 20.7 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-7.88 1.14 12.45" hpr="-0.0 111.3 -0.0" scale="0.14 0.14 0.14"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-7.18 1.07 10.38" hpr="-0.0 111.3 -0.0" scale="0.12 0.12 0.12"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-11.97 0.88 7.79" hpr="0.0 10.1 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="5.46 0.57 0.77" hpr="-1.9 -163.8 -10.1" scale="0.13 0.13 0.13"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="5.73 0.63 2.77" hpr="-2.3 -124.1 -5.2" scale="0.17 0.17 0.17"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="5.33 0.76 4.77" hpr="6.5 -135.2 -15.6" scale="0.15 0.15 0.15"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="5.28 0.79 5.84" hpr="-11.6 111.5 -18.7" scale="0.10 0.10 0.10"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="3.73 1.10 12.21" hpr="-0.0 107.5 -0.0" scale="0.13 0.13 0.13"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="3.19 1.13 13.67" hpr="0.0 66.2 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-13.84 0.91 9.16" hpr="-0.0 111.3 -0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-9.05 1.09 11.76" hpr="-0.0 111.3 -0.0" scale="0.12 0.12 0.12"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-9.31 1.16 13.99" hpr="0.0 55.8 0.0" scale="0.14 0.14 0.14"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-13.32 0.83 7.09" hpr="0.0 20.7 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-10.56 0.74 4.81" hpr="0.0 20.2 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-7.50 0.88 5.98" hpr="0.0 -13.2 0.0" scale="0.26 0.26 0.26"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-8.87 0.96 8.42" hpr="-0.0 -22.5 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-9.98 1.01 10.05" hpr="-0.0 143.9 -0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-10.94 1.04 11.32" hpr="-0.0 111.3 -0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-13.54 1.01 12.06" hpr="-1.0 40.7 1.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-12.09 0.98 10.28" hpr="0.0 18.9 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-11.46 0.92 8.53" hpr="0.0 8.5 0.0" scale="0.16 0.16 0.16"/>
+    <static-object  lod_instance="true" lod_group="sheep" xyz="-11.02 0.83 6.61" hpr="0.0 -45.2 0.0" scale="0.19 0.19 0.19"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="280.08 0.68 -92.80" hpr="-0.0 145.7 -0.0" scale="0.71 0.71 0.71"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="279.22 0.75 -94.23" hpr="-0.0 145.7 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="279.05 0.64 -95.53" hpr="-0.0 145.7 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="261.07 -5.81 -109.89" hpr="-0.0 -5.0 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="260.29 -5.71 -110.94" hpr="-0.0 -5.0 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="258.84 -5.77 -111.76" hpr="-0.0 -5.0 0.0" scale="0.71 0.71 0.71"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="261.38 -5.72 -112.01" hpr="-0.0 109.6 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="238.68 -6.38 -104.17" hpr="-0.0 40.7 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="238.68 -7.74 -104.92" hpr="-0.0 40.7 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="240.72 -8.15 -104.91" hpr="-0.0 40.7 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="240.18 -7.30 -104.31" hpr="-0.0 107.3 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="240.18 -8.03 -105.40" hpr="0.0 20.1 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="250.86 -4.99 -100.95" hpr="0.0 20.1 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="258.21 -0.60 -92.04" hpr="0.0 -143.5 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="258.82 -0.49 -90.90" hpr="0.0 119.5 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="259.37 -3.23 -96.64" hpr="0.0 20.1 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="261.41 -2.36 -94.59" hpr="0.0 20.1 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="260.25 -2.26 -95.22" hpr="0.0 20.1 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="258.59 -2.24 -95.35" hpr="0.0 20.1 0.0" scale="0.71 0.71 0.71"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="260.78 -2.27 -96.65" hpr="-0.0 134.7 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="260.16 -1.17 -93.08" hpr="0.0 20.1 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="16.14 30.05 142.60" hpr="14.3 117.3 31.9" scale="1.41 1.41 1.41"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="145.53 35.55 76.49" hpr="-53.6 133.2 -48.6" scale="1.13 1.13 1.13"/>
+    <static-object  lod_instance="true" lod_group="forestPlant1" xyz="123.40 35.56 123.63" hpr="70.8 113.4 41.6" scale="2.97 2.05 2.97"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="78.23 36.66 206.65" hpr="-33.6 113.5 -31.4" scale="1.41 1.41 1.41"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="72.49 38.14 191.27" hpr="-16.8 134.5 -12.2" scale="0.91 0.91 0.91"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="75.00 38.02 192.23" hpr="-16.8 134.5 -12.2" scale="1.13 1.13 1.13"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="79.41 37.90 193.53" hpr="-0.0 104.4 -0.0" scale="1.13 1.13 1.13"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="70.24 37.85 191.82" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="209.71 3.05 -11.21" hpr="76.3 54.8 73.4" scale="1.21 1.21 1.21"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="193.54 9.76 -30.44" hpr="70.7 59.5 54.5" scale="1.21 1.21 1.21"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="213.23 4.75 -28.37" hpr="34.7 -0.0 -21.2" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="204.99 9.46 -34.58" hpr="-27.9 162.8 -16.6" scale="1.22 1.22 1.22"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="217.60 5.79 -32.45" hpr="67.9 66.1 66.1" scale="1.21 1.21 1.21"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="204.99 7.03 -29.49" hpr="-27.9 162.8 -16.6" scale="1.22 1.22 1.22"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="203.03 6.20 -28.11" hpr="-27.9 162.8 -16.6" scale="1.22 1.22 1.22"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="199.56 7.70 -29.17" hpr="70.7 59.5 54.5" scale="1.21 1.21 1.21"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="198.41 6.61 -27.33" hpr="70.7 59.5 54.5" scale="1.21 1.21 1.21"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="206.95 7.63 -31.58" hpr="68.0 66.0 57.4" scale="1.21 1.21 1.21"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="206.95 5.98 -28.56" hpr="76.3 54.8 73.4" scale="1.21 1.21 1.21"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="195.93 6.19 -25.02" hpr="34.7 -0.0 -24.7" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="201.77 7.58 -29.53" hpr="34.7 -0.0 -13.9" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="209.48 6.17 -29.53" hpr="34.7 -0.0 -21.2" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="191.66 5.56 -19.36" hpr="-0.0 80.5 -23.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="239.22 3.55 48.46" hpr="-12.2 -9.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="233.42 2.77 42.49" hpr="-12.2 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="plant1" xyz="-14.97 1.11 21.26" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="198.53 4.52 19.90" hpr="0.0 -29.6 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="198.89 4.46 18.84" hpr="0.0 -60.2 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="198.23 5.21 19.27" hpr="0.0 -24.5 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="198.23 4.24 18.10" hpr="0.0 -76.8 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="199.54 3.88 19.35" hpr="0.0 -29.6 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="222.47 1.99 22.83" hpr="-0.0 174.6 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="225.77 0.59 22.83" hpr="-0.0 -125.9 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="287.94 2.78 -76.41" hpr="0.0 62.4 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="286.04 2.72 -78.11" hpr="0.0 -52.1 -0.0" scale="0.71 0.71 0.71"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="286.42 2.78 -76.48" hpr="0.0 -52.1 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="286.18 2.68 -75.19" hpr="0.0 -52.1 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="274.57 3.94 -66.34" hpr="0.0 20.1 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="275.19 3.89 -69.90" hpr="-0.0 134.7 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="273.00 4.34 -68.60" hpr="0.0 20.1 0.0" scale="0.71 0.71 0.71"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="274.66 3.90 -68.48" hpr="0.0 20.1 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="275.82 3.80 -67.85" hpr="0.0 20.1 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="273.78 3.80 -69.90" hpr="0.0 20.1 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="271.54 3.39 -61.81" hpr="0.0 119.5 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="273.23 4.04 -64.16" hpr="0.0 119.5 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="272.80 4.14 -62.92" hpr="0.0 119.5 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="272.95 4.08 -61.26" hpr="0.0 119.5 0.0" scale="0.71 0.71 0.71"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="271.31 4.13 -63.21" hpr="-0.0 -125.9 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="274.93 4.18 -63.17" hpr="0.0 119.5 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="272.63 3.14 -65.30" hpr="0.0 -143.5 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="65.56 -1.10 -244.13" hpr="0.0 -0.0 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.23 -2.32 -244.13" hpr="0.0 52.8 0.0" scale="1.12 1.12 1.12"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.23 -2.32 -242.66" hpr="0.0 17.7 0.0" scale="1.12 1.12 1.12"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="65.20 -1.30 -242.66" hpr="0.0 17.7 0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.78 -1.90 -241.42" hpr="0.0 -6.2 0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="63.03 -1.61 -241.65" hpr="-0.0 -165.7 -0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="63.03 -1.61 -243.65" hpr="-0.0 -165.7 -0.0" scale="1.03 1.03 1.03"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="62.94 -1.67 -242.68" hpr="0.0 17.7 0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="63.62 -1.73 -241.19" hpr="0.0 52.8 0.0" scale="1.12 1.12 1.12"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="62.51 -0.73 -246.56" hpr="0.0 -22.4 0.0" scale="1.12 1.12 1.12"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="63.78 -0.38 -247.60" hpr="0.0 -57.4 0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.74 -2.18 -247.75" hpr="-0.0 119.2 -0.0" scale="1.03 1.03 1.03"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="62.80 -0.61 -247.24" hpr="-0.0 119.2 -0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="63.02 -0.92 -245.49" hpr="0.0 -81.4 0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.33 -0.80 -245.41" hpr="0.0 -57.4 0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.09 -2.89 -246.34" hpr="0.0 -57.4 0.0" scale="1.12 1.12 1.12"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="65.51 -2.89 -246.72" hpr="0.0 -22.4 0.0" scale="1.12 1.12 1.12"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="65.85 -2.89 -245.43" hpr="0.0 -75.2 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="59.55 -2.42 -242.80" hpr="-0.0 -170.1 -0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="60.86 -2.42 -243.02" hpr="-0.0 -117.4 -0.0" scale="1.12 1.12 1.12"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="60.61 -2.42 -244.47" hpr="-0.0 -152.4 -0.0" scale="1.12 1.12 1.12"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="59.66 -1.70 -244.31" hpr="-0.0 -152.4 -0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="59.85 -1.40 -245.60" hpr="-0.0 -176.4 -0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="61.62 -1.30 -245.67" hpr="0.0 24.2 0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="61.96 -1.71 -243.70" hpr="0.0 24.2 0.0" scale="1.03 1.03 1.03"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="61.89 -1.30 -244.67" hpr="-0.0 -152.4 -0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="60.97 -1.39 -246.02" hpr="-0.0 -117.4 -0.0" scale="1.12 1.12 1.12"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="63.73 1.00 -211.10" hpr="0.0 -22.4 0.0" scale="1.01 1.01 1.01"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.86 1.05 -212.03" hpr="0.0 -57.4 0.0" scale="1.08 1.08 1.08"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="65.73 1.10 -212.17" hpr="-0.0 119.2 -0.0" scale="0.93 0.93 0.93"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="63.99 1.10 -211.71" hpr="-0.0 119.2 -0.0" scale="1.08 1.08 1.08"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.19 0.85 -210.13" hpr="0.0 -81.4 0.0" scale="1.08 1.08 1.08"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="65.37 0.46 -210.06" hpr="0.0 -57.4 0.0" scale="1.08 1.08 1.08"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="65.15 0.46 -210.90" hpr="0.0 -57.4 0.0" scale="1.01 1.01 1.01"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="66.42 0.46 -211.24" hpr="0.0 -22.4 0.0" scale="1.01 1.01 1.01"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-18.81 2.57 47.62" hpr="0.0 -47.0 -0.0" scale="0.77 0.77 0.77"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-19.91 3.22 50.31" hpr="0.0 -47.0 -0.0" scale="0.77 0.77 0.77"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="-19.78 3.33 49.00" hpr="0.0 -47.0 -0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="-20.32 3.26 47.40" hpr="0.0 -47.0 -0.0" scale="0.71 0.71 0.71"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-21.81 3.37 49.75" hpr="0.0 -47.0 -0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-19.05 2.32 51.29" hpr="0.0 50.0 0.0" scale="0.77 0.77 0.77"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-74.78 5.81 -164.21" hpr="0.0 52.8 0.0" scale="1.20 1.20 1.20"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-77.69 5.34 -193.24" hpr="0.0 41.9 0.0" scale="1.30 1.30 1.30"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-74.91 5.34 -192.28" hpr="-0.0 -17.8 0.0" scale="1.30 1.30 1.30"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-78.48 5.72 -192.28" hpr="0.0 52.8 0.0" scale="1.30 1.30 1.30"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-60.38 1.89 -204.25" hpr="0.0 -97.1 -0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-57.90 2.27 -202.42" hpr="0.0 -97.1 -0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-57.90 1.31 -204.72" hpr="0.0 52.8 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-57.90 3.45 -201.38" hpr="0.0 52.8 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-59.75 3.80 -201.38" hpr="0.0 -94.3 -0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-59.63 3.73 -203.02" hpr="0.0 -138.1 -0.0" scale="0.92 0.92 0.92"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-61.61 3.08 -203.07" hpr="0.0 65.9 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-17.56 1.49 -201.13" hpr="0.0 -0.0 0.0" scale="0.92 0.92 0.92"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-4.64 -0.38 -210.88" hpr="-0.0 -5.6 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-5.69 -0.69 -210.06" hpr="-0.0 -117.8 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-5.09 -0.26 -209.04" hpr="0.0 3.2 0.0" scale="0.92 0.92 0.92"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-4.56 -0.16 -209.05" hpr="0.0 25.7 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-5.71 -0.58 -209.05" hpr="0.0 -26.0 0.0" scale="0.92 0.92 0.92"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-3.33 -0.63 -210.45" hpr="-0.0 -114.6 -0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-3.33 0.31 -208.92" hpr="0.0 -62.8 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-3.32 -0.23 -209.66" hpr="0.0 -85.3 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-2.79 0.12 -209.83" hpr="-0.0 153.6 -0.0" scale="0.92 0.92 0.92"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-1.49 0.10 -209.04" hpr="-0.0 -94.2 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-4.06 0.54 -207.11" hpr="-0.0 -94.2 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-4.79 0.46 -208.32" hpr="-0.0 153.6 -0.0" scale="0.92 0.92 0.92"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-5.89 0.22 -207.73" hpr="0.0 -85.3 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-5.89 0.76 -206.98" hpr="0.0 -62.8 0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-5.89 -0.19 -208.51" hpr="-0.0 -114.6 -0.0" scale="1.19 1.19 1.19"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="-0.88 1.47 -194.79" hpr="0.0 19.0 0.0" scale="0.69 0.69 0.69"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="-1.38 1.47 -196.26" hpr="0.0 62.4 0.0" scale="0.80 0.80 0.80"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="3.81 1.09 -199.84" hpr="0.0 62.4 0.0" scale="0.80 0.80 0.80"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="4.15 1.09 -195.85" hpr="-0.0 142.7 -0.0" scale="0.65 0.65 0.65"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="6.18 1.09 -195.85" hpr="-0.0 142.7 -0.0" scale="0.65 0.65 0.65"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="5.48 1.09 -194.16" hpr="0.0 84.0 0.0" scale="0.80 0.80 0.80"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="5.48 1.09 -198.02" hpr="0.0 -0.0 0.0" scale="0.80 0.80 0.80"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="65.27 4.04 -192.97" hpr="-0.0 -117.4 -0.0" scale="0.99 0.99 0.99"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="66.08 4.09 -191.78" hpr="-0.0 -152.4 -0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="66.15 4.14 -190.92" hpr="0.0 24.2 0.0" scale="0.91 0.91 0.91"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="65.84 4.14 -192.66" hpr="0.0 24.2 0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.29 3.89 -192.60" hpr="-0.0 -176.4 -0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.12 3.52 -191.46" hpr="-0.0 -152.4 -0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.95 3.52 -191.60" hpr="-0.0 -152.4 -0.0" scale="0.99 0.99 0.99"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="65.18 3.52 -190.32" hpr="-0.0 -117.4 -0.0" scale="0.99 0.99 0.99"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="64.02 3.52 -190.12" hpr="-0.0 -170.1 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="69.58 3.11 -192.45" hpr="0.0 -75.2 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="69.28 3.11 -193.58" hpr="0.0 -22.4 0.0" scale="0.99 0.99 0.99"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="68.02 3.11 -193.25" hpr="0.0 -57.4 0.0" scale="0.99 0.99 0.99"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="68.24 3.11 -192.43" hpr="0.0 -57.4 0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="67.09 3.48 -192.50" hpr="0.0 -81.4 0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="66.89 3.73 -194.04" hpr="-0.0 119.2 -0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="68.60 3.73 -194.49" hpr="-0.0 119.2 -0.0" scale="0.91 0.91 0.91"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="67.75 3.68 -194.36" hpr="0.0 -57.4 0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="66.63 3.63 -193.44" hpr="0.0 -22.4 0.0" scale="0.99 0.99 0.99"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="67.61 4.13 -188.71" hpr="0.0 52.8 0.0" scale="0.99 0.99 0.99"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="67.01 4.18 -190.02" hpr="0.0 17.7 0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="67.09 4.23 -190.88" hpr="-0.0 -165.7 -0.0" scale="0.91 0.91 0.91"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="67.09 4.23 -189.11" hpr="-0.0 -165.7 -0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="68.64 3.98 -188.91" hpr="0.0 -6.2 0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="69.00 3.61 -190.01" hpr="0.0 17.7 0.0" scale="1.06 1.06 1.06"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="68.15 3.61 -190.01" hpr="0.0 17.7 0.0" scale="0.99 0.99 0.99"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="68.15 3.61 -191.30" hpr="0.0 52.8 0.0" scale="0.99 0.99 0.99"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="69.32 3.61 -191.30" hpr="0.0 -0.0 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-19.19 0.57 31.51" hpr="0.0 -163.6 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-17.76 1.61 34.30" hpr="-0.0 99.4 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-21.15 1.56 33.02" hpr="-0.0 -146.0 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="-20.28 1.51 35.42" hpr="-0.0 99.4 -0.0" scale="0.71 0.71 0.71"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="-19.84 1.57 33.81" hpr="-0.0 99.4 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-19.01 1.47 32.79" hpr="-0.0 99.4 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-21.40 0.82 34.42" hpr="-0.0 99.4 -0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-16.53 1.23 27.59" hpr="0.0 -0.0 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="-15.31 1.23 30.21" hpr="0.0 -0.0 0.0" scale="0.76 0.76 0.76"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="-16.18 1.33 29.23" hpr="0.0 -0.0 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="-17.70 1.27 28.54" hpr="0.0 -0.0 0.0" scale="0.71 0.71 0.71"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-15.19 1.32 28.07" hpr="-0.0 114.6 -0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="-17.01 1.37 31.21" hpr="0.0 -0.0 0.0" scale="1.05 1.05 1.05"/>
+    <static-object  lod_instance="true" lod_group="flower4" xyz="3.63 0.95 11.20" hpr="0.0 -0.0 0.0" scale="0.92 0.92 0.92"/>
+    <static-object  lod_instance="true" lod_group="flower3" xyz="6.90 -0.86 0.75" hpr="0.0 -0.0 0.0" scale="0.92 0.92 0.92"/>
+    <static-object  lod_instance="true" lod_group="flower2" xyz="4.93 0.66 2.02" hpr="0.0 -0.0 0.0" scale="0.92 0.92 0.92"/>
+    <static-object  lod_instance="true" lod_group="flower1" xyz="-5.17 0.37 0.37" hpr="0.0 -0.0 0.0" scale="0.62 0.62 0.62"/>
+    <static-object  lod_instance="true" lod_group="forestPlant1" xyz="-22.64 2.56 37.22" hpr="0.0 7.5 0.0" scale="2.14 2.14 2.14"/>
+    <static-object  lod_instance="true" lod_group="forestPlant1" xyz="-71.58 5.35 -129.56" hpr="0.0 37.2 0.0" scale="2.34 2.34 2.34"/>
+    <static-object  lod_instance="true" lod_group="forestPlant1" xyz="-75.96 5.52 -134.03" hpr="0.0 -0.0 0.0" scale="2.34 2.34 2.34"/>
+    <static-object  lod_instance="true" lod_group="forestPlant1" xyz="-85.72 4.99 -142.84" hpr="0.0 -0.0 0.0" scale="2.98 2.98 2.98"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="-22.32 -12.64 -15.79" hpr="-0.0 -13.1 0.0" scale="1.85 1.85 1.85"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="-31.43 -13.60 -18.53" hpr="-0.0 -13.1 0.0" scale="1.85 1.85 1.85"/>
+    <static-object  lod_instance="true" lod_group="forestPlant1" xyz="2.34 1.41 -197.54" hpr="0.0 -0.0 0.0" scale="3.87 2.82 3.87"/>
+    <static-object  lod_instance="true" lod_group="forestPlant1" xyz="-26.50 2.84 -200.28" hpr="0.0 -0.0 0.0" scale="2.98 2.98 2.98"/>
+    <static-object  lod_instance="true" lod_group="forestPlant1" xyz="-20.22 1.72 -204.96" hpr="0.0 -0.0 0.0" scale="2.98 2.98 2.98"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="177.77 -15.55 -182.01" hpr="-0.0 -43.0 0.0" scale="1.51 1.51 1.51"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="205.92 -14.31 -183.90" hpr="-0.0 -53.3 0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="203.93 -14.42 -183.75" hpr="-0.0 -84.5 0.0" scale="1.68 1.68 1.68"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="201.37 -14.42 -182.97" hpr="-0.0 -43.0 0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="148.97 -14.80 -176.73" hpr="-0.0 -43.0 0.0" scale="1.51 1.51 1.51"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="146.15 -14.35 -176.73" hpr="-0.0 -2.7 0.0" scale="1.51 1.51 1.51"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="124.51 -13.80 -157.18" hpr="-0.0 -2.7 0.0" scale="1.91 1.91 1.91"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="194.84 -13.68 -162.18" hpr="0.0 -175.9 -0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="196.54 -13.21 -152.68" hpr="0.0 -175.9 -0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="198.04 -12.82 -150.63" hpr="0.0 -175.9 -0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="196.44 -14.81 -149.54" hpr="0.0 -175.9 -0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="234.54 -13.51 -130.31" hpr="0.0 -135.8 -0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="227.57 -13.09 -129.84" hpr="0.0 27.6 0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="225.89 -13.43 -131.89" hpr="0.0 27.6 0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="228.61 -13.47 -131.89" hpr="0.0 27.6 0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="245.92 -14.82 -160.62" hpr="-0.0 -114.6 -0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="233.24 -14.07 -151.94" hpr="-0.0 -114.6 -0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="231.81 -14.61 -148.82" hpr="0.0 27.6 0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="231.95 -14.52 -131.83" hpr="0.0 -135.8 -0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="232.94 -14.52 -133.67" hpr="0.0 -175.9 -0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="230.65 -14.52 -133.67" hpr="0.0 -175.9 -0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="231.81 -14.61 -134.95" hpr="0.0 27.6 0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="229.78 -13.25 -129.86" hpr="0.0 27.6 0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="WaterPlant1" xyz="230.92 -13.25 -131.01" hpr="0.0 27.6 0.0" scale="1.26 1.26 1.26"/>
+    <static-object  lod_instance="true" lod_group="forestPlant1" xyz="-11.09 1.67 -204.96" hpr="0.0 -0.0 0.0" scale="2.98 2.98 2.98"/>
+    <animated-texture name="ants.png" dy="0.50000" />
+    <animated-texture name="waterfall.png" dy="1.00000" />
+  </track>
+  <object id="Plane.028" type="animation" xyz="126.95 2.82 -58.21" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="animated_water_01.spm" skeletal-animation="false">
+    <animated-texture name="animated_water.png" dy="0.05000"  animByStep="true" dt="0.035" />
+  </object>
+  <object id="Grass.Tall.055" type="animation" xyz="207.71 -8.85 -183.86" hpr="-90.0 -12.3 0.0" scale="2.08 7.67 1.57" interaction="ghost" model="grass_tall.spm" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.048" type="animation" xyz="181.28 21.08 107.99" hpr="80.2 64.1 91.9" scale="1.07 1.07 1.07" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.047" type="animation" xyz="178.20 20.28 108.19" hpr="75.8 65.0 91.4" scale="1.00 1.00 1.00" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.046" type="animation" xyz="137.13 36.01 76.31" hpr="94.4 61.6 92.1" scale="1.00 1.00 1.00" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.045" type="animation" xyz="138.36 36.10 76.04" hpr="-65.8 121.3 -65.1" scale="1.00 1.00 1.00" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.044" type="animation" xyz="139.00 35.33 79.40" hpr="11.7 59.0 2.0" scale="1.14 0.84 1.13" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.043" type="animation" xyz="130.65 40.24 186.52" hpr="-2.5 46.6 -3.0" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.042" type="animation" xyz="131.97 40.35 184.56" hpr="-2.9 51.6 -3.3" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.041" type="animation" xyz="134.46 40.15 181.50" hpr="-3.3 55.8 -3.6" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.040" type="animation" xyz="136.57 40.01 177.86" hpr="-4.6 61.2 -4.8" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.039" type="animation" xyz="138.66 39.63 174.14" hpr="-7.8 64.6 -8.2" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.038" type="animation" xyz="140.29 39.29 170.21" hpr="-13.1 68.1 -13.7" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.037" type="animation" xyz="141.48 38.89 166.48" hpr="-17.8 73.5 -18.2" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.029" type="animation" xyz="142.41 38.54 162.05" hpr="-42.4 82.4 -42.3" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.028" type="animation" xyz="142.72 38.08 158.08" hpr="60.1 95.8 60.6" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.027" type="animation" xyz="142.28 37.69 154.23" hpr="24.3 102.0 25.1" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.026" type="animation" xyz="141.08 37.44 150.28" hpr="13.6 110.2 14.9" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.025" type="animation" xyz="139.37 36.88 146.00" hpr="13.6 110.2 14.9" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.024" type="animation" xyz="137.99 36.48 142.05" hpr="17.6 106.1 18.6" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.023" type="animation" xyz="137.06 36.05 137.84" hpr="29.5 100.1 30.3" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.022" type="animation" xyz="136.81 35.75 133.99" hpr="-61.0 86.2 -60.7" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.021" type="animation" xyz="143.33 35.62 76.00" hpr="13.1 28.3 6.5" scale="1.14 0.84 1.13" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.020" type="animation" xyz="1.67 3.82 27.55" hpr="19.3 -152.1 20.5" scale="0.43 0.43 0.43" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.019" type="animation" xyz="6.06 5.32 24.13" hpr="-39.5 66.2 -4.6" scale="0.43 0.43 0.43" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.018" type="animation" xyz="-1.80 1.38 24.80" hpr="-2.7 63.4 -2.8" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.005" type="animation" xyz="0.24 1.28 20.98" hpr="-3.6 66.4 -3.5" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.017" type="animation" xyz="-7.61 1.16 15.56" hpr="-1.7 29.1 -1.1" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.016" type="animation" xyz="-5.32 1.05 12.49" hpr="-4.5 69.4 -4.5" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.015" type="animation" xyz="-4.28 0.94 8.37" hpr="-8.6 76.7 -8.6" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.014" type="animation" xyz="-4.15 0.76 4.01" hpr="46.2 94.5 46.2" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.013" type="animation" xyz="-4.79 0.43 0.87" hpr="15.4 105.5 16.6" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.012" type="animation" xyz="4.66 0.75 2.76" hpr="30.3 94.8 30.8" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.011" type="animation" xyz="4.47 0.60 0.52" hpr="38.1 98.4 38.7" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.010" type="animation" xyz="4.76 0.89 5.84" hpr="-61.8 86.3 -61.7" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.009" type="animation" xyz="4.50 0.99 9.16" hpr="-7.8 79.0 -7.8" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.008" type="animation" xyz="3.49 1.02 13.02" hpr="-3.9 70.4 -3.7" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.007" type="animation" xyz="2.08 1.16 17.21" hpr="-3.4 66.4 -3.2" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.006" type="animation" xyz="-7.80 0.90 17.59" hpr="-3.9 64.7 -4.0" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.004" type="animation" xyz="-9.00 1.21 18.28" hpr="-3.9 64.7 -4.0" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.003" type="animation" xyz="141.36 36.28 74.70" hpr="-58.8 114.3 -57.2" scale="1.00 1.00 1.00" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.002" type="animation" xyz="139.79 36.19 75.73" hpr="-65.8 121.3 -65.1" scale="1.00 1.00 1.00" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.001" type="animation" xyz="142.02 35.29 77.68" hpr="9.5 29.0 -1.7" scale="1.14 0.84 1.13" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.049" type="animation" xyz="160.17 19.63 105.30" hpr="85.2 53.6 95.1" scale="0.57 0.57 0.57" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.050" type="animation" xyz="161.54 19.60 105.71" hpr="85.2 53.6 95.1" scale="0.57 0.57 0.57" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.051" type="animation" xyz="163.61 19.65 105.40" hpr="-51.6 128.0 -48.6" scale="0.57 0.57 0.57" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.052" type="animation" xyz="151.43 35.29 71.91" hpr="1.1 16.1 -1.7" scale="0.48 0.35 0.48" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.053" type="animation" xyz="153.48 34.81 83.60" hpr="1.3 -4.1 -4.0" scale="0.77 0.56 0.76" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.054" type="animation" xyz="148.83 35.24 84.24" hpr="-0.7 31.3 -6.6" scale="0.59 0.43 0.58" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.055" type="animation" xyz="159.15 34.63 84.01" hpr="-0.1 -4.2 0.3" scale="0.77 0.56 0.76" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.056" type="animation" xyz="164.43 34.68 85.27" hpr="-0.9 -19.6 3.1" scale="0.77 0.56 0.76" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.057" type="animation" xyz="169.74 34.66 87.46" hpr="1.0 -23.4 -2.2" scale="0.72 0.53 0.72" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.058" type="animation" xyz="174.64 34.28 89.69" hpr="3.1 -25.1 -5.8" scale="0.72 0.53 0.72" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.059" type="animation" xyz="179.15 33.64 92.32" hpr="5.5 -28.5 -10.2" scale="0.72 0.53 0.72" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.060" type="animation" xyz="183.15 32.88 94.76" hpr="7.8 -28.1 -14.8" scale="0.72 0.53 0.72" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.061" type="animation" xyz="187.42 31.74 97.30" hpr="7.8 -29.4 -15.0" scale="0.72 0.53 0.72" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.062" type="animation" xyz="191.86 30.43 99.83" hpr="8.6 -29.0 -18.1" scale="0.63 0.47 0.63" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.063" type="animation" xyz="196.01 28.89 101.97" hpr="8.6 -23.8 -19.8" scale="0.69 0.51 0.69" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.064" type="animation" xyz="200.72 27.47 104.10" hpr="5.9 -18.7 -15.0" scale="0.69 0.51 0.69" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.065" type="animation" xyz="206.07 26.09 105.75" hpr="3.9 -13.5 -13.4" scale="0.82 0.60 0.81" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.066" type="animation" xyz="128.15 40.35 188.59" hpr="-2.5 46.6 -3.0" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.067" type="animation" xyz="127.71 39.40 190.70" hpr="-40.4 133.4 -49.1" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="grass_curved_01" type="animation" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="grass_curved_01.spm" skeletal-animation="false">
+  </object>
+  <object id="grass_curved_01.001" type="animation" xyz="-20.44 0.00 28.85" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="grass_curved_02.spm" skeletal-animation="false" geometry-level="1">
+  </object>
+  <object id="fine_grass.068" type="animation" xyz="-10.24 1.39 21.68" hpr="-3.8 58.8 -4.1" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.069" type="animation" xyz="-12.60 1.58 25.21" hpr="-4.9 58.7 -5.2" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.070" type="animation" xyz="7.84 3.00 12.83" hpr="-25.9 54.4 7.0" scale="0.34 0.30 0.34" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.071" type="animation" xyz="117.74 39.73 196.93" hpr="-40.5 138.8 -46.2" scale="0.47 0.47 0.47" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.072" type="animation" xyz="15.46 27.89 125.88" hpr="-11.4 16.3 -22.9" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="grass_curved_01.002" type="animation" xyz="-20.44 0.00 28.85" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="grass_curved_03.spm" skeletal-animation="false" geometry-level="1">
+  </object>
+  <object id="fine_grass.030" type="animation" xyz="-16.17 5.59 61.52" hpr="40.4 104.6 42.0" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.031" type="animation" xyz="-15.39 7.55 65.19" hpr="-107.3 45.9 -100.0" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.032" type="animation" xyz="-14.69 10.30 67.77" hpr="-114.7 44.3 -110.4" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.033" type="animation" xyz="-16.77 4.93 57.14" hpr="39.5 104.3 40.5" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.034" type="animation" xyz="-17.56 4.25 52.77" hpr="52.7 99.4 53.4" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.035" type="animation" xyz="-17.78 3.69 48.43" hpr="69.1 97.5 69.6" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.036" type="animation" xyz="-17.97 3.15 43.78" hpr="-59.3 83.1 -60.0" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.073" type="animation" xyz="-17.38 2.70 39.43" hpr="-57.6 83.4 -58.1" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.074" type="animation" xyz="-18.98 2.48 36.79" hpr="-5.1 -15.1 0.9" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.075" type="animation" xyz="-15.62 1.70 26.50" hpr="-4.3 -17.6 0.6" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.076" type="animation" xyz="-3.92 20.81 83.96" hpr="23.9 130.8 26.9" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.077" type="animation" xyz="14.75 30.36 84.99" hpr="-7.3 134.1 25.6" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.078" type="animation" xyz="21.16 33.77 91.77" hpr="2.2 128.0 30.8" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.079" type="animation" xyz="26.92 37.35 102.98" hpr="11.4 109.2 40.0" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.080" type="animation" xyz="9.29 26.30 99.09" hpr="12.1 122.3 16.6" scale="0.70 0.60 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.081" type="animation" xyz="-3.46 1.56 28.70" hpr="-5.6 63.2 -6.1" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.082" type="animation" xyz="-5.25 1.82 32.29" hpr="-9.5 67.5 -10.1" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.083" type="animation" xyz="-6.57 2.17 36.22" hpr="-18.4 74.5 -18.9" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.084" type="animation" xyz="-7.46 2.59 40.07" hpr="-22.3 74.0 -23.2" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.085" type="animation" xyz="-8.25 3.14 44.29" hpr="-56.6 80.7 -55.8" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.086" type="animation" xyz="-8.18 3.77 48.53" hpr="75.6 99.3 75.5" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.087" type="animation" xyz="-7.64 4.50 52.85" hpr="52.0 103.3 52.8" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.088" type="animation" xyz="-6.79 5.33 57.04" hpr="36.4 108.6 37.9" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.089" type="animation" xyz="-5.68 6.23 61.11" hpr="33.0 112.1 36.0" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.090" type="animation" xyz="-4.05 7.24 65.13" hpr="23.7 122.1 27.3" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.091" type="animation" xyz="-2.03 8.29 68.70" hpr="21.2 125.1 26.1" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.092" type="animation" xyz="0.67 9.52 72.25" hpr="18.5 133.1 23.4" scale="0.70 0.70 0.70" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.093" type="animation" xyz="-2.25 5.19 38.59" hpr="-51.2 74.5 -18.6" scale="0.51 0.51 0.51" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.094" type="animation" xyz="-1.70 3.48 32.03" hpr="-25.4 50.1 9.8" scale="0.63 0.51 0.51" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.095" type="animation" xyz="49.12 37.41 181.21" hpr="-31.2 135.3 1.8" scale="0.47 0.37 0.47" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.096" type="animation" xyz="45.08 37.25 176.90" hpr="-29.4 133.8 5.4" scale="0.47 0.30 0.47" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.097" type="animation" xyz="33.06 34.57 160.21" hpr="-34.5 101.8 -3.7" scale="0.47 0.35 0.47" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.098" type="animation" xyz="38.99 36.14 170.39" hpr="-31.0 121.0 3.9" scale="0.56 0.36 0.50" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.099" type="animation" xyz="38.23 37.12 164.47" hpr="-19.8 99.9 15.2" scale="0.57 0.30 0.57" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.100" type="animation" xyz="34.92 35.02 163.17" hpr="-16.3 117.6 12.7" scale="0.47 0.34 0.47" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="fine_grass.101" type="animation" xyz="136.65 35.80 131.40" hpr="-11.7 73.4 -10.9" scale="0.46 0.56 0.46" interaction="ghost"  lod_instance="true" lod_group="fine_grass" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance.010" type="animation" xyz="142.00 38.26 157.38" hpr="-13.6 165.5 8.6" scale="0.18 0.18 0.18" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance.009" type="animation" xyz="142.05 38.28 157.63" hpr="-13.6 165.5 8.6" scale="0.16 0.16 0.16" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance.008" type="animation" xyz="142.13 38.25 157.32" hpr="-0.0 178.1 -0.0" scale="0.23 0.23 0.23" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance.007" type="animation" xyz="4.59 0.18 -3.12" hpr="-15.8 102.9 -22.8" scale="0.76 0.76 0.76" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance.006" type="animation" xyz="4.41 -0.07 -3.29" hpr="-55.5 86.3 -49.6" scale="0.76 0.76 0.76" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance.005" type="animation" xyz="4.29 0.13 -3.01" hpr="-24.9 107.0 -13.1" scale="0.60 0.60 0.60" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance.004" type="animation" xyz="4.19 -0.10 -3.09" hpr="61.0 107.7 83.6" scale="0.60 0.60 0.60" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance.003" type="animation" xyz="144.80 36.26 75.03" hpr="-52.0 -158.7 31.0" scale="0.60 0.60 0.60" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance.002" type="animation" xyz="144.81 36.53 74.99" hpr="-35.7 -136.1 16.2" scale="0.60 0.60 0.60" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance.001" type="animation" xyz="144.52 36.31 74.95" hpr="-28.5 -156.1 14.6" scale="0.76 0.76 0.76" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <object id="edelweis_LODInstance" type="animation" xyz="144.56 36.63 74.81" hpr="-14.6 -139.9 12.4" scale="0.76 0.76 0.76" interaction="ghost"  lod_instance="true" lod_group="edelweiss" skeletal-animation="false">
+  </object>
+  <sun  fog="true" fog-color="46 78 93" fog-max="1.0" fog-start="50.00" fog-end="300.00" xyz="314.42 251.81 -195.27" sun-color="255 255 255" sun-specular="255 255 255" sun-diffuse="255 255 255" ambient="108 120 112"/>
+  <sky-box texture="w_sky_6.jpg grass2.jpg w_sky_2.jpg w_sky_4.jpg w_sky_3.jpg w_sky_1.jpg" sh-texture="l_sky_6.jpg grass2.jpg l_sky_2.jpg l_sky_4.jpg l_sky_3.jpg l_sky_1.jpg"/>
+  <camera far="5000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="2 3" p1="180.73 34.41 77.26" p2="174.75 34.14 93.74"
+                same-group="1"/>
+    <check-line kind="activate" other-ids="0" p1="177.59 -10.54 -141.65" p2="174.92 -10.21 -105.72"
+                same-group="2 3"/>
+    <check-line kind="activate" other-ids="0" p1="181.36 25.33 -107.52" p2="178.68 25.66 -71.59"
+                same-group="2 3"/>
+  </checks>
+  <particle-emitter kind="waterfall_right.xml" id="Empty.020" xyz="163.10 -13.49 -182.26" h="-5.12" >
+  </particle-emitter>
+  <particle-emitter kind="waterfall_left.xml" id="Empty.019" xyz="163.11 -13.49 -182.26" h="-5.12" >
+  </particle-emitter>
+  <object type="sfx-emitter" id="Empty.025" sound="sheep.ogg" rolloff="0.100" volume="1.0" max_dist="75.0" xyz="-14.07 1.65 24.61" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </object>
+  <object type="sfx-emitter" id="Empty.024" sound="sheep.ogg" rolloff="0.200" volume="1.0" max_dist="75.0" xyz="5.74 0.75 3.75" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </object>
+  <object type="sfx-emitter" id="Empty.023" sound="sheep.ogg" rolloff="0.200" volume="1.0" max_dist="75.0" xyz="-9.84 0.99 7.36" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </object>
+  <small-nitro id="Empty.026" x="-11.56" y="3.04" z="-201.32" h="-112.39" />
+  <small-nitro id="Empty.021" x="-10.37" y="3.04" z="-198.44" h="-112.39" />
+  <banana id="Empty.022" x="81.03" y="3.54" z="-182.94" />
+  <banana id="Empty.046" x="-14.51" y="0.43" z="-59.62" />
+  <small-nitro id="Empty.045" x="-13.06" y="0.35" z="-68.28" />
+  <small-nitro id="Empty.044" x="-22.07" y="0.42" z="-76.71" />
+  <small-nitro id="Empty.043" x="-23.62" y="0.75" z="-87.61" />
+  <small-nitro id="Empty.042" x="21.76" y="22.97" z="106.25" />
+  <small-nitro id="Empty.041" x="18.14" y="22.97" z="107.30" />
+  <small-nitro id="Empty.040" x="-12.99" y="2.88" z="35.89" h="0.57" />
+  <small-nitro id="Empty.039" x="-10.53" y="2.87" z="36.87" h="0.57" />
+  <banana id="Empty.037" x="79.10" y="1.57" z="-166.57" />
+  <item id="Empty.036" x="182.98" y="33.57" z="87.90" />
+  <item id="Empty.035" x="278.40" y="2.87" z="-85.81" />
+  <small-nitro id="Empty.034" x="256.69" y="5.44" z="47.93" />
+  <small-nitro id="Empty.033" x="253.00" y="5.72" z="49.03" />
+  <small-nitro id="Empty.006" x="248.89" y="5.63" z="50.41" />
+  <banana id="Empty.032" x="159.63" y="35.12" z="76.91" h="35.96" />
+  <banana id="Empty.031" x="158.78" y="35.14" z="81.40" h="35.96" />
+  <banana id="Empty.030" x="-34.55" y="2.85" z="-107.08" />
+  <item id="Empty.029" x="-77.64" y="6.76" z="-158.21" />
+  <small-nitro id="Empty.027" x="-9.19" y="3.04" z="-195.58" h="-112.39" />
+  <item id="Empty.017" x="211.46" y="5.96" z="-7.57" h="-74.37" />
+  <banana id="Empty.016" x="215.22" y="6.13" z="-11.87" h="-74.37" />
+  <banana id="Empty.015" x="209.88" y="6.15" z="-12.95" h="-74.37" />
+  <banana id="Empty.014" x="207.90" y="6.40" z="-2.63" h="-74.37" />
+  <banana id="Empty.013" x="212.92" y="6.10" z="-1.45" h="-74.37" />
+  <banana id="Empty.012" x="224.04" y="22.32" z="103.02" />
+  <big-nitro id="Empty.011" x="151.11" y="-7.71" z="-129.94" />
+  <small-nitro id="Empty.010" x="151.38" y="-7.99" z="-134.14" />
+  <item id="Empty.009" x="119.20" y="40.57" z="186.01" />
+  <item id="Empty.008" x="120.63" y="40.57" z="187.77" />
+  <item id="Empty.007" x="122.11" y="40.57" z="189.62" />
+  <item id="Empty.005" x="20.13" y="26.77" z="121.83" />
+  <item id="Empty.004" x="24.16" y="26.66" z="121.16" />
+  <item id="Empty.003" x="-3.42" y="10.28" z="74.79" />
+  <small-nitro id="Empty.002" x="-12.63" y="3.14" z="38.35" h="0.57" />
+  <small-nitro id="Empty.001" x="-10.39" y="3.12" z="39.28" h="0.57" />
+  <small-nitro id="Empty" x="-14.89" y="3.03" z="37.22" h="0.57" />
+  <big-nitro id="Empty.028" x="162.27" y="26.94" z="-88.05" />
+  <small-nitro id="Empty.038" x="162.40" y="26.94" z="-93.02" />
+  <lightshaft xyz="347.11 212.46 -432.08" id="Lamp.001" opacity="1.30" color="252 255 206"/>
+  <default-start karts-per-row     ="2"
+                 forwards-distance ="1.50"
+                 sidewards-distance="3.00"
+                 upwards-distance  ="0.10"/>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main" xyz="-76.10 3.07 -124.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.001" xyz="-69.07 1.42 -116.27" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.002" xyz="-67.11 -1.79 -108.61" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.004" xyz="-57.66 -5.01 -105.06" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.006" xyz="-51.47 -1.33 -104.90" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.007" xyz="-48.54 -4.59 -100.80" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.008" xyz="-31.89 1.51 24.51" hpr="0.0 -0.0 0.0" scale="1.07 1.07 1.07">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.009" xyz="-27.88 3.23 43.14" hpr="0.0 -0.0 0.0" scale="0.93 0.93 0.93">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.010" xyz="-34.09 3.87 52.24" hpr="0.0 -0.0 0.0" scale="1.17 1.17 1.17">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.012" xyz="-16.73 19.17 84.99" hpr="0.0 -0.0 0.0" scale="1.10 1.10 1.10">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.013" xyz="-11.59 24.19 103.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.014" xyz="-5.11 21.51 87.54" hpr="0.0 -0.0 0.0" scale="0.95 0.95 0.95">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.016" xyz="13.92 31.61 115.41" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.017" xyz="1.67 28.69 113.30" hpr="0.0 -0.0 0.0" scale="1.16 1.16 1.16">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.018" xyz="-25.24 14.46 77.02" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.020" xyz="0.95 4.49 30.40" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.022" xyz="3.06 10.47 47.67" hpr="-0.0 169.5 -0.0" scale="1.15 1.15 1.15">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.023" xyz="21.41 21.86 49.61" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.025" xyz="10.39 6.85 20.23" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.026" xyz="5.36 23.68 71.58" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.029" xyz="148.40 44.66 62.62" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.030" xyz="170.83 45.03 77.05" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.031" xyz="183.86 19.24 109.51" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.032" xyz="162.68 19.23 106.06" hpr="0.0 -35.0 0.0" scale="0.76 0.76 0.76">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.003" xyz="30.12 31.85 138.06" hpr="0.0 88.7 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.005" xyz="46.43 33.02 204.52" hpr="-0.0 143.8 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.011" xyz="141.88 36.39 181.31" hpr="-0.0 143.8 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.015" xyz="43.43 38.12 168.65" hpr="0.0 41.5 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.019" xyz="6.27 28.76 145.84" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.021" xyz="6.24 26.77 160.16" hpr="0.0 84.4 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_c" id="stklib_pinetree_c_main.024" xyz="2.67 26.66 156.45" hpr="0.0 43.9 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_pinetree_e" id="stklib_pinetree_e_main_proxy.002" xyz="179.32 21.62 105.30" hpr="0.0 -40.1 0.0" scale="1.38 0.96 1.38">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.002" xyz="153.35 27.18 93.04" hpr="0.0 -31.4 0.0" scale="0.75 0.75 0.75">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.001" xyz="158.57 45.87 70.54" hpr="0.0 -0.0 0.0" scale="0.59 0.59 0.59">
+  </library>
+  <library name="stklib_pinetree_e" id="stklib_pinetree_e_main_proxy.001" xyz="137.56 37.61 71.20" hpr="-0.0 117.0 -0.0" scale="1.38 0.96 1.38">
+  </library>
+  <library name="stklib_pinetree_e" id="stklib_pinetree_e_main_proxy" xyz="8.01 0.94 7.77" hpr="0.0 -55.3 7.8" scale="1.38 0.96 1.38">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy" xyz="-11.99 -0.11 3.28" hpr="0.0 -0.0 0.0" scale="0.59 0.59 0.59">
+  </library>
+  <library name="stklib_pinetree_e" id="stklib_pinetree_e_main_proxy.004" xyz="166.00 28.17 92.92" hpr="-0.0 152.8 -0.0" scale="1.38 0.96 1.38">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.003" xyz="14.13 11.23 31.63" hpr="0.0 -0.0 0.0" scale="0.75 0.75 0.75">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.004" xyz="5.58 25.73 95.65" hpr="0.0 -0.0 0.0" scale="0.65 0.65 0.65">
+  </library>
+  <library name="stklib_pinetree_e" id="stklib_pinetree_e_main_proxy.003" xyz="17.61 30.53 86.74" hpr="-1.0 -50.4 23.9" scale="1.86 0.96 1.86">
+  </library>
+  <library name="stklib_pinetree_e" id="stklib_pinetree_e_main_proxy.005" xyz="28.11 36.87 103.14" hpr="-2.9 -101.5 33.9" scale="1.81 0.96 1.81">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.005" xyz="-28.18 19.32 98.14" hpr="0.0 -50.4 0.0" scale="0.69 0.69 0.69">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.006" xyz="-21.54 5.25 62.59" hpr="0.0 -33.1 0.0" scale="0.69 0.69 0.69">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.007" xyz="17.41 23.54 63.21" hpr="-0.0 -102.0 -0.0" scale="0.75 0.86 0.75">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.008" xyz="-65.32 -7.36 -102.61" hpr="0.0 -0.0 0.0" scale="0.75 0.75 0.75">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.009" xyz="-60.07 -1.72 -109.23" hpr="0.0 -175.6 -0.0" scale="0.68 0.68 0.68">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.010" xyz="-91.66 2.32 -145.69" hpr="0.0 -161.2 -0.0" scale="0.78 0.75 0.78">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.011" xyz="61.75 32.33 211.85" hpr="-0.0 -102.0 -0.0" scale="0.75 0.75 0.75">
+  </library>
+  <library name="stklib_pinetree_e" id="stklib_pinetree_e_main_proxy.006" xyz="100.03 36.40 205.78" hpr="0.0 -104.6 -0.0" scale="1.38 0.96 1.38">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.012" xyz="137.72 34.90 190.62" hpr="-0.0 -102.0 -0.0" scale="0.75 0.75 0.75">
+  </library>
+  <library name="stklib_pinetree_e" id="stklib_pinetree_e_main_proxy.007" xyz="31.25 33.23 155.68" hpr="0.0 -49.7 0.0" scale="0.94 0.65 0.94">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.013" xyz="45.81 40.84 153.30" hpr="-0.0 -126.0 -0.0" scale="0.75 0.86 0.75">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.014" xyz="44.70 41.23 143.95" hpr="0.0 -33.4 0.0" scale="0.62 0.63 0.62">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.015" xyz="9.30 24.11 171.16" hpr="-0.0 -126.0 -0.0" scale="0.75 0.86 0.75">
+  </library>
+  <library name="stklib_pinetree_d" id="stklib_pinetree_d_main_proxy.016" xyz="-2.09 20.55 140.91" hpr="-0.0 -126.0 -0.0" scale="0.75 0.86 0.75">
+  </library>
+  <library name="stklib_fern_a" id="stklib_fern_a_main_proxy.004" xyz="163.20 28.21 93.42" hpr="-52.3 132.8 -34.3" scale="0.83 0.83 0.83">
+  </library>
+  <library name="stklib_fern_a" id="stklib_fern_a_main_proxy.003" xyz="165.98 27.99 94.25" hpr="-58.9 139.1 -40.3" scale="0.83 0.83 0.83">
+  </library>
+  <library name="stklib_fern_a" id="stklib_fern_a_main_proxy.002" xyz="180.99 32.52 95.10" hpr="84.8 57.7 118.8" scale="0.67 0.67 0.67">
+  </library>
+  <library name="stklib_fern_a" id="stklib_fern_a_main_proxy.001" xyz="167.62 33.93 87.87" hpr="-68.8 124.8 -29.8" scale="0.83 0.83 0.83">
+  </library>
+  <library name="stklib_fern_a" id="stklib_fern_a_main_proxy" xyz="154.39 45.68 74.71" hpr="32.2 -2.2 33.5" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_fern_a" id="stklib_fern_a_main_proxy.005" xyz="11.68 28.34 102.75" hpr="29.3 147.8 -8.4" scale="0.67 0.67 0.67">
+  </library>
+  <library name="stklib_fern_a" id="stklib_fern_a_main_proxy.006" xyz="13.84 29.97 107.95" hpr="55.5 -120.1 -76.6" scale="0.92 0.92 0.92">
+  </library>
+  <library name="stklib_fern_a" id="stklib_fern_a_main_proxy.007" xyz="15.72 31.81 114.26" hpr="-30.9 -36.4 -5.5" scale="0.45 0.45 0.45">
+  </library>
+</scene>

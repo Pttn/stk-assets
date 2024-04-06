@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="ants.png" shader="alphatest"/>
+  <material name="asphalt_road.jpg" gloss-map="asphalt_road_glossy.jpg" normal-map="asphalt_road_nm.jpg" high-adhesion="Y"/>
+  <material name="asphalt_road_grass.jpg" gloss-map="asphalt_road_grass_glossy.jpg" normal-map="asphalt_road_grass_nm.jpg" high-adhesion="Y"/>
+  <material name="Bark05_col.jpg" gloss-map="Bark05_rgh.jpg" normal-map="Bark05_nrm.jpg"/>
+  <material name="BlackEyedSusan.png" ignore="Y" shader="alphatest"/>
+  <material name="BurdockLeaf.png" ignore="Y" shader="alphatest"/>
+  <material name="Bush.png" ignore="Y" shader="alphatest"/>
+  <material name="Catail.png" ignore="Y" shader="alphatest"/>
+  <material name="dirt_road _transition.jpg" gloss-map="dirt_road _transition_glossy.jpg" normal-map="dirt_road _transition_nm.jpg" high-adhesion="Y"/>
+  <material name="Fern-6.png" ignore="Y" shader="alphatest"/>
+  <material name="Flower3.png" ignore="Y" shader="alphatest"/>
+  <material name="Flower3F.png" ignore="Y" shader="alphatest"/>
+  <material name="Flower5.png" ignore="Y" shader="alphatest"/>
+  <material name="Flower5F.png" ignore="Y" shader="alphatest"/>
+  <material name="grass-border.png" shader="alphatest"/>
+  <material name="grass2.jpg" max-speed="0.65" slowdown-time="0.65" normal-map="alpineGrass_nm.jpg"/>
+  <material name="grass_alphaPatch.png" shader="alphablend"/>
+  <material name="grass_patch.jpg" normal-map="grass_patch_nm.jpg"/>
+  <material name="grass_rock_transition_a.jpg" gloss-map="grass_rock_transition_a_glossy.jpg" normal-map="grass_rock_transition_a_nm.jpg"/>
+  <material name="GrassTall.png" ignore="Y" shader="alphatest"/>
+  <material name="invisible.png" shader="alphatest" slowdown-time="0.20" max-speed="0.70">
+    <sfx filename="splash.ogg" min_speed="5.00" max_speed="15.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>>
+    <particles base="splash.xml" condition="skid drive"/>
+  </material>
+  <material name="medieval_wall_01_diff_2k.jpg" gloss-map="medieval_wall_01_rgh_2k.jpg" normal-map="medieval_wall_01_nor_2k.jpg"/>
+  <material name="Metal19_col.jpg" gloss-map="Metal19_rgh_met.jpg" normal-map="Metal19_nrm.jpg"/>
+  <material name="Metal19Cross_col.png" shader="alphatest" gloss-map="Metal19_rgh_met.jpg"/>
+  <material name="red_brick_plaster_patch_02_diff_2k.jpg" gloss-map="red_brick_plaster_patch_02_rgh_2k.jpg" normal-map="red_brick_plaster_patch_02_Nor_2k.jpg"/>
+  <material name="road_dirt.jpg" high-adhesion="Y">
+    <particles base="smoke_brown.xml" condition="skid"/>
+  </material>
+  <material name="Rock027_1K_Color.jpg" gloss-map="Rock027_1K_glossy.jpg" normal-map="Rock027_1K_NormalGL.jpg"/>
+  <material name="Rock13_col.jpg" shader="splatting" uv-two-tex="splat_01.jpg" tex-layer-2="Rock13_col.jpg" tex-layer-3="splat_grass.png" tex-layer-4="stk_generic_snow_slpat.png" tex-layer-5="Rock13_col.jpg"/>
+  <material name="rock_gray.jpg" gloss-map="rock_mountain_glossy.jpg" normal-map="rock_mountain_nm.jpg"/>
+  <material name="roof_07_diff_2k.jpg" gloss-map="roof_07_rgh_2k.jpg" normal-map="roof_07_nor_2k.jpg"/>
+  <material name="rough_plaster_broken_diff_2k.jpg" gloss-map="rough_plaster_broken_rgh_2k.jpg" normal-map="rough_plaster_broken_Nor_2k.jpg"/>
+  <material name="sgrass5-3.png" shader="grass" ignore="Y" grass-speed="1.50"/>
+  <material name="splat_grass.png" shader="splatting" uv-two-tex="splat_01.jpg" tex-layer-2="Rock13_col.jpg" tex-layer-3="splat_grass.png" tex-layer-4="stk_generic_snow_slpat.png" tex-layer-5="Rock13_col.jpg"/>
+  <material name="stk_generic_snow_slpat.png" shader="splatting" uv-two-tex="splat_01.jpg" tex-layer-2="Rock13_col.jpg" tex-layer-3="splat_grass.png" tex-layer-4="stk_generic_snow_slpat.png" tex-layer-5="Rock13_col.jpg"/>
+  <material name="stk_road_dirt.jpg" high-adhesion="Y" gloss-map="stk_road_dirt_glossy.jpg" normal-map="stk_road_dirt_nm.jpg">
+    <particles base="smoke_brown.xml" condition="skid"/>
+  </material>
+  <material name="stktex_edelweiss_a.png" shader="alphatest" ignore="Y"/>
+  <material name="stktex_edelweiss_b.png" shader="alphatest" ignore="Y"/>
+  <material name="stktex_stoneWall_01.jpg" gloss-map="stktex_stoneWall_01_glossy.jpg" normal-map="stktex_stoneWall_01_nm.jpg"/>
+  <material name="StreamPlant.png" ignore="Y"/>
+  <material name="TexturesCom_Branches0025_1_M.png" shader="alphatest" gloss-map="TexturesCom_Branches0025_1_M_rgh.jpg"/>
+  <material name="water_light2.png" ignore="Y" shader="displace"/>
+  <material name="water_reflection.jpg" gloss-map="water_reflection_glossy.jpg"/>
+  <material name="waterfall.png" shader="alphablend"/>
+  <material name="waterfall_particle.png" shader="alphablend"/>
+  <material name="wood_planks1.jpg">
+    <sfx positional="true" filename="wooden_bridge.ogg" min_speed="9.00" max_speed="22.00" min_pitch="1.00" max_pitch="1.70" rolloff="0.60"/>
+  </material>
+  <material name="Woodpile.jpg" normal-map="Woodpile_nm.jpg"/>
+  <material name="yellow_plaster_diff_2k.jpg" gloss-map="yellow_plaster_rgh_2k.jpg" normal-map="yellow_plaster_nor_2k.jpg"/>
+  <material name="stklib_pinetree_c.png" shader="alphatest"/>
+  <material name="stktex_treebark_c.jpg" normal-map="stktex_treebark_n_nm.jpg"/>
+  <material name="fir_bark.png" normal-map="fir_bark_nm.png"/>
+</materials>
