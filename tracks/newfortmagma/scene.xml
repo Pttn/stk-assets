@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+  <track model="newfortmagma_track.spm" x="0" y="0" z="0">
+    <static-object  model="jump_bridge_physics.spm" xyz="85.32 1.47 34.09" hpr="-90.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="physics-only"/>
+    <static-object  model="random_chair_physics.spm" xyz="145.49 5.97 -167.39" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.57"/>
+    <static-object  model="castle_arrows.spm" xyz="68.83 29.29 -102.38" hpr="-0.0 -91.7 0.0" scale="1.33 1.33 1.33">
+    <animated-texture name="stkflag_orangeBooster_a.png" dy="0.80000" />
+    </static-object>
+    <static-object  model="bridge_before_strat_physics.spm" xyz="315.91 40.72 159.53" hpr="-2.9 -21.5 0.1" scale="1.20 1.00 1.00" interaction="physics-only"/>
+    <static-object  model="mountain_bridge_p3.spm" xyz="315.91 40.72 159.53" hpr="-2.9 -21.5 0.1" scale="1.20 1.00 1.00"/>
+    <static-object  model="vulcanCut_01.spm" xyz="240.18 0.39 -4.39" hpr="4.2 42.2 3.9" scale="40.97 29.45 61.64">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+    </static-object>
+    <static-object  model="vulcanCut_02.spm" xyz="120.74 0.65 -62.89" hpr="-11.6 105.8 -10.1" scale="40.97 29.45 61.64">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+    </static-object>
+    <static-object  model="cloud.spm" xyz="-503.36 53.16 2984.87" hpr="-14.3 0.0 -90.0" scale="18.97 9.48 19.59">
+    <animated-texture name="gfx_lavaCloudsAnimated.png" dy="0.06250"  animByStep="true" dt="0.050" />
+    </static-object>
+    <static-object  model="cloud.spm" xyz="-573.41 53.74 2902.12" hpr="-14.3 0.0 -90.0" scale="18.97 9.48 19.59">
+    <animated-texture name="gfx_lavaCloudsAnimated.png" dy="0.06250"  animByStep="true" dt="0.050" />
+    </static-object>
+    <static-object  model="cloud.spm" xyz="-513.25 68.04 2984.00" hpr="-14.3 0.0 -90.0" scale="18.97 9.48 19.59">
+    <animated-texture name="gfx_lavaCloudsAnimated.png" dy="0.06250"  animByStep="true" dt="0.050" />
+    </static-object>
+    <static-object  model="cloud.spm" xyz="-615.31 51.69 2880.62" hpr="-14.3 0.0 -90.0" scale="18.97 9.48 19.59">
+    <animated-texture name="gfx_lavaCloudsAnimated.png" dy="0.06250"  animByStep="true" dt="0.050" />
+    </static-object>
+    <static-object  model="cloud.spm" xyz="-471.98 61.17 2943.90" hpr="-14.3 0.0 -90.0" scale="18.97 9.48 19.59">
+    <animated-texture name="gfx_lavaCloudsAnimated.png" dy="0.06250"  animByStep="true" dt="0.050" />
+    </static-object>
+    <static-object  model="cloud.spm" xyz="-478.08 39.04 2995.51" hpr="-32.3 0.0 -90.0" scale="18.97 9.48 19.59">
+    <animated-texture name="gfx_lavaCloudsAnimated.png" dy="0.06250"  animByStep="true" dt="0.050" />
+    </static-object>
+    <static-object  model="vulcan_01.spm" xyz="74.24 58.49 75.87" hpr="-0.0 153.3 -0.0" scale="69.18 69.18 69.18">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+    </static-object>
+    <static-object  model="vulcan_056.spm" xyz="277.60 31.96 160.08" hpr="-0.0 157.2 -0.0" scale="36.56 54.84 36.56">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+    </static-object>
+    <static-object  model="vulcan_01.spm" xyz="322.21 4.24 184.64" hpr="8.2 158.7 21.6" scale="36.56 36.56 36.56">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+    </static-object>
+    <static-object  model="vulcan_01.spm" xyz="330.66 -0.74 205.92" hpr="48.3 116.1 51.3" scale="36.56 36.56 36.56">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+    </static-object>
+    <static-object  model="vulcan_01.spm" xyz="349.67 -2.78 177.91" hpr="4.1 168.9 20.5" scale="36.56 36.56 36.56">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+    </static-object>
+    <static-object  model="vulcan_01.spm" xyz="351.64 -2.96 199.51" hpr="31.2 145.6 32.8" scale="36.56 36.56 36.56">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+    </static-object>
+    <static-object  model="vulcan_056.spm" xyz="302.89 7.52 176.56" hpr="12.3 160.7 33.5" scale="36.56 54.84 36.56">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+    </static-object>
+    <static-object  model="vulcanCut_02.spm" xyz="101.52 -3.78 142.32" hpr="-6.3 -58.5 5.3" scale="47.49 34.14 71.44">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+    </static-object>
+    <static-object  model="lava_falls_castle.spm" xyz="350.38 -1.25 -63.56" hpr="-0.0 -90.0 0.0" scale="8.81 8.68 8.68">
+    <animated-texture name="lava_2k_diffuse.jpg" dx="-0.03500" />
+    </static-object>
+    <static-object  model="castle_lavafallwall.spm" xyz="-18.18 1.75 -69.89" hpr="-0.0 -91.7 -0.0" scale="0.39 0.40 0.40">
+    <animated-texture name="lava_2k_diffuse.jpg" dx="-0.10000" />
+    </static-object>
+    <animated-texture name="stk_corrugMetal_a.png" dx="-0.30000" />
+    <animated-texture name="stk_corrugMetal_a.png" dx="-0.30000" />
+  </track>
+  <object id="Cube.023" type="animation" xyz="277.76 0.39 -161.72" hpr="-1.4 -152.9 3.0" scale="1.00 1.00 1.00" interaction="ghost" model="cell_stairs_1.spm" skeletal-animation="false">
+  </object>
+  <object id="Cube.043" type="animation" xyz="205.94 4.36 -164.93" hpr="0.0 -6.5 0.0" scale="1.00 0.95 1.00" interaction="ghost" model="cell_stairs_b.spm" skeletal-animation="false">
+  </object>
+  <object id="Cube.047" type="animation" xyz="103.76 2.76 17.36" hpr="-180.0 87.6 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="zipper_sign_a.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper.png" dy="1.50000" />
+  </object>
+  <object id="Cube.052" type="animation" xyz="103.76 2.99 17.36" hpr="-180.0 87.6 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="zipper_effect_sign.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper_effect.png" dy="-0.10000" />
+  </object>
+  <object id="Cube.110" type="animation" xyz="117.59 0.09 17.76" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="sign_parts_forward.spm" skeletal-animation="false" if="isTrackNotReverse">
+  </object>
+  <object id="Cube.112" type="animation" xyz="-61.78 2.29 93.62" hpr="-0.0 -119.0 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="zipper_sign_a.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper.png" dy="1.50000" />
+  </object>
+  <object id="Cube.140" type="animation" xyz="-61.78 2.29 93.62" hpr="-0.0 -119.0 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="zipper_effect_sign.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper_effect.png" dy="-0.10000" />
+  </object>
+  <object id="Cube.141" type="animation" xyz="206.11 53.07 173.84" hpr="8.5 -163.5 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="zipper_sign_a.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper.png" dy="1.50000" />
+  </object>
+  <object id="Cube.144" type="animation" xyz="206.11 53.07 173.84" hpr="8.5 -163.5 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="zipper_effect_sign_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper_effect.png" dy="-0.10000" />
+  </object>
+  <object id="Cube.147" type="animation" xyz="231.22 43.04 136.19" hpr="-41.7 98.6 -49.4" scale="1.00 1.00 1.00" interaction="ghost" model="zipper_sign_a.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper.png" dy="1.50000" />
+  </object>
+  <object id="Cube.148" type="animation" xyz="231.22 43.04 136.19" hpr="-41.7 98.6 -49.4" scale="1.00 1.00 1.00" interaction="static" shape="box" model="zipper_effect_sign.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper_effect.png" dy="-0.10000" />
+  </object>
+  <object id="Cube.149" type="animation" xyz="249.92 30.72 170.07" hpr="14.8 -5.6 -7.6" scale="1.00 1.00 1.00" interaction="ghost" model="zipper_sign_a.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper.png" dy="1.50000" />
+  </object>
+  <object id="Cube.150" type="animation" xyz="249.92 30.72 170.07" hpr="14.8 -5.6 -7.6" scale="1.00 1.00 1.00" interaction="static" shape="box" model="zipper_effect_sign.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper_effect.png" dy="-0.10000" />
+  </object>
+  <object id="Cube.145" type="animation" xyz="107.25 2.99 16.55" hpr="180.0 50.5 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="zipper_effect_sign_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper_effect.png" dy="-0.10000" />
+  </object>
+  <object id="Cube.146" type="animation" xyz="107.25 2.76 16.55" hpr="180.0 50.5 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="zipper_sign_a_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper.png" dy="1.50000" />
+  </object>
+  <object id="Cube.151" type="animation" xyz="249.92 30.72 170.07" hpr="14.8 -5.6 -7.6" scale="1.00 1.00 1.00" interaction="ghost" model="zipper_sign_a_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper.png" dy="1.50000" />
+  </object>
+  <object id="Cube.152" type="animation" xyz="249.92 30.72 170.07" hpr="14.8 -5.6 -7.6" scale="1.00 1.00 1.00" interaction="static" shape="box" model="zipper_effect_sign_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper_effect.png" dy="-0.10000" />
+  </object>
+  <object id="Cube.154" type="animation" xyz="231.22 43.04 136.19" hpr="-41.7 98.6 -49.4" scale="1.00 1.00 1.00" interaction="ghost" model="zipper_sign_a_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper.png" dy="1.50000" />
+  </object>
+  <object id="Cube.155" type="animation" xyz="231.22 43.04 136.19" hpr="-41.7 98.6 -49.4" scale="1.00 1.00 1.00" interaction="static" shape="box" model="zipper_effect_sign_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper_effect.png" dy="-0.10000" />
+  </object>
+  <object id="Cube.156" type="animation" xyz="206.11 53.07 173.84" hpr="8.5 -163.5 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="zipper_sign_a_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper.png" dy="1.50000" />
+  </object>
+  <object id="Cube.157" type="animation" xyz="-61.78 2.29 93.62" hpr="-0.0 -119.0 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="zipper_sign_a_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper.png" dy="1.50000" />
+  </object>
+  <object id="Cube.158" type="animation" xyz="-61.78 2.29 93.62" hpr="-0.0 -119.0 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="zipper_effect_sign_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="zipper_effect.png" dy="-0.10000" />
+  </object>
+  <object id="Cube.159" type="animation" xyz="206.11 53.07 173.84" hpr="8.5 -163.5 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="zipper_effect_sign.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="zipper_effect.png" dy="-0.10000" />
+  </object>
+  <object id="Cube.054" type="animation" xyz="118.06 0.09 25.21" hpr="0.0 -37.1 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="sign_parts_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="broken_bridge.004" type="animation" xyz="-115.27 1.72 41.99" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="broken_brigde_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="broken_bridge.001" type="animation" xyz="-115.16 1.64 41.84" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="broken_brigde_forward.spm" skeletal-animation="false" if="isTrackNotReverse">
+  </object>
+  <object id="Cylinder.083" type="animation" xyz="140.94 -12.88 -86.92" hpr="-68.9 -0.0 -90.0" scale="1.00 1.00 1.00" interaction="ghost" model="pipe_flow_test.spm" skeletal-animation="false">
+    <animated-texture name="pipe_flow_01.png" dx="0.10000" />
+  </object>
+  <object id="Cylinder.129" type="animation" xyz="150.82 2.79 -112.87" hpr="180.0 28.6 0.0" scale="4.67 1.09 4.67" interaction="ghost" model="pipe_lava_flow_test.spm" skeletal-animation="false">
+    <animated-texture name="lava_2k_diffuse.jpg" dx="0.05000" />
+  </object>
+  <object id="Cube.090" type="animation" xyz="315.91 40.72 159.53" hpr="-2.9 -21.5 0.1" scale="1.20 1.00 1.00" interaction="ghost" model="mountain_bridge_p1.spm" skeletal-animation="false">
+  </object>
+  <object id="Cube.002" type="animation" xyz="315.91 40.72 159.53" hpr="-2.9 -21.5 0.1" scale="1.20 1.00 1.00" interaction="ghost" model="mountain_bridge_p2.spm" skeletal-animation="false">
+  </object>
+  <object id="Plane.057" type="animation" xyz="52.72 0.01 -4.23" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="bridge_slowdown_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="Plane.036" type="animation" xyz="52.72 -0.00 -4.23" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="bridge_boos_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <object id="vulcan_01" type="animation" xyz="81.64 67.98 147.32" hpr="-0.0 153.3 -0.0" scale="69.18 69.18 69.18" interaction="ghost" model="vulcan_01.spm" skeletal-animation="false">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+  </object>
+  <object id="Plane.048" type="animation" xyz="56.66 -0.37 36.86" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="bridge_slowdown.spm" skeletal-animation="false" if="isTrackNotReverse">
+  </object>
+  <object id="Plane.047" type="animation" xyz="52.72 0.00 -4.23" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="bridge_booster.spm" skeletal-animation="false" if="isTrackNotReverse">
+  </object>
+  <object id="Plane.043" type="animation" xyz="-62.65 -2.38 48.38" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="cave_lava_06.spm" skeletal-animation="false">
+    <animated-texture name="lava_2k_diffuse.jpg" dx="0.03000" />
+    <curve channel="LocX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -62.648" h1="-18.130 -62.648" h2="20.130 -62.648"/>
+      <p c="50.000 -62.648" h1="30.870 -62.648" h2="69.521 -62.648"/>
+      <p c="100.000 -62.648" h1="80.479 -62.648" h2="119.521 -62.648"/>
+    </curve>
+    <curve channel="LocZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 48.383" h1="-18.130 48.383" h2="20.130 48.383"/>
+      <p c="50.000 48.383" h1="30.870 48.383" h2="69.521 48.383"/>
+      <p c="100.000 48.383" h1="80.479 48.383" h2="119.521 48.383"/>
+    </curve>
+    <curve channel="LocY" interpolation="bezier" extend="cyclic">
+      <p c="15.850 -2.029" h1="2.459 -2.029" h2="29.241 -2.029"/>
+      <p c="50.150 -2.448" h1="36.759 -2.448" h2="63.814 -2.448"/>
+      <p c="85.150 -1.967" h1="71.486 -1.967" h2="98.814 -1.967"/>
+      <p c="131.893 -2.627" h1="118.502 -2.627" h2="145.557 -2.627"/>
+      <p c="180.726 -2.029" h1="167.062 -2.029" h2="194.391 -2.029"/>
+    </curve>
+  </object>
+  <object id="cloud_.008" type="animation" xyz="-456.50 33.55 2898.27" hpr="0.0 -0.0 -90.0" scale="18.97 9.48 19.59" interaction="ghost" model="cloud.spm" skeletal-animation="false">
+    <animated-texture name="gfx_lavaCloudsAnimated.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="cloud_.002" type="animation" xyz="-483.17 48.56 2871.07" hpr="25.2 0.0 -90.0" scale="18.97 9.48 19.59" interaction="ghost" model="cloud.spm" skeletal-animation="false">
+    <animated-texture name="gfx_lavaCloudsAnimated.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="cloud_.000" type="animation" xyz="-472.36 39.37 2898.27" hpr="0.0 -0.0 -90.0" scale="18.97 9.48 19.59" interaction="ghost" model="cloud.spm" skeletal-animation="false">
+    <animated-texture name="gfx_lavaCloudsAnimated.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="vulcan_01.011" type="animation" xyz="57.61 34.07 57.13" hpr="0.0 -26.7 -0.0" scale="95.02 95.02 95.02" interaction="ghost" model="vulcan_521.spm" skeletal-animation="false">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.05000" />
+  </object>
+  <object id="fire.018" type="animation" xyz="1.40 11.96 -93.01" hpr="-2.1 -48.4 1.6" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.017" type="animation" xyz="19.42 11.97 -92.47" hpr="-2.1 -48.4 1.6" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.016" type="animation" xyz="39.22 11.98 -91.89" hpr="-2.1 -48.4 1.6" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.013" type="animation" xyz="40.30 11.45 -114.64" hpr="-2.1 131.6 -1.6" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.012" type="animation" xyz="20.37 11.46 -115.25" hpr="-2.1 131.6 -1.6" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.011" type="animation" xyz="1.67 11.46 -115.80" hpr="-2.1 131.6 -1.6" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.010" type="animation" xyz="175.46 22.73 146.47" hpr="0.0 106.3 0.0" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.009" type="animation" xyz="191.71 23.30 153.56" hpr="0.0 92.3 0.0" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.008" type="animation" xyz="168.17 23.30 170.75" hpr="-0.0 -63.0 0.0" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.007" type="animation" xyz="-14.84 11.19 -100.41" hpr="-2.1 -48.4 1.6" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.006" type="animation" xyz="-14.46 10.96 -109.41" hpr="-2.1 131.6 -1.6" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.001" type="animation" xyz="-21.32 3.66 74.85" hpr="0.0 -43.4 0.0" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="lava_splash_02.001" type="animation" xyz="163.90 -11.63 -39.02" hpr="90.0 -29.1 0.0" scale="6.67 13.69 7.58" interaction="ghost" model="lava_splash_03.spm" skeletal-animation="false">
+    <curve channel="LocX" interpolation="bezier" extend="cyclic">
+      <p c="42.000 163.902" h1="-937.231 163.902" h2="1021.231 163.902"/>
+      <p c="2550.203 163.902" h1="2515.066 163.902" h2="2557.230 163.902"/>
+      <p c="2568.203 163.902" h1="2561.176 163.902" h2="2569.765 163.902"/>
+      <p c="2572.203 163.902" h1="2570.641 163.902" h2="2574.936 163.902"/>
+      <p c="2579.203 163.902" h1="2576.470 163.902" h2="2583.498 163.902"/>
+      <p c="2590.203 163.902" h1="2585.909 163.902" h2="2594.498 163.902"/>
+    </curve>
+    <curve channel="LocZ" interpolation="bezier" extend="cyclic">
+      <p c="42.000 -39.017" h1="-937.231 -39.017" h2="1021.231 -39.017"/>
+      <p c="2550.203 -39.017" h1="2515.066 -39.017" h2="2557.230 -39.017"/>
+      <p c="2568.203 -39.017" h1="2561.176 -39.017" h2="2569.765 -39.017"/>
+      <p c="2572.203 -39.017" h1="2570.641 -39.017" h2="2574.936 -39.017"/>
+      <p c="2579.203 -39.017" h1="2576.470 -39.017" h2="2583.498 -39.017"/>
+      <p c="2590.203 -39.017" h1="2585.909 -39.017" h2="2594.498 -39.017"/>
+    </curve>
+    <curve channel="LocY" interpolation="bezier" extend="cyclic">
+      <p c="42.000 -14.071" h1="38.408 -14.071" h2="45.592 -14.071"/>
+      <p c="51.201 3.284" h1="47.609 3.284" h2="58.228 3.284"/>
+      <p c="69.201 2.527" h1="62.173 2.527" h2="70.762 2.527"/>
+      <p c="73.201 3.284" h1="71.639 3.284" h2="75.933 3.284"/>
+      <p c="80.201 1.361" h1="77.468 3.284" h2="84.495 -1.660"/>
+      <p c="91.201 -11.815" h1="86.906 -11.815" h2="95.495 -11.815"/>
+    </curve>
+    <curve channel="ScaleX" interpolation="bezier" extend="cyclic">
+      <p c="42.000 4.113" h1="38.408 4.113" h2="45.592 4.113"/>
+      <p c="51.201 0.000" h1="47.609 0.000" h2="58.228 0.000"/>
+      <p c="69.201 0.000" h1="62.173 0.000" h2="70.762 0.000"/>
+      <p c="73.201 1.947" h1="71.639 1.386" h2="75.933 2.929"/>
+      <p c="80.201 3.568" h1="77.468 2.862" h2="84.495 4.678"/>
+      <p c="91.201 6.706" h1="86.906 6.706" h2="95.495 6.706"/>
+    </curve>
+    <curve channel="ScaleZ" interpolation="bezier" extend="cyclic">
+      <p c="42.000 5.384" h1="38.408 5.384" h2="45.592 5.384"/>
+      <p c="51.201 0.000" h1="47.609 0.000" h2="58.228 0.000"/>
+      <p c="69.201 0.000" h1="62.173 0.000" h2="70.762 0.000"/>
+      <p c="73.201 3.894" h1="71.639 3.289" h2="75.933 4.953"/>
+      <p c="80.201 4.953" h1="77.468 4.415" h2="84.495 5.798"/>
+      <p c="91.201 7.617" h1="86.906 7.617" h2="95.495 7.617"/>
+    </curve>
+    <curve channel="ScaleY" interpolation="bezier" extend="cyclic">
+      <p c="42.000 7.979" h1="38.408 7.979" h2="45.592 7.979"/>
+      <p c="51.201 0.000" h1="47.609 0.000" h2="58.228 0.000"/>
+      <p c="69.201 0.000" h1="62.173 0.000" h2="70.762 0.000"/>
+      <p c="73.201 1.947" h1="71.639 1.043" h2="75.933 3.528"/>
+      <p c="80.201 6.640" h1="77.468 4.838" h2="84.495 9.472"/>
+      <p c="91.201 13.774" h1="86.906 13.774" h2="95.495 13.774"/>
+    </curve>
+  </object>
+  <object id="Plane.058" type="animation" xyz="167.29 6.22 -43.49" hpr="-93.4 -156.7 2.4" scale="1.00 1.00 1.00" interaction="ghost" model="lava_flows.spm" skeletal-animation="false">
+    <animated-texture name="lava_2k_diffuse.jpg" dy="-0.08000" />
+  </object>
+  <object id="lava_splash_02" type="animation" xyz="158.90 -2.93 43.25" hpr="90.0 -67.4 0.0" scale="0.00 0.00 0.00" interaction="ghost" model="lava_splash_02.spm" skeletal-animation="false">
+    <curve channel="LocX" interpolation="bezier" extend="cyclic">
+      <p c="2610.408 158.899" h1="2603.381 158.899" h2="2617.436 158.899"/>
+      <p c="2628.408 158.899" h1="2621.381 158.899" h2="2629.970 158.899"/>
+      <p c="2632.408 158.899" h1="2630.846 158.899" h2="2635.141 158.899"/>
+      <p c="2639.408 158.899" h1="2636.675 158.899" h2="2643.703 158.899"/>
+      <p c="2650.408 158.899" h1="2646.114 158.899" h2="2654.703 158.899"/>
+    </curve>
+    <curve channel="LocZ" interpolation="bezier" extend="cyclic">
+      <p c="2610.408 43.255" h1="2603.381 43.255" h2="2617.436 43.255"/>
+      <p c="2628.408 43.255" h1="2621.381 43.255" h2="2629.970 43.255"/>
+      <p c="2632.408 43.255" h1="2630.846 43.255" h2="2635.141 43.255"/>
+      <p c="2639.408 43.255" h1="2636.675 43.255" h2="2643.703 43.255"/>
+      <p c="2650.408 43.255" h1="2646.114 43.255" h2="2654.703 43.255"/>
+    </curve>
+    <curve channel="LocY" interpolation="bezier" extend="cyclic">
+      <p c="111.406 -2.512" h1="104.378 -2.512" h2="118.433 -2.512"/>
+      <p c="129.406 -3.268" h1="122.378 -3.268" h2="130.967 -3.268"/>
+      <p c="133.406 -2.512" h1="131.844 -2.512" h2="136.139 -2.512"/>
+      <p c="140.406 -4.435" h1="137.673 -2.512" h2="144.700 -7.456"/>
+      <p c="151.406 -17.610" h1="147.111 -17.610" h2="155.700 -17.610"/>
+    </curve>
+    <curve channel="ScaleX" interpolation="bezier" extend="cyclic">
+      <p c="111.406 0.000" h1="104.378 0.000" h2="118.433 0.000"/>
+      <p c="129.406 0.000" h1="122.378 0.000" h2="130.967 0.000"/>
+      <p c="133.406 1.947" h1="131.844 1.386" h2="136.139 2.929"/>
+      <p c="140.406 3.568" h1="137.673 2.862" h2="144.700 4.678"/>
+      <p c="151.406 6.706" h1="147.111 6.706" h2="155.700 6.706"/>
+    </curve>
+    <curve channel="ScaleZ" interpolation="bezier" extend="cyclic">
+      <p c="111.406 0.000" h1="104.378 0.000" h2="118.433 0.000"/>
+      <p c="129.406 0.000" h1="122.378 0.000" h2="130.967 0.000"/>
+      <p c="133.406 3.894" h1="131.844 3.289" h2="136.139 4.953"/>
+      <p c="140.406 4.953" h1="137.673 4.415" h2="144.700 5.798"/>
+      <p c="151.406 7.617" h1="147.111 7.617" h2="155.700 7.617"/>
+    </curve>
+    <curve channel="ScaleY" interpolation="bezier" extend="cyclic">
+      <p c="111.406 0.000" h1="104.378 0.000" h2="118.433 0.000"/>
+      <p c="129.406 0.000" h1="122.378 0.000" h2="130.967 0.000"/>
+      <p c="133.406 1.947" h1="131.844 1.043" h2="136.139 3.528"/>
+      <p c="140.406 6.640" h1="137.673 4.838" h2="144.700 9.472"/>
+      <p c="151.406 13.774" h1="147.111 13.774" h2="155.700 13.774"/>
+    </curve>
+  </object>
+  <object id="lava_splash_01" type="animation" xyz="143.70 -3.02 28.06" hpr="90.0 -67.4 0.0" scale="0.00 0.00 0.00" interaction="ghost" model="lava_splash_01.spm" skeletal-animation="false">
+    <curve channel="LocX" interpolation="bezier" extend="cyclic">
+      <p c="70.000 143.702" h1="62.582 143.702" h2="77.418 143.702"/>
+      <p c="89.000 143.702" h1="81.582 143.702" h2="96.027 143.702"/>
+      <p c="107.000 143.702" h1="99.973 143.702" h2="108.562 143.702"/>
+      <p c="111.000 143.702" h1="109.438 143.702" h2="113.733 143.702"/>
+      <p c="118.000 143.702" h1="115.267 143.702" h2="122.295 143.702"/>
+      <p c="129.000 143.702" h1="124.705 143.702" h2="133.295 143.702"/>
+    </curve>
+    <curve channel="LocZ" interpolation="bezier" extend="cyclic">
+      <p c="70.000 28.057" h1="62.582 28.057" h2="77.418 28.057"/>
+      <p c="89.000 28.057" h1="81.582 28.057" h2="96.027 28.057"/>
+      <p c="107.000 28.057" h1="99.973 28.057" h2="108.562 28.057"/>
+      <p c="111.000 28.057" h1="109.438 28.057" h2="113.733 28.057"/>
+      <p c="118.000 28.057" h1="115.267 28.057" h2="122.295 28.057"/>
+      <p c="129.000 28.057" h1="124.705 28.057" h2="133.295 28.057"/>
+    </curve>
+    <curve channel="LocY" interpolation="bezier" extend="cyclic">
+      <p c="70.000 -2.512" h1="62.582 -2.512" h2="77.418 -2.512"/>
+      <p c="89.000 -2.512" h1="81.582 -2.512" h2="96.027 -2.512"/>
+      <p c="107.000 -3.268" h1="99.973 -3.268" h2="108.562 -3.268"/>
+      <p c="111.000 -2.512" h1="109.438 -2.512" h2="113.733 -2.512"/>
+      <p c="118.000 -4.435" h1="115.267 -2.512" h2="122.295 -7.456"/>
+      <p c="129.000 -17.610" h1="124.705 -17.610" h2="133.295 -17.610"/>
+    </curve>
+    <curve channel="ScaleX" interpolation="bezier" extend="cyclic">
+      <p c="70.000 0.000" h1="62.582 0.000" h2="77.418 0.000"/>
+      <p c="89.000 0.000" h1="81.582 0.000" h2="96.027 0.000"/>
+      <p c="107.000 0.000" h1="99.973 0.000" h2="108.562 0.000"/>
+      <p c="111.000 1.947" h1="109.438 1.386" h2="113.733 2.929"/>
+      <p c="118.000 3.568" h1="115.267 2.862" h2="122.295 4.678"/>
+      <p c="129.000 6.706" h1="124.705 6.706" h2="133.295 6.706"/>
+    </curve>
+    <curve channel="ScaleZ" interpolation="bezier" extend="cyclic">
+      <p c="70.000 0.000" h1="62.582 0.000" h2="77.418 0.000"/>
+      <p c="89.000 0.000" h1="81.582 0.000" h2="96.027 0.000"/>
+      <p c="107.000 0.000" h1="99.973 0.000" h2="108.562 0.000"/>
+      <p c="111.000 3.894" h1="109.438 3.289" h2="113.733 4.953"/>
+      <p c="118.000 4.953" h1="115.267 4.415" h2="122.295 5.798"/>
+      <p c="129.000 7.617" h1="124.705 7.617" h2="133.295 7.617"/>
+    </curve>
+    <curve channel="ScaleY" interpolation="bezier" extend="cyclic">
+      <p c="70.000 0.000" h1="62.582 0.000" h2="77.418 0.000"/>
+      <p c="89.000 0.000" h1="81.582 0.000" h2="96.027 0.000"/>
+      <p c="107.000 0.000" h1="99.973 0.000" h2="108.562 0.000"/>
+      <p c="111.000 1.947" h1="109.438 1.043" h2="113.733 3.528"/>
+      <p c="118.000 6.640" h1="115.267 4.838" h2="122.295 9.472"/>
+      <p c="129.000 13.774" h1="124.705 13.774" h2="133.295 13.774"/>
+    </curve>
+  </object>
+  <object id="fire" type="animation" xyz="187.33 23.30 176.45" hpr="-0.0 -63.0 0.0" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.020" type="animation" xyz="-41.46 2.46 97.82" hpr="0.0 -30.4 0.0" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.022" type="animation" xyz="1.14 6.31 59.31" hpr="-11.0 130.2 -7.0" scale="0.81 0.81 0.81" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="Cube.046" type="animation" xyz="214.89 18.56 177.35" hpr="0.1 -22.7 -0.3" scale="1.00 0.50 1.00" interaction="ghost" model="stone_bridge.spm" skeletal-animation="false">
+  </object>
+  <object id="barrel_high" type="animation" xyz="107.29 -23.79 -110.64" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="nitro_big_anim.spm" glow="0 139 255" skeletal-animation="false">
+    <curve channel="LocX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 104.773" h1="1.000 104.773" h2="1.000 104.773"/>
+      <p c="200.000 117.304" h1="200.000 117.304" h2="200.000 117.304"/>
+      <p c="220.000 118.874" h1="220.000 118.874" h2="220.000 118.874"/>
+    </curve>
+    <curve channel="LocZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -104.079" h1="1.000 -104.079" h2="1.000 -104.079"/>
+      <p c="200.000 -136.740" h1="200.000 -136.740" h2="200.000 -136.740"/>
+      <p c="220.000 -140.288" h1="220.000 -140.288" h2="220.000 -140.288"/>
+    </curve>
+    <curve channel="LocY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -22.608" h1="1.000 -22.608" h2="1.000 -22.608"/>
+      <p c="200.000 -28.476" h1="200.000 -28.476" h2="200.000 -28.476"/>
+      <p c="220.000 -43.988" h1="220.000 -43.988" h2="220.000 -43.988"/>
+    </curve>
+  </object>
+  <object id="Cube.020" type="animation" xyz="145.42 5.56 -171.38" hpr="91.2 -36.0 87.9" scale="1.11 1.00 1.11" interaction="ghost" model="random_chair.spm" skeletal-animation="false">
+  </object>
+  <object id="Plane.118" type="animation" xyz="318.49 0.57 -20.13" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="speedBoostChecker_01_forward.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="stkflag_yellowCheckBoard_a.png" dx="-0.50000"  dy="0.80000" />
+  </object>
+  <object id="Plane.117" type="animation" xyz="318.49 0.59 -20.13" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="speedBoostArrows_01_forward.spm" skeletal-animation="false" if="isTrackNotReverse">
+    <animated-texture name="stkflag_orangeBooster_a.png" dy="0.80000" />
+  </object>
+  <object id="Caveira.001" type="animation" xyz="323.03 19.82 -3.84" hpr="180.0 -0.0 0.0" scale="1.27 1.27 1.27" interaction="explode" shape="exact" model="SomeModel.spm" explode="y" skeletal-animation="false">
+  </object>
+  <object id="fire.005" type="animation" xyz="338.98 8.66 -49.44" hpr="0.0 44.0 0.0" scale="1.62 1.62 1.62" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.004" type="animation" xyz="338.98 8.66 34.56" hpr="0.0 44.0 0.0" scale="1.62 1.62 1.62" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.003" type="animation" xyz="338.98 8.66 6.56" hpr="0.0 44.0 0.0" scale="1.62 1.62 1.62" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.002" type="animation" xyz="338.98 8.66 -21.44" hpr="0.0 44.0 0.0" scale="1.62 1.62 1.62" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.014" type="animation" xyz="330.88 8.22 44.87" hpr="0.8 48.6 6.8" scale="1.62 1.62 1.62" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.019" type="animation" xyz="345.24 7.77 53.27" hpr="-19.5 114.4 -14.8" scale="1.62 1.62 1.62" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="Plane.007" type="animation" xyz="318.49 0.59 -20.13" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="speedBoostArrows_01_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="stkflag_orangeBooster_a.png" dy="0.80000" />
+  </object>
+  <object id="Plane.008" type="animation" xyz="318.49 0.57 -20.13" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="speedBoostChecker_01_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+    <animated-texture name="stkflag_yellowCheckBoard_a.png" dx="-0.50000"  dy="0.80000" />
+  </object>
+  <object id="fire.015" type="animation" xyz="280.70 49.07 217.29" hpr="-0.0 -46.0 -8.6" scale="0.70 0.70 0.70" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.021" type="animation" xyz="267.99 50.98 217.11" hpr="-0.0 -46.0 -8.6" scale="0.70 0.70 0.70" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.023" type="animation" xyz="255.39 52.88 216.95" hpr="-0.0 -46.0 -8.6" scale="0.70 0.70 0.70" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="Caveira.003" type="animation" xyz="284.07 48.50 218.98" hpr="-0.0 32.6 -180.0" scale="0.29 0.29 0.29" interaction="explode" shape="exact" model="SomeModel.spm" explode="y" skeletal-animation="false">
+  </object>
+  <object id="Caveira.004" type="animation" xyz="76.34 -2.00 26.78" hpr="58.6 -109.1 -0.0" scale="1.00 1.00 1.00" interaction="explode" shape="exact" model="SomeModel.spm" explode="y" skeletal-animation="false">
+  </object>
+  <object id="Caveira.005" type="animation" xyz="290.69 6.88 -36.47" hpr="180.0 58.6 -0.0" scale="1.27 1.27 1.27" interaction="explode" shape="exact" model="SomeModel.spm" explode="y" skeletal-animation="false">
+  </object>
+  <object id="fire.024" type="animation" xyz="106.45 11.78 -138.07" hpr="-0.0 -46.0 0.1" scale="0.70 0.70 0.70" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.025" type="animation" xyz="100.14 10.90 -158.21" hpr="-0.0 134.0 -0.1" scale="0.70 0.70 0.70" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.026" type="animation" xyz="215.13 11.84 -143.45" hpr="0.1 157.5 -0.1" scale="0.70 0.70 0.70" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.027" type="animation" xyz="162.18 11.08 -191.41" hpr="0.2 38.7 0.1" scale="0.70 0.70 0.70" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.028" type="animation" xyz="168.73 14.06 -234.09" hpr="0.0 136.6 -0.1" scale="0.70 0.70 0.70" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.029" type="animation" xyz="223.45 11.84 -147.24" hpr="0.1 159.8 -0.1" scale="0.70 0.70 0.70" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.030" type="animation" xyz="209.99 11.84 -142.79" hpr="1.2 84.8 1.1" scale="0.70 0.70 0.70" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.031" type="animation" xyz="230.07 4.73 -174.44" hpr="0.1 -167.3 -0.1" scale="0.46 0.46 0.46" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.033" type="animation" xyz="234.78 3.75 -162.06" hpr="0.1 -13.1 0.1" scale="0.46 0.46 0.46" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.034" type="animation" xyz="239.80 4.32 -166.41" hpr="0.1 12.5 0.1" scale="0.46 0.46 0.46" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.035" type="animation" xyz="243.00 3.52 -171.56" hpr="0.1 18.1 0.1" scale="0.46 0.46 0.46" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.036" type="animation" xyz="249.07 1.12 -192.76" hpr="-32.7 140.8 -26.0" scale="0.46 0.46 0.46" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="fire.037" type="animation" xyz="273.41 3.85 -182.39" hpr="-0.5 75.7 -0.6" scale="0.46 0.46 0.46" interaction="ghost" model="stklib_aztekTorch_a_main.spm" skeletal-animation="false">
+    <animated-texture name="stktex_animatedFire_a.png" dy="0.06250"  animByStep="true" dt="0.050" />
+  </object>
+  <object id="Plane.044" type="animation" xyz="-62.87 -2.32 48.54" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="cava_lava_disp_ghost.spm" skeletal-animation="false">
+    <curve channel="LocX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -62.873" h1="-18.130 -62.873" h2="20.130 -62.873"/>
+      <p c="50.000 -62.873" h1="30.870 -62.873" h2="69.521 -62.873"/>
+      <p c="100.000 -62.873" h1="80.479 -62.873" h2="119.521 -62.873"/>
+    </curve>
+    <curve channel="LocZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 48.538" h1="-18.130 48.538" h2="20.130 48.538"/>
+      <p c="50.000 48.538" h1="30.870 48.538" h2="69.521 48.538"/>
+      <p c="100.000 48.538" h1="80.479 48.538" h2="119.521 48.538"/>
+    </curve>
+    <curve channel="LocY" interpolation="bezier" extend="cyclic">
+      <p c="15.850 -1.969" h1="2.459 -1.969" h2="29.241 -1.969"/>
+      <p c="50.150 -2.388" h1="36.759 -2.388" h2="63.814 -2.388"/>
+      <p c="85.150 -1.907" h1="71.486 -1.907" h2="98.814 -1.907"/>
+      <p c="131.893 -2.567" h1="118.502 -2.567" h2="145.557 -2.567"/>
+      <p c="180.726 -1.969" h1="167.062 -1.969" h2="194.391 -1.969"/>
+    </curve>
+  </object>
+  <object id="Plane.042" type="animation" xyz="167.28 6.38 -43.48" hpr="-93.4 -156.7 2.4" scale="1.00 1.00 1.00" interaction="ghost" model="lava_flows_ref.spm" skeletal-animation="false">
+  </object>
+  <object id="knock_player_supertux.002" type="animation" xyz="318.07 39.31 -45.03" hpr="90.0 0.0 -101.4" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_supertux.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultySuperTux">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="108.000 -58.000" h1="66.226 -58.000" h2="149.384 -58.000"/>
+      <p c="214.000 -120.000" h1="172.257 -120.000" h2="255.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_supertux.001" type="animation" xyz="318.07 39.31 -17.76" hpr="90.0 -0.0 -79.0" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_supertux.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultySuperTux">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -58.000" h1="-40.663 -58.000" h2="42.823 -58.000"/>
+      <p c="96.000 -120.000" h1="58.911 -120.000" h2="133.089 -120.000"/>
+      <p c="191.000 -58.000" h1="149.177 -58.000" h2="232.663 -58.000"/>
+    </curve>
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 450.000" h1="-36.089 450.000" h2="38.089 450.000"/>
+      <p c="96.000 450.000" h1="58.911 450.000" h2="133.089 450.000"/>
+      <p c="191.000 450.000" h1="153.911 450.000" h2="228.089 450.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-36.089 -0.000" h2="38.089 -0.000"/>
+      <p c="96.000 -0.000" h1="58.911 -0.000" h2="133.089 -0.000"/>
+      <p c="191.000 -0.000" h1="153.911 -0.000" h2="228.089 -0.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_supertux" type="animation" xyz="318.07 39.31 9.51" hpr="90.0 -0.0 -94.5" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_supertux.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultySuperTux">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="81.000 -58.000" h1="49.767 -58.000" h2="112.233 -58.000"/>
+      <p c="161.000 -120.000" h1="119.257 -120.000" h2="202.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_novice" type="animation" xyz="318.07 39.31 9.51" hpr="90.0 0.0 -107.2" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_novice.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultyNovice">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="161.000 -58.000" h1="98.534 -58.000" h2="223.466 -58.000"/>
+      <p c="321.000 -120.000" h1="279.257 -120.000" h2="362.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_novice.001" type="animation" xyz="318.07 39.31 -17.76" hpr="90.0 0.0 -69.0" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_novice.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultyNovice">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -58.000" h1="-40.663 -58.000" h2="42.823 -58.000"/>
+      <p c="191.000 -120.000" h1="116.822 -120.000" h2="265.178 -120.000"/>
+      <p c="381.000 -58.000" h1="339.177 -58.000" h2="422.663 -58.000"/>
+    </curve>
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 450.000" h1="-73.178 450.000" h2="75.178 450.000"/>
+      <p c="191.000 450.000" h1="116.822 450.000" h2="265.178 450.000"/>
+      <p c="381.000 450.000" h1="306.822 450.000" h2="455.178 450.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-73.178 -0.000" h2="75.178 -0.000"/>
+      <p c="191.000 -0.000" h1="116.822 -0.000" h2="265.178 -0.000"/>
+      <p c="381.000 -0.000" h1="306.822 -0.000" h2="455.178 -0.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_novice.002" type="animation" xyz="318.07 39.31 -45.03" hpr="90.0 -0.0 -110.0" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_novice.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultyNovice">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="215.000 -58.000" h1="131.452 -58.000" h2="297.767 -58.000"/>
+      <p c="427.000 -120.000" h1="385.257 -120.000" h2="468.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_intermediate" type="animation" xyz="318.07 39.31 9.51" hpr="90.0 0.0 -104.9" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_intermediate.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultyIntermediate">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="134.000 -58.000" h1="82.075 -58.000" h2="185.925 -58.000"/>
+      <p c="267.000 -120.000" h1="225.257 -120.000" h2="308.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_intermediate.001" type="animation" xyz="318.07 39.31 -17.76" hpr="90.0 0.0 -70.9" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_intermediate.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultyIntermediate">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -58.000" h1="-40.663 -58.000" h2="42.823 -58.000"/>
+      <p c="159.000 -120.000" h1="97.315 -120.000" h2="220.295 -120.000"/>
+      <p c="316.000 -58.000" h1="274.177 -58.000" h2="357.663 -58.000"/>
+    </curve>
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 450.000" h1="-60.295 450.000" h2="62.685 450.000"/>
+      <p c="159.000 450.000" h1="97.315 450.000" h2="220.295 450.000"/>
+      <p c="316.000 450.000" h1="254.705 450.000" h2="377.685 450.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-60.295 -0.000" h2="62.685 -0.000"/>
+      <p c="159.000 -0.000" h1="97.315 -0.000" h2="220.295 -0.000"/>
+      <p c="316.000 -0.000" h1="254.705 -0.000" h2="377.685 -0.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_intermediate.002" type="animation" xyz="318.07 39.31 -45.03" hpr="90.0 0.0 -108.4" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_intermediate.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultyIntermediate">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="179.000 -58.000" h1="109.507 -58.000" h2="247.712 -58.000"/>
+      <p c="355.000 -120.000" h1="313.257 -120.000" h2="396.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_expert" type="animation" xyz="318.07 39.31 9.51" hpr="90.0 -0.0 -99.2" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_expert.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultyExpert">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="97.000 -58.000" h1="59.520 -58.000" h2="134.480 -58.000"/>
+      <p c="193.000 -120.000" h1="151.257 -120.000" h2="234.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_expert.001" type="animation" xyz="318.07 39.31 -17.76" hpr="90.0 -0.0 -75.4" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_expert.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultyExpert">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -58.000" h1="-40.663 -58.000" h2="42.823 -58.000"/>
+      <p c="115.000 -120.000" h1="70.493 -120.000" h2="159.507 -120.000"/>
+      <p c="229.000 -58.000" h1="187.177 -58.000" h2="270.663 -58.000"/>
+    </curve>
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 450.000" h1="-43.507 450.000" h2="45.507 450.000"/>
+      <p c="115.000 450.000" h1="70.493 450.000" h2="159.507 450.000"/>
+      <p c="229.000 450.000" h1="184.493 450.000" h2="273.507 450.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-43.507 -0.000" h2="45.507 -0.000"/>
+      <p c="115.000 -0.000" h1="70.493 -0.000" h2="159.507 -0.000"/>
+      <p c="229.000 -0.000" h1="184.493 -0.000" h2="273.507 -0.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_expert.002" type="animation" xyz="318.07 39.31 -45.03" hpr="90.0 0.0 -104.4" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_expert.spm" explode="y" skeletal-animation="false" if="isTrackNotReverseAndDifficultyExpert">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="129.000 -58.000" h1="79.027 -58.000" h2="178.973 -58.000"/>
+      <p c="257.000 -120.000" h1="215.257 -120.000" h2="298.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_supertux_reverse" type="animation" xyz="318.07 39.31 -17.72" hpr="90.0 0.0 -101.4" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_supertux_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultySuperTux">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="108.000 -58.000" h1="66.226 -58.000" h2="149.384 -58.000"/>
+      <p c="214.000 -120.000" h1="172.257 -120.000" h2="255.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_supertux_reverse.001" type="animation" xyz="318.07 39.31 -44.94" hpr="90.0 -0.0 -79.0" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_supertux_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultySuperTux">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -58.000" h1="-40.663 -58.000" h2="42.823 -58.000"/>
+      <p c="96.000 -120.000" h1="58.911 -120.000" h2="133.089 -120.000"/>
+      <p c="191.000 -58.000" h1="149.177 -58.000" h2="232.663 -58.000"/>
+    </curve>
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 450.000" h1="-36.089 450.000" h2="38.089 450.000"/>
+      <p c="96.000 450.000" h1="58.911 450.000" h2="133.089 450.000"/>
+      <p c="191.000 450.000" h1="153.911 450.000" h2="228.089 450.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-36.089 -0.000" h2="38.089 -0.000"/>
+      <p c="96.000 -0.000" h1="58.911 -0.000" h2="133.089 -0.000"/>
+      <p c="191.000 -0.000" h1="153.911 -0.000" h2="228.089 -0.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_supertux_reverse.002" type="animation" xyz="318.07 39.31 -79.17" hpr="90.0 -0.0 -94.5" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_supertux_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultySuperTux">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="81.000 -58.000" h1="49.767 -58.000" h2="112.233 -58.000"/>
+      <p c="161.000 -120.000" h1="119.257 -120.000" h2="202.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_novice_reverse.002" type="animation" xyz="318.07 39.31 -79.17" hpr="90.0 0.0 -107.2" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_novice_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultyNovice">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="161.000 -58.000" h1="98.534 -58.000" h2="223.466 -58.000"/>
+      <p c="321.000 -120.000" h1="279.257 -120.000" h2="362.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_novice_reverse.001" type="animation" xyz="318.07 39.31 -44.94" hpr="90.0 0.0 -69.0" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_novice_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultyNovice">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -58.000" h1="-40.663 -58.000" h2="42.823 -58.000"/>
+      <p c="191.000 -120.000" h1="116.822 -120.000" h2="265.178 -120.000"/>
+      <p c="381.000 -58.000" h1="339.177 -58.000" h2="422.663 -58.000"/>
+    </curve>
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 450.000" h1="-73.178 450.000" h2="75.178 450.000"/>
+      <p c="191.000 450.000" h1="116.822 450.000" h2="265.178 450.000"/>
+      <p c="381.000 450.000" h1="306.822 450.000" h2="455.178 450.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-73.178 -0.000" h2="75.178 -0.000"/>
+      <p c="191.000 -0.000" h1="116.822 -0.000" h2="265.178 -0.000"/>
+      <p c="381.000 -0.000" h1="306.822 -0.000" h2="455.178 -0.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_novice_reverse" type="animation" xyz="318.07 39.31 -17.72" hpr="90.0 -0.0 -110.0" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_novice_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultyNovice">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="215.000 -58.000" h1="131.452 -58.000" h2="297.767 -58.000"/>
+      <p c="427.000 -120.000" h1="385.257 -120.000" h2="468.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_intermediate_reverse.002" type="animation" xyz="318.07 39.31 -79.17" hpr="90.0 0.0 -104.9" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_intermediate_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultyIntermediate">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="134.000 -58.000" h1="82.075 -58.000" h2="185.925 -58.000"/>
+      <p c="267.000 -120.000" h1="225.257 -120.000" h2="308.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_intermediate_reverse.001" type="animation" xyz="318.07 39.31 -44.94" hpr="90.0 0.0 -70.9" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_intermediate_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultyIntermediate">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -58.000" h1="-40.663 -58.000" h2="42.823 -58.000"/>
+      <p c="159.000 -120.000" h1="97.315 -120.000" h2="220.295 -120.000"/>
+      <p c="316.000 -58.000" h1="274.177 -58.000" h2="357.663 -58.000"/>
+    </curve>
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 450.000" h1="-60.295 450.000" h2="62.685 450.000"/>
+      <p c="159.000 450.000" h1="97.315 450.000" h2="220.295 450.000"/>
+      <p c="316.000 450.000" h1="254.705 450.000" h2="377.685 450.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-60.295 -0.000" h2="62.685 -0.000"/>
+      <p c="159.000 -0.000" h1="97.315 -0.000" h2="220.295 -0.000"/>
+      <p c="316.000 -0.000" h1="254.705 -0.000" h2="377.685 -0.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_intermediate_reverse" type="animation" xyz="318.07 39.31 -17.72" hpr="90.0 0.0 -108.4" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_intermediate_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultyIntermediate">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="179.000 -58.000" h1="109.507 -58.000" h2="247.712 -58.000"/>
+      <p c="355.000 -120.000" h1="313.257 -120.000" h2="396.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_expert_reverse.002" type="animation" xyz="318.07 39.31 -79.17" hpr="90.0 -0.0 -99.2" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_expert_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultyExpert">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="97.000 -58.000" h1="59.520 -58.000" h2="134.480 -58.000"/>
+      <p c="193.000 -120.000" h1="151.257 -120.000" h2="234.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_expert_reverse.001" type="animation" xyz="318.07 39.31 -44.94" hpr="90.0 -0.0 -75.4" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_expert_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultyExpert">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -58.000" h1="-40.663 -58.000" h2="42.823 -58.000"/>
+      <p c="115.000 -120.000" h1="70.493 -120.000" h2="159.507 -120.000"/>
+      <p c="229.000 -58.000" h1="187.177 -58.000" h2="270.663 -58.000"/>
+    </curve>
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 450.000" h1="-43.507 450.000" h2="45.507 450.000"/>
+      <p c="115.000 450.000" h1="70.493 450.000" h2="159.507 450.000"/>
+      <p c="229.000 450.000" h1="184.493 450.000" h2="273.507 450.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-43.507 -0.000" h2="45.507 -0.000"/>
+      <p c="115.000 -0.000" h1="70.493 -0.000" h2="159.507 -0.000"/>
+      <p c="229.000 -0.000" h1="184.493 -0.000" h2="273.507 -0.000"/>
+    </curve>
+  </object>
+  <object id="knock_player_expert_reverse" type="animation" xyz="318.07 39.31 -17.72" hpr="90.0 0.0 -104.4" scale="2.44 2.44 2.44" interaction="explode" shape="cylinderX" model="knock_player_expert_reverse.spm" explode="y" skeletal-animation="false" if="isTrackReverseAndDifficultyExpert">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -120.000" h1="-40.743 -120.000" h2="42.743 -120.000"/>
+      <p c="129.000 -58.000" h1="79.027 -58.000" h2="178.973 -58.000"/>
+      <p c="257.000 -120.000" h1="215.257 -120.000" h2="298.743 -120.000"/>
+    </curve>
+  </object>
+  <object id="Cube.175" type="animation" xyz="-109.59 16.35 -3.42" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="brokenSection_chains_forward.spm" skeletal-animation="false" if="isTrackNotReverse">
+  </object>
+  <object id="chains_reverse" type="animation" xyz="-110.08 17.53 -4.85" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="brokenSection_chains_reverse.spm" skeletal-animation="false" if="isTrackReverse">
+  </object>
+  <sun  fog="true" fog-color="15 6 6" fog-max="0.20000000298023224" fog-start="15.00" fog-end="200.00" xyz="-492.68 253.30 149.05" sun-specular="255 158 98" sun-diffuse="255 107 56" ambient="120 102 97"/>
+  <sky-box texture="magma_sky_t.jpg magma_sky_bottom.jpg magma_sky_e.jpg magma_sky_w.jpg magma_sky_s.jpg magma_sky_n.jpg" sh-texture="alm_magma_sky_t.png alm_magma_sky_bottom.png alm_magma_sky_e.png alm_magma_sky_w.png alm_magma_sky_s.png alm_magma_sky_n.png"/>
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="3" />
+    <check-line kind="activate" other-ids="0" p1="334.83 0.57 -85.54" p2="302.92 0.57 -85.54"
+                same-group="1"/>
+    <check-line kind="activate" other-ids="1" p1="-37.07 5.01 -121.37" p2="-37.07 5.01 -89.46"
+                same-group="2"/>
+    <check-line kind="activate" other-ids="2" p1="97.04 0.61 54.66" p2="151.45 0.61 54.66"
+                same-group="3"/>
+  </checks>
+  <particle-emitter kind="black_smoke_modified_b.xml" id="Empty.022" xyz="238.01 13.53 188.78" h="-50.21" >
+  </particle-emitter>
+  <particle-emitter kind="black_smoke_modified_b.xml" id="Empty.002" xyz="227.26 13.53 159.26" h="-50.21" >
+  </particle-emitter>
+  <particle-emitter kind="black_smoke_modified.xml" id="Empty.009" xyz="60.02 77.21 107.66" h="31.18" >
+  </particle-emitter>
+  <particle-emitter kind="black_smoke_modified.xml" id="Empty.008" xyz="63.40 178.02 102.08" h="31.18" >
+  </particle-emitter>
+  <particle-emitter kind="black_smoke_modified.xml" id="Empty.001" xyz="68.31 77.21 93.96" h="31.18" >
+  </particle-emitter>
+  <particle-emitter kind="smoke_red.xml" id="Empty" xyz="-189.02 4.79 200.66" h="0.00" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.042" xyz="1.40 12.73 -93.03" h="205.37" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.041" xyz="19.42 12.74 -92.49" h="205.37" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.040" xyz="39.22 12.76 -91.91" h="205.37" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.037" xyz="40.30 12.22 -114.62" h="25.37" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.036" xyz="20.37 12.24 -115.23" h="25.37" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.035" xyz="1.67 12.24 -115.79" h="25.37" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.034" xyz="175.46 23.50 146.47" h="50.68" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.033" xyz="191.71 24.07 153.56" h="64.67" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.032" xyz="168.17 24.07 170.75" h="-139.98" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.031" xyz="-14.84 11.97 -100.43" h="205.37" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.030" xyz="-14.46 11.74 -109.39" h="25.37" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.020" xyz="-21.32 4.44 74.85" h="200.40" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.013" xyz="187.33 24.07 176.45" h="-139.98" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.015" xyz="-41.46 3.24 97.82" h="187.40" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.017" xyz="1.12 7.08 59.40" h="387.10" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.027" xyz="338.98 10.22 -49.44" h="113.00" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.026" xyz="338.98 10.22 34.56" h="113.00" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.025" xyz="338.98 10.22 6.56" h="113.00" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.024" xyz="338.98 10.22 -21.44" h="113.00" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.047" xyz="330.71 9.77 44.89" h="108.28" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.048" xyz="345.16 9.32 53.49" h="43.36" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.014" xyz="280.80 49.74 217.29" h="203.23" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.016" xyz="268.09 51.65 217.11" h="203.23" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.018" xyz="255.49 53.54 216.95" h="203.23" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.019" xyz="106.45 12.45 -138.07" h="203.00" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.023" xyz="100.14 11.57 -158.21" h="383.00" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.039" xyz="215.13 12.51 -143.45" h="359.51" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.064" xyz="162.18 11.76 -191.41" h="478.28" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.065" xyz="168.73 14.73 -234.09" h="380.38" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.038" xyz="223.45 12.51 -147.24" h="357.20" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.118" xyz="209.99 12.51 -142.79" h="432.23" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.125" xyz="230.07 5.17 -174.44" h="324.26" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.127" xyz="234.78 4.19 -162.05" h="530.12" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.128" xyz="239.80 4.76 -166.41" h="504.52" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.129" xyz="243.00 3.96 -171.56" h="498.90" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.130" xyz="249.10 1.51 -192.57" h="379.59" >
+  </particle-emitter>
+  <particle-emitter kind="fire.xml" id="Empty.131" xyz="273.41 4.29 -182.39" h="441.29" >
+  </particle-emitter>
+  <small-nitro id="Empty.066" x="-108.72" y="9.75" z="-7.70" />
+  <small-nitro id="Empty.067" x="-112.68" y="9.75" z="-7.70" />
+  <small-nitro id="Empty.068" x="-116.30" y="10.11" z="-7.70" />
+  <small-nitro id="Empty.069" x="-88.27" y="11.79" z="-114.28" h="90.00" />
+  <small-nitro id="Empty.070" x="-89.51" y="11.26" z="-110.02" h="90.00" />
+  <small-nitro id="Empty.071" x="-90.99" y="10.74" z="-106.23" h="90.00" />
+  <item id="Empty.072" x="-62.63" y="5.89" z="-110.30" />
+  <item id="Empty.073" x="-62.84" y="5.89" z="-106.33" />
+  <item id="Empty.074" x="-62.97" y="5.89" z="-102.46" />
+  <small-nitro id="Empty.075" x="9.68" y="5.67" z="-111.38" />
+  <item id="Empty.076" x="9.35" y="5.68" z="-104.02" />
+  <banana id="Empty.077" x="9.56" y="5.67" z="-107.74" />
+  <small-nitro id="Empty.078" x="9.16" y="5.67" z="-96.31" h="180.00" />
+  <banana id="Empty.079" x="9.28" y="5.67" z="-100.32" h="180.00" />
+  <small-nitro id="Empty.080" x="62.84" y="5.18" z="-90.64" />
+  <small-nitro id="Empty.081" x="59.44" y="5.18" z="-90.64" />
+  <small-nitro id="Empty.082" x="56.18" y="5.18" z="-90.64" />
+  <item id="Empty.083" x="60.21" y="5.71" z="-114.14" />
+  <item id="Empty.084" x="57.22" y="5.71" z="-114.14" />
+  <item id="Empty.085" x="63.31" y="5.71" z="-114.14" />
+  <item id="Empty.086" x="120.13" y="-27.82" z="-94.17" h="25.43" />
+  <small-nitro id="Empty.087" x="123.03" y="-28.12" z="-92.47" />
+  <small-nitro id="Empty.088" x="116.95" y="-28.12" z="-95.21" />
+  <small-nitro id="Empty.095" x="145.76" y="8.69" z="-179.69" />
+  <small-nitro id="Empty.096" x="145.88" y="8.69" z="-184.12" />
+  <small-nitro id="Empty.097" x="146.10" y="8.69" z="-188.34" />
+  <small-nitro id="Empty.098" x="146.25" y="8.69" z="-192.44" />
+  <small-nitro id="Empty.099" x="146.35" y="8.69" z="-196.04" />
+  <small-nitro id="Empty.100" x="93.54" y="4.89" z="-147.69" />
+  <small-nitro id="Empty.101" x="93.57" y="4.89" z="-151.28" />
+  <small-nitro id="Empty.102" x="93.69" y="4.89" z="-154.91" />
+  <small-nitro id="Empty.103" x="253.49" y="1.99" z="-183.12" />
+  <small-nitro id="Empty.104" x="253.08" y="1.99" z="-186.98" />
+  <small-nitro id="Empty.105" x="252.63" y="1.99" z="-191.41" />
+  <small-nitro id="Empty.106" x="204.12" y="4.93" z="-137.16" />
+  <small-nitro id="Empty.107" x="201.39" y="4.93" z="-134.08" />
+  <big-nitro id="Empty.108" x="198.80" y="5.82" z="-131.24" />
+  <item id="Empty.109" x="323.54" y="39.79" z="146.26" />
+  <item id="Empty.110" x="326.01" y="39.69" z="150.17" />
+  <item id="Empty.111" x="328.60" y="39.65" z="153.35" />
+  <item id="Empty.112" x="186.32" y="-17.27" z="-72.26" />
+  <item id="Empty.113" x="187.79" y="-17.30" z="-75.43" />
+  <item id="Empty.114" x="188.94" y="-17.35" z="-78.67" />
+  <small-nitro id="Empty.115" x="356.85" y="4.31" z="72.83" h="-0.00" />
+  <small-nitro id="Empty.116" x="354.57" y="4.61" z="77.19" h="-0.00" />
+  <small-nitro id="Empty.117" x="352.34" y="4.93" z="81.68" h="-0.00" />
+  <item id="Empty.119" x="324.58" y="0.76" z="50.16" h="-0.01" />
+  <item id="Empty.120" x="320.73" y="0.83" z="53.03" h="-0.01" />
+  <item id="Empty.121" x="316.86" y="0.90" z="55.62" h="-0.01" />
+  <item id="Empty.122" x="306.68" y="1.76" z="-134.89" h="-0.02" />
+  <item id="Empty.123" x="308.95" y="1.86" z="-137.02" h="-0.02" />
+  <item id="Empty.124" x="304.52" y="1.65" z="-132.72" h="-0.02" />
+  <small-nitro id="Empty.012" x="89.25" y="0.53" z="24.23" />
+  <small-nitro id="Empty.011" x="90.13" y="0.58" z="27.62" />
+  <big-nitro id="Empty.010" x="81.92" y="1.32" z="33.67" />
+  <item id="Empty.049" x="156.97" y="19.80" z="146.46" />
+  <item id="Empty.050" x="153.60" y="19.80" z="153.96" />
+  <item id="Empty.051" x="155.27" y="19.80" z="150.15" />
+  <small-nitro id="Empty.052" x="228.77" y="48.50" z="195.77" h="-46.27" />
+  <small-nitro id="Empty.053" x="225.39" y="52.50" z="199.50" h="-46.27" />
+  <small-nitro id="Empty.054" x="227.17" y="50.84" z="197.59" h="-46.27" />
+  <small-nitro id="Empty.055" x="129.45" y="0.74" z="73.06" />
+  <item id="Empty.056" x="124.59" y="0.76" z="74.33" />
+  <small-nitro id="Empty.057" x="120.06" y="0.85" z="74.01" />
+  <item id="Empty.058" x="25.73" y="1.05" z="40.15" h="19.95" />
+  <item id="Empty.059" x="27.51" y="1.05" z="43.71" h="19.95" />
+  <item id="Empty.060" x="28.82" y="1.05" z="47.37" h="19.95" />
+  <small-nitro id="Empty.061" x="-97.39" y="6.83" z="49.09" />
+  <small-nitro id="Empty.062" x="-100.39" y="6.83" z="50.39" />
+  <small-nitro id="Empty.063" x="-94.32" y="6.83" z="47.78" />
+  <small-nitro id="Empty.089" x="239.16" y="30.03" z="149.44" h="-46.27" />
+  <small-nitro id="Empty.090" x="234.01" y="37.80" z="139.07" h="-46.27" />
+  <small-nitro id="Empty.091" x="243.15" y="34.41" z="145.40" h="-46.27" />
+  <small-nitro id="Empty.092" x="249.13" y="30.73" z="157.79" h="-46.27" />
+  <small-nitro id="Empty.093" x="244.63" y="30.08" z="153.09" h="-46.27" />
+  <small-nitro id="Empty.094" x="236.67" y="33.65" z="144.26" h="-46.27" />
+  <object type="billboard" id="cloud_.021" texture="gfx_lavaCloudsAnimated.png" xyz="-481.56 -2.06 3106.30" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.020" texture="gfx_lavaCloudsAnimated.png" xyz="-446.11 -2.06 3139.91" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.019" texture="gfx_lavaCloudsAnimated.png" xyz="-483.92 -2.06 3208.65" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.018" texture="gfx_lavaCloudsAnimated.png" xyz="-483.92 -2.06 3208.65" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.017" texture="gfx_lavaCloudsAnimated.png" xyz="-465.15 -2.07 3190.83" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.016" texture="gfx_lavaCloudsAnimated.png" xyz="-495.18 -2.05 3193.66" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.015" texture="gfx_lavaCloudsAnimated.png" xyz="-425.25 -2.10 3179.55" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.014" texture="gfx_lavaCloudsAnimated.png" xyz="-454.82 -2.08 3206.75" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.013" texture="gfx_lavaCloudsAnimated.png" xyz="-411.64 -2.11 3144.85" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.012" texture="gfx_lavaCloudsAnimated.png" xyz="-473.22 -2.12 3134.38" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.011" texture="gfx_lavaCloudsAnimated.png" xyz="-449.98 -2.11 3069.70" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.010" texture="gfx_lavaCloudsAnimated.png" xyz="-436.29 -5.96 3092.84" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <object type="billboard" id="cloud_.009" texture="gfx_lavaCloudsAnimated.png" xyz="-418.61 -2.11 3121.22" 
+             width="6.859" height="0.000" fadeout="true" start="1.00" end="15.00">
+  </object>
+  <light xyz="209.68 54.50 183.29" id="Light.007" distance="6.00" energy="2.00" color="255 83 3">
+  </light>
+  <light xyz="207.58 53.29 176.94" id="Light.008" distance="6.00" energy="2.00" color="255 83 3">
+  </light>
+  <light xyz="223.07 44.05 138.14" id="Light.009" distance="6.00" energy="2.00" color="255 83 3">
+  </light>
+  <light xyz="228.29 43.39 137.55" id="Light.010" distance="6.00" energy="2.00" color="255 83 3">
+  </light>
+  <light xyz="250.26 32.84 161.70" id="Light.011" distance="6.00" energy="2.00" color="255 83 3">
+  </light>
+  <light xyz="249.56 31.50 166.90" id="Light.012" distance="6.00" energy="2.00" color="255 83 3">
+  </light>
+  <light xyz="107.09 2.80 18.22" id="Light.013" distance="6.00" energy="2.00" color="255 83 3" if="isTrackNotReverse">
+  </light>
+  <light xyz="112.05 2.83 18.43" id="Light.014" distance="6.00" energy="2.00" color="255 83 3" if="isTrackNotReverse">
+  </light>
+  <light xyz="-53.55 2.30 96.66" id="Light.015" distance="6.00" energy="2.00" color="255 83 3">
+  </light>
+  <light xyz="-58.34 2.34 94.00" id="Light.016" distance="6.00" energy="2.00" color="255 83 3">
+  </light>
+  <light xyz="112.94 2.89 23.05" id="Light.017" distance="6.00" energy="2.00" color="255 83 3" if="isTrackReverse">
+  </light>
+  <light xyz="108.95 2.76 19.76" id="Light.018" distance="6.00" energy="2.00" color="255 83 3" if="isTrackReverse">
+  </light>
+  <light xyz="215.48 15.29 -109.86" id="Light.019" distance="50.00" energy="1.00" color="255 52 11">
+  </light>
+  <light xyz="234.60 15.29 -118.39" id="Light.020" distance="50.00" energy="1.00" color="255 52 11">
+  </light>
+  <light xyz="207.28 13.30 -120.40" id="Light.021" distance="50.00" energy="1.00" color="255 52 11">
+  </light>
+  <light xyz="221.58 12.93 -118.69" id="Light.022" distance="50.00" energy="1.00" color="255 52 11">
+  </light>
+  <light xyz="245.10 14.36 -129.06" id="Light.023" distance="50.00" energy="1.00" color="255 52 11">
+  </light>
+  <light xyz="234.89 13.51 -121.96" id="Light.024" distance="50.00" energy="1.00" color="255 52 11">
+  </light>
+  <light xyz="215.86 9.85 -137.23" id="Light.025" distance="50.00" energy="1.00" color="255 52 11">
+  </light>
+  <light xyz="67.21 17.52 -97.96" id="Light" distance="30.00" energy="1.00" color="255 149 28">
+  </light>
+  <light xyz="67.38 17.54 -105.86" id="Light.001" distance="30.00" energy="1.00" color="255 149 28">
+  </light>
+  <light xyz="67.35 18.06 -101.92" id="Light.002" distance="30.00" energy="1.00" color="255 149 28">
+  </light>
+  <light xyz="359.29 18.65 76.77" id="Light.003" distance="10.00" energy="3.00" color="255 98 25">
+  </light>
+  <light xyz="349.92 18.55 82.03" id="Light.004" distance="10.00" energy="3.00" color="255 98 25">
+  </light>
+  <light xyz="345.16 9.32 53.49" id="Light.005" distance="20.00" energy="1.00" color="255 80 14">
+  </light>
+  <light xyz="330.71 9.77 44.89" id="Light.006" distance="20.00" energy="1.00" color="255 80 14">
+  </light>
+  <light xyz="43.83 -1.22 52.23" id="Point.060" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="51.77 -1.22 54.63" id="Point.059" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="59.28 -1.22 55.60" id="Point.058" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="65.98 -1.22 57.53" id="Point.057" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="71.22 -1.22 52.83" id="Point.056" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="99.32 -1.22 48.34" id="Point.055" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="94.83 -1.22 41.85" id="Point.054" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="74.72 -1.22 46.01" id="Point.053" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="90.00 -1.22 35.48" id="Point.052" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="90.57 -1.22 9.88" id="Point.051" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="83.61 -1.22 13.48" id="Point.050" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="84.23 -1.22 21.07" id="Point.049" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="86.63 -1.22 27.94" id="Point.048" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="73.42 -1.22 31.16" id="Point.047" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="70.53 -1.22 23.61" id="Point.046" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="64.32 -1.22 19.05" id="Point.045" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="57.09 -1.22 16.69" id="Point.044" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="49.34 -1.22 15.08" id="Point.043" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="41.56 -1.22 15.06" id="Point.042" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="35.30 -1.22 19.54" id="Point.035" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="5.95 -1.22 34.90" id="Point.034" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="10.56 -1.22 28.40" id="Point.033" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="17.85 -1.22 25.18" id="Point.032" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="25.44 -1.22 27.23" id="Point.031" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="33.30 -1.22 28.21" id="Point.030" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="40.59 -1.22 25.75" id="Point.029" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="1.58 -1.22 41.74" id="Point.028" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="35.41 -1.77 51.63" id="Point.041" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="30.21 -1.77 59.01" id="Point.040" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="25.42 -1.77 69.64" id="Point.039" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="21.46 -1.77 74.40" id="Point.038" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="27.99 -1.77 63.83" id="Point.037" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="32.56 -1.77 54.44" id="Point.036" distance="8.00" energy="3.00" color="255 29 0">
+  </light>
+  <light xyz="227.23 14.61 159.19" id="Point.064" distance="20.00" energy="10.00" color="255 29 0">
+  </light>
+  <light xyz="246.10 14.61 182.25" id="Point.063" distance="20.00" energy="10.00" color="255 29 0">
+  </light>
+  <light xyz="236.03 14.61 189.15" id="Point.062" distance="20.00" energy="10.00" color="255 29 0">
+  </light>
+  <light xyz="219.22 14.61 193.61" id="Point.061" distance="20.00" energy="10.00" color="255 29 0">
+  </light>
+  <light xyz="1.38 12.89 -93.08" id="Lamp.031" distance="20.00" energy="0.80" color="255 149 28">
+  </light>
+  <light xyz="19.39 12.91 -92.54" id="Lamp.030" distance="20.00" energy="0.80" color="255 149 28">
+  </light>
+  <light xyz="39.19 12.92 -91.96" id="Lamp.029" distance="20.00" energy="0.80" color="255 149 28">
+  </light>
+  <light xyz="40.33 12.38 -114.58" id="Lamp.025" distance="20.00" energy="0.80" color="255 149 28">
+  </light>
+  <light xyz="20.39 12.40 -115.19" id="Lamp.024" distance="20.00" energy="0.80" color="255 149 28">
+  </light>
+  <light xyz="1.69 12.40 -115.74" id="Lamp.023" distance="20.00" energy="0.80" color="255 149 28">
+  </light>
+  <light xyz="175.46 24.00 146.47" id="Lamp.022" distance="30.00" energy="1.30" color="255 149 28">
+  </light>
+  <light xyz="191.71 24.57 153.56" id="Lamp.021" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="168.17 24.57 170.75" id="Lamp.020" distance="30.00" energy="1.30" color="255 149 28">
+  </light>
+  <light xyz="-14.86 11.90 -100.49" id="Lamp.019" distance="20.00" energy="0.80" color="255 149 28">
+  </light>
+  <light xyz="-14.44 11.90 -109.35" id="Lamp.018" distance="20.00" energy="0.80" color="255 149 28">
+  </light>
+  <light xyz="-21.32 4.93 74.85" id="Lamp.002" distance="25.00" energy="1.00" color="255 149 28">
+  </light>
+  <light xyz="187.33 24.57 176.45" id="Lamp.001" distance="30.00" energy="1.30" color="255 149 28">
+  </light>
+  <light xyz="255.54 54.02 216.91" id="Lamp.026" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="268.23 52.12 217.06" id="Lamp.032" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="280.90 50.14 217.27" id="Lamp.034" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="-41.46 3.74 97.82" id="Lamp.028" distance="25.00" energy="1.00" color="255 149 28">
+  </light>
+  <light xyz="1.10 7.57 59.46" id="Lamp.033" distance="25.00" energy="1.00" color="255 149 28">
+  </light>
+  <light xyz="106.51 12.94 -138.11" id="Lamp.035" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="100.08 12.06 -158.16" id="Lamp.036" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="215.09 12.99 -143.38" id="Lamp.037" distance="20.00" energy="1.40" color="255 121 30">
+  </light>
+  <light xyz="162.14 12.24 -191.47" id="Lamp.038" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="168.67 15.21 -234.04" id="Lamp.039" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="223.41 12.99 -147.17" id="Lamp.040" distance="20.00" energy="1.40" color="255 121 30">
+  </light>
+  <light xyz="209.91 12.99 -142.81" id="Lamp.041" distance="20.00" energy="1.40" color="255 121 30">
+  </light>
+  <light xyz="220.18 8.00 -122.29" id="Lamp.042" distance="20.00" energy="0.70" color="255 121 30">
+  </light>
+  <light xyz="213.71 7.85 -119.95" id="Lamp.043" distance="20.00" energy="0.70" color="255 121 30">
+  </light>
+  <light xyz="230.07 5.49 -174.39" id="Lamp.044" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="234.79 4.51 -162.10" id="Lamp.046" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="239.80 5.08 -166.47" id="Lamp.047" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="242.99 4.27 -171.61" id="Lamp.048" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="249.10 1.64 -192.51" id="Lamp.049" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="273.36 4.61 -182.42" id="Lamp.050" distance="20.00" energy="0.80" color="255 121 30">
+  </light>
+  <light xyz="320.15 1.39 -63.49" id="Lamp.017" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="316.73 1.39 -63.49" id="Lamp.016" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="323.77 1.39 -63.43" id="Lamp.015" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="313.24 1.39 -63.56" id="Lamp.014" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="313.24 1.39 -35.59" id="Lamp.013" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="323.77 1.39 -35.46" id="Lamp.012" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="316.73 1.39 -35.52" id="Lamp.011" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="320.15 1.39 -35.52" id="Lamp.010" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="320.15 1.39 -6.20" id="Lamp.009" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="316.73 1.39 -6.20" id="Lamp.008" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="323.77 1.39 -6.15" id="Lamp.007" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="313.24 1.39 -6.27" id="Lamp.006" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="348.70 3.67 -7.88" id="Point.068" distance="18.52" energy="10.00" color="255 29 0">
+  </light>
+  <light xyz="348.70 3.67 -35.66" id="Point.067" distance="18.52" energy="10.00" color="255 29 0">
+  </light>
+  <light xyz="348.70 3.67 -63.80" id="Point.066" distance="18.52" energy="10.00" color="255 29 0">
+  </light>
+  <light xyz="348.70 3.67 21.19" id="Point.065" distance="18.52" energy="10.00" color="255 29 0">
+  </light>
+  <light xyz="313.24 1.39 22.99" id="Lamp.005" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="323.77 1.39 23.12" id="Lamp.004" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="316.73 1.39 23.06" id="Lamp.003" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <light xyz="320.15 1.39 23.07" id="Lamp.027" distance="5.00" energy="1.50" color="255 53 7">
+  </light>
+  <lightshaft xyz="-596.52 282.92 77.84" id="Sun" opacity="3.00" color="255 59 7"/>
+  <default-start karts-per-row     ="3"
+                 forwards-distance ="1.10"
+                 sidewards-distance="2.00"
+                 upwards-distance  ="1.10"/>
+  <library name="stklib_lavasplash_a" id="stklib_lavasplash_a_main_proxy" xyz="250.16 48.94 210.56" hpr="0.0 -0.0 0.0" scale="0.00 0.00 0.00">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main" xyz="-21.65 50.76 -121.80" hpr="-0.0 98.2 -0.0" scale="2.21 2.21 2.21">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.001" xyz="-21.65 50.76 -88.48" hpr="0.0 83.1 0.0" scale="2.21 2.21 2.21">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.002" xyz="266.24 54.47 200.33" hpr="90.0 -20.0 -90.0" scale="1.22 1.22 1.22">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.003" xyz="265.88 54.47 217.50" hpr="-90.0 15.0 -90.0" scale="1.22 1.22 1.22">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.004" xyz="-44.37 27.01 -173.26" hpr="-0.0 137.1 -0.0" scale="1.77 1.77 1.77">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.006" xyz="-17.14 47.91 -186.19" hpr="-0.0 137.1 -0.0" scale="1.90 1.90 1.90">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.007" xyz="0.87 57.74 -169.37" hpr="-0.0 137.1 -0.0" scale="1.99 1.99 1.99">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.008" xyz="-20.52 29.12 -33.36" hpr="0.0 61.9 0.0" scale="2.21 2.21 2.21">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.009" xyz="1.19 19.33 -90.55" hpr="-88.0 30.0 -89.0" scale="1.59 1.59 1.59">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.010" xyz="19.46 19.33 -90.01" hpr="-88.0 30.0 -89.0" scale="1.59 1.59 1.59">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.011" xyz="39.68 19.33 -89.42" hpr="-88.0 30.0 -89.0" scale="1.59 1.59 1.59">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.012" xyz="39.84 19.33 -116.77" hpr="92.0 -30.0 -91.0" scale="1.59 1.59 1.59">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.013" xyz="21.56 19.33 -117.31" hpr="92.0 -30.0 -91.0" scale="1.59 1.59 1.59">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.014" xyz="1.35 19.33 -117.90" hpr="92.0 -30.0 -91.0" scale="1.59 1.59 1.59">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.005" xyz="-24.08 12.55 -153.20" hpr="-0.0 137.1 -0.0" scale="2.11 2.11 2.11">
+  </library>
+  <library name="stklib_nolokFlags_b" id="stklib_nolokFlags_b_main.015" xyz="-39.97 13.41 -12.82" hpr="0.0 45.8 0.0" scale="2.21 2.21 2.21">
+  </library>
+  <library name="stklib_goldGoblet_a" id="stklib_goldGoblet_a_main" xyz="214.96 5.32 -134.06" hpr="-80.8 2.2 -0.0" scale="1.66 1.66 1.66">
+  </library>
+  <library name="stklib_goldGoblet_a" id="stklib_goldGoblet_a_main.001" xyz="212.91 5.02 -136.48" hpr="54.5 -1.8 13.4" scale="1.95 1.95 1.95">
+  </library>
+  <library name="stklib_goldGoblet_a" id="stklib_goldGoblet_a_main.005" xyz="212.27 4.93 -133.64" hpr="0.0 2.5 0.0" scale="1.66 1.66 1.66">
+  </library>
+  <library name="stklib_gemerald_c" id="stklib_gemerald_c_main" xyz="213.86 5.17 -134.32" hpr="61.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_gemerald_c" id="stklib_gemerald_c_main.001" xyz="212.30 5.62 -133.58" hpr="-64.1 -0.0 0.0" scale="0.98 0.98 0.98">
+  </library>
+  <library name="stklib_gemerald_a" id="stklib_gemerald_a_main" xyz="209.08 5.00 -135.77" hpr="0.0 -0.0 -68.4" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_gemerald_b" id="stklib_gemerald_b_main" xyz="206.48 5.00 -136.02" hpr="0.0 -0.0 -68.6" scale="0.87 0.87 0.87">
+  </library>
+  <library name="stklib_gemerald_b" id="stklib_gemerald_b_main.001" xyz="215.45 5.51 -136.05" hpr="0.0 -0.0 -68.6" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_gemerald_b" id="stklib_gemerald_b_main.002" xyz="210.35 5.00 -133.45" hpr="-149.8 11.1 -108.4" scale="0.87 0.87 0.87">
+  </library>
+  <library name="stklib_gemerald_a" id="stklib_gemerald_a_main.001" xyz="216.27 4.99 -132.37" hpr="0.0 -0.0 -68.4" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_gemerald_b" id="stklib_gemerald_b_main.003" xyz="216.67 5.42 -134.63" hpr="174.7 -2.4 -62.7" scale="1.15 1.15 1.15">
+  </library>
+  <library name="stklib_gemerald_b" id="stklib_gemerald_b_main.004" xyz="212.71 5.14 -135.31" hpr="124.9 15.6 -104.3" scale="0.84 0.84 0.84">
+  </library>
+  <library name="stklib_goldGoblet_a" id="stklib_goldGoblet_a_main.002" xyz="216.17 6.98 -120.91" hpr="-97.1 45.5 -11.7" scale="2.12 2.12 2.12">
+  </library>
+  <library name="stklib_gemerald_b" id="stklib_gemerald_b_main.005" xyz="217.82 6.78 -120.96" hpr="-1.7 -166.9 71.3" scale="1.15 1.15 1.15">
+  </library>
+  <library name="stklib_crown_a" id="stklib_crown_a_main" xyz="218.85 6.69 -121.30" hpr="-8.7 -46.7 12.3" scale="3.04 3.04 3.04">
+  </library>
+  <library name="stklib_crown_a" id="stklib_crown_a_main.002" xyz="215.21 5.48 -136.82" hpr="55.0 -45.2 -14.1" scale="3.04 3.04 3.04">
+  </library>
+  <library name="stklib_crown_b" id="stklib_crown_b_main" xyz="218.43 5.20 -134.89" hpr="3.3 0.2 -0.7" scale="3.62 3.62 3.62">
+  </library>
+  <library name="stklib_goldGoblet_a" id="stklib_goldGoblet_a_main.003" xyz="198.06 5.26 -130.17" hpr="-6.4 8.6 -9.6" scale="1.95 1.95 1.95">
+  </library>
+  <library name="stklib_crown_a" id="stklib_crown_a_main.001" xyz="196.65 5.34 -131.53" hpr="-19.3 -51.4 14.5" scale="3.04 3.04 3.04">
+  </library>
+  <library name="stklib_gemerald_a" id="stklib_gemerald_a_main.002" xyz="199.88 5.25 -130.20" hpr="-17.8 28.4 -91.5" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_crown_a" id="stklib_crown_a_main.003" xyz="205.53 5.19 -123.11" hpr="-5.0 -47.3 6.6" scale="3.04 3.04 3.04">
+  </library>
+  <library name="stklib_goldGoblet_a" id="stklib_goldGoblet_a_main.004" xyz="207.32 5.42 -123.61" hpr="-98.4 -5.4 3.3" scale="2.55 2.55 2.55">
+  </library>
+  <library name="stklib_crown_a" id="stklib_crown_a_main.004" xyz="200.84 5.14 -128.31" hpr="10.8 -46.6 -13.3" scale="3.04 3.04 3.04">
+  </library>
+  <library name="stklib_goldGoblet_a" id="stklib_goldGoblet_a_main.006" xyz="200.42 5.22 -129.53" hpr="-20.6 -166.6 69.3" scale="2.55 2.55 2.55">
+  </library>
+  <library name="stklib_gemerald_c" id="stklib_gemerald_c_main.002" xyz="199.73 5.07 -132.11" hpr="61.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_gemerald_b" id="stklib_gemerald_b_main.006" xyz="197.90 5.09 -132.70" hpr="0.0 -0.0 -68.6" scale="0.87 0.87 0.87">
+  </library>
+  <library name="stklib_gemerald_b" id="stklib_gemerald_b_main.007" xyz="194.84 4.98 -134.60" hpr="-23.6 -171.1 70.5" scale="0.87 0.87 0.87">
+  </library>
+  <library name="stklib_gemerald_b" id="stklib_gemerald_b_main.008" xyz="197.25 4.98 -135.28" hpr="0.0 -0.0 -68.6" scale="0.87 0.87 0.87">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.019" xyz="-55.13 4.18 63.78" hpr="51.1 -3.1 10.5" scale="6.60 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.017" xyz="27.83 4.18 22.01" hpr="123.3 -12.3 -87.8" scale="3.86 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.016" xyz="-4.77 4.18 40.16" hpr="-10.5 37.7 -79.2" scale="5.00 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.015" xyz="31.93 4.18 72.17" hpr="-72.3 -20.0 -108.5" scale="6.71 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.014" xyz="44.23 4.18 57.53" hpr="94.1 146.1 17.1" scale="7.04 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.013" xyz="129.82 4.18 24.09" hpr="-137.2 29.6 -30.6" scale="4.88 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.012" xyz="78.39 4.18 28.45" hpr="-3.1 -24.2 -71.3" scale="6.76 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.011" xyz="103.60 4.18 12.83" hpr="-130.0 -30.4 73.9" scale="4.07 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.010" xyz="103.60 4.18 46.34" hpr="-74.2 -1.4 -101.7" scale="7.32 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.009" xyz="135.64 4.18 63.91" hpr="101.3 2.7 85.4" scale="6.94 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.008" xyz="103.60 4.18 109.45" hpr="89.3 -7.2 -16.0" scale="6.65 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.007" xyz="103.81 6.50 81.38" hpr="-43.7 20.8 -94.0" scale="3.71 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.006" xyz="245.31 41.34 160.41" hpr="-25.0 24.5 1.7" scale="5.14 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.005" xyz="234.76 35.37 177.87" hpr="-31.7 -128.9 106.5" scale="5.14 5.14 5.14">
+  </library>
+  <library name="gfx_fireflies_a" id="gfx_fireflies_a_main_proxy.004" xyz="227.43 33.29 159.68" hpr="-45.9 -36.0 18.1" scale="5.14 5.14 5.14">
+  </library>
+  <library name="stklib_watertower_a" id="stklib_watertower_a_main_proxy" xyz="191.48 -28.67 -129.64" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_runwayBeacon_a" id="stklib_runwayBeacon_a_main_proxy" xyz="187.99 -28.69 -133.48" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_loudspeaker_a" id="stklib_loudspeaker_a_main_proxy" xyz="155.19 -29.10 -125.75" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_greenRadioTower_a" id="stklib_greenRadioTower_a_main_proxy" xyz="177.92 -29.10 -148.26" hpr="-0.0 -111.1 -0.0" scale="0.67 0.85 0.67">
+  </library>
+  <library name="stklib_electricalBox_a" id="stklib_electricalBox_a_main_proxy" xyz="155.19 -29.10 -125.75" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_bigAirBlower_a" id="stklib_bigAirBlower_a_main_proxy.001" xyz="166.50 -17.85 -152.31" hpr="-0.0 -111.1 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_blueRadioTower_a" id="stklib_blueRadioTower_a_main_proxy" xyz="168.54 -29.10 -151.88" hpr="-0.0 -111.1 -0.0" scale="0.67 0.85 0.67">
+  </library>
+  <library name="stklib_bigAirBlower_a" id="stklib_bigAirBlower_a_main_proxy" xyz="166.50 -21.57 -152.31" hpr="-0.0 -111.1 -0.0" scale="1.00 1.00 1.00">
+  </library>
+  <library name="stklib_airConditioner_a" id="stklib_airConditioner_a_main_proxy" xyz="134.55 -29.10 -104.65" hpr="0.0 -21.1 0.0" scale="1.81 1.81 1.81">
+  </library>
+  <library name="stklib_entranceGuardianMale_a" id="stklib_entranceGuardianMale_a_main_proxy" xyz="74.87 5.09 -102.49" hpr="-0.0 -90.0 0.0" scale="0.69 0.69 0.69">
+  </library>
+</scene>

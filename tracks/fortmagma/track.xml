@@ -2,7 +2,7 @@
 <!-- Generated with script from SVN rev 17016 -->
 <track  name           = "Fort Magma"
         version        = "7"
-        groups         = "standard"
+        groups         = "stk1"
         designer       = "Jean-Manuel Cl&#233;men&#231;on"
         music          = "lava.music"
         screenshot     = "sshot.jpg"

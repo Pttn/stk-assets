@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="carpet.png" shader="alphatest"/>
+  <material name="castelwall.jpg" normal-map="castlewall_nm.jpg"/>
+  <material name="castelwall_003.jpg" gloss-map="castelwall_glossy_003.jpg" normal-map="castlewall_nm_003.jpg"/>
+  <material name="castle_floor.png" gloss-map="castle_floor_glossy.jpg" normal-map="castle_floor_nm.jpg"/>
+  <material name="chain.png" ignore="Y" shader="alphatest"/>
+  <material name="chest.png" gloss-map="chest_glossy.png" normal-map="chest_nm.png"/>
+  <material name="dead_ground.jpg" normal-map="dead_ground_nm.jpg" high-adhesion="Y" has-gravity="Y">
+    <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="dirt_road_stone.jpg" normal-map="dirt_road_stone_nm.jpg" high-adhesion="Y" has-gravity="Y"/>
+  <material name="dynamiclight.png" ignore="Y" shader="additive"/>
+  <material name="gfx_lavaCloudsAnimated.png" shader="alphablend"/>
+  <material name="Ground02_col.jpg" gloss-map="Ground02_glossy.jpg" normal-map="Ground02_nrm.jpg"/>
+  <material name="invisble.png" shader="alphatest" high-adhesion="Y"/>
+  <material name="iron-fence.png" shader="alphatest"/>
+  <material name="lava.png" gloss-map="lava_glossy.png" normal-map="lava_normal.png" falling-effect="Y" reset="Y"/>
+  <material name="Lava_004_COLOR.jpg" gloss-map="Lava_004_glossy.jpg" normal-map="Lava_004_NORM.jpg"/>
+  <material name="lava_2k_diffuse.jpg" gloss-map="lava_2k_glossy.jpg" normal-map="lava_2k_nm.jpg" falling-effect="Y" reset="Y"/>
+  <material name="lava_splash.png" shader="alphatest" gloss-map="lava_splash_glossy.png"/>
+  <material name="lightEffect_dust.png" shader="alphablend" ignore="Y"/>
+  <material name="halo.png" ignore="Y" shader="additive"/>
+  <material name="lava_smoke.png" shader="alphablend" ignore="Y"/>
+  <material name="pipe_flow_01.png" shader="alphablend"/>
+  <material name="lensflare.png" shader="alphablend"/>
+  <material name="lava_001_orverlap.jpg" gloss-map="lava_001_orverlap_glossy.jpg" normal-map="lava_001_orverlap_nm.jpg"/>
+  <material name="stop_sign.png" normal-map="stop_sign_nm.png"/>
+  <material name="stkflag_nolok_c.png" shader="grass" grass-speed="1.50"/>
+  <material name="nolok_coinBronze_a.jpg" gloss-map="nolok_coin_glossy.jpg" normal-map="nolok_coin_nm.jpg" ignore="Y"/>
+  <material name="nolok_coinGold_a.jpg" gloss-map="nolok_coin_glossy.jpg" normal-map="nolok_coin_nm.jpg" ignore="Y"/>
+  <material name="nolok_coinSilver_a.jpg" gloss-map="nolok_coin_glossy.jpg" normal-map="nolok_coin_nm.jpg" ignore="Y"/>
+  <material name="pavement_01_diff_2k.jpg" gloss-map="pavement_01_glossy.jpg" normal-map="pavement_01_nor_2k.jpg"/>
+  <material name="reset.png" shader="alphatest" collision-detect="Y" reset="Y" collision-reaction="reset"/>
+  <material name="Rock02_col.jpg" gloss-map="Rock02_glossy.jpg" normal-map="Rock02_nrm.jpg"/>
+  <material name="Rock13_col.jpg" gloss-map="Rock13_glossy.jpg" normal-map="Rock13_nrm.jpg"/>
+  <material name="rock_transition.jpg" gloss-map="rock_transition_glossy.jpg" normal-map="rock_transition_nm.jpg"/>
+  <material name="slowboost.png" shader="alphatest">
+    <zipper duration="0.0" max-speed-increase="5.0" fade-out-time="1.5" speed-gain="1.0" min-speed="-1.0"/>
+  </material>
+  <material name="slowdown.png" shader="alphatest" slowdown-time="0.50" max-speed="0.80"/>
+  <material name="stk_generic_plaster_a.png" normal-map="stk_generic_plaster_a_nm.jpg"/>
+  <material name="stk_metaloverlap_a.png" gloss-map="stk_metaloverlap_a_glossy.jpg" normal-map="stk_metaloverlap_a_nm.jpg" high-adhesion="Y" has-gravity="Y"/>
+  <material name="stktex_animatedFire_a.png" shader="additive"/>
+  <material name="stktex_brickwall_a.png" gloss-map="stktex_brickwall_a_glossy.jpg" normal-map="stktex_brickwall_a_nm.jpg"/>
+  <material name="stktex_cattailDark_a.png" shader="alphatest" ignore="Y"/>
+  <material name="stktex_rope_a.png" normal-map="stktex_rope_b_nm.jpg"/>
+  <material name="stktex_treasure_a_seamless.jpg" gloss-map="stktex_treasure_a_glossy_seamless.jpg" normal-map="stktex_treasure_a_nm_seamless.jpg">
+    <sfx filename="coins.ogg" min_speed="5.00" max_speed="15.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.10"/>
+  </material>
+  <material name="track_01.jpg" normal-map="castlewall_nm.jpg" high-adhesion="Y" has-gravity="Y"/>
+  <material name="volumetric.png" shader="alphablend"/>
+  <material name="volumetric_white.png" shader="alphablend" ignore="Y"/>
+  <material name="zipper.png" shader="alphatest" mirror-axis="U"/>
+  <material name="zipper_effect.png" shader="alphablend" mirror-axis="U"/>
+  <material name="stk_generic_gold_a.jpg" gloss-map="stk_generic_gold_a_glossy.jpg" normal-map="stk_generic_gold_a_nm.jpg"/>
+  <material name="stklib_gemerald_b.jpg" gloss-map="stklib_gemerald_glossy.jpg"/>
+  <material name="pearl.jpg" gloss-map="pearl_glossy.jpg"/>
+  <material name="stklib_gemerald_a.jpg" gloss-map="stklib_gemerald_glossy.jpg"/>
+  <material name="stklib_gemerald_c.jpg" gloss-map="stklib_gemerald_glossy.jpg"/>
+  <material name="stkflag_nolok_b.png" shader="alphatest" ignore="Y"/>
+</materials>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="stk_generic_gold_a.jpg" gloss-map="stk_generic_gold_a_glossy.jpg" normal-map="stk_generic_gold_a_nm.jpg"/>
+  <material name="stklib_gemerald_b.jpg" gloss-map="stklib_gemerald_glossy.jpg"/>
+</materials>

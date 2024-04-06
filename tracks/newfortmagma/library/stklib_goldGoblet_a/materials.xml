@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="stk_generic_gold_a.jpg" gloss-map="stk_generic_gold_a_glossy.jpg" normal-map="stk_generic_gold_a_nm.jpg" colorizable="Y" colorization-mask="0 0.001 0.01 0.8 0.9"/>
+</materials>
