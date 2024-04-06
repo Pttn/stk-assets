@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<materials>
+  <material name="astro_turf_trans.png" shader="alphatest" has-gravity="Y"/>
+  <material name="astro_turf.jpg" has-gravity="Y">
+    <particles base="smoke.xml" condition="skid"/>
+  </material>
+  <material name="bow_tile.jpg">
+    <particles base="smoke.xml" condition="skid drive"/>
+  </material>
+  <material name="CaveDirt.png" has-gravity="Y"/>
+  <material name="CaveDirt_trans.png" shader="alphatest" max-speed="0.30" has-gravity="Y"/>
+  <material name="flag.jpg" shader="grass" grass-speed="1.50"/>
+  <material name="foliage.png" ignore="Y" shader="grass" grass-speed="0.60" grass-amplitude="0.15"/>
+  <material name="golfball_baked.jpg" normal-map="golfball_baked_normal.png"/>
+  <material name="invisible.png" shader="alphatest"/>
+  <material name="monumentWater.png" shader="alphablend" ignore="Y"/>
+  <material name="monumentWater2.png" shader="alphablend" ignore="Y"/>
+  <material name="monumentWater3.png" ignore="Y" shader="alphablend"/>
+  <material name="reset.png" reset="Y" shader="alphatest" collision-detect="Y" collision-reaction="reset" falling-effect="Y"/>
+  <material name="rock_grey_slowdown.png" max-speed="0.30"/>
+  <material name="stk_generic_blackCeramic_cleaned_a.png" has-gravity="Y"/>
+  <material name="stk_generic_blackCeramic_cleaned_b.png" has-gravity="Y"/>
+  <material name="stk_grasscliff_a.png" shader="alphatest"/>
+  <material name="stklib_conifer_a_low.png" ignore="Y" shader="alphatest"/>
+  <material name="tarmac.jpg" has-gravity="Y"/>
+  <material name="tree_zen.jpg" gloss-map="tree_zenRed.jpg"/>
+  <material name="wallbricks_dirt_overlay.png" shader="alphatest"/>
+  <material name="water.png" shader="alphablend" surface="Y">
+    <sfx filename="splash.ogg" min_speed="0.00" max_speed="0.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.30"/>>
+    <particles base="splash.xml" condition="skid drive"/>
+  </material>
+  <material name="water_light2.png" falling-effect="Y" surface="Y" shader="displace" water-splash="Y">
+    <sfx filename="splash.ogg" min_speed="0.00" max_speed="0.00" min_pitch="0.80" max_pitch="1.20" positional="true" rolloff="0.30"/>>
+    <particles base="splash.xml" condition="skid drive"/>
+  </material>
+</materials>

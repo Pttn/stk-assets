@@ -2,7 +2,7 @@
 <!-- Generated with script from SVN rev 17016 -->
 <track  name           = "Minigolf"
         version        = "7"
-        groups         = "standard"
+        groups         = "stk1"
         designer       = "Mac &amp; rubberduck"
         music          = "bay.music"
         screenshot     = "minigolf.jpg"

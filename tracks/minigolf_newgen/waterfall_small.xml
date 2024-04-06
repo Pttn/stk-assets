@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<particles emitter="box" box_x="1.5" box_y="0.4" box_z="1.5">
+
+    <spreading angle="40"      />
+    
+    <velocity  x="0.000"
+               y="0.001"
+               z="0.000"         />
+    
+    <material  file="waterparticles.png"  />
+    
+    <!-- Amount of particles emitted per second -->
+    <rate      min="1"
+               max="4"         />
+    
+    <!-- Minimal and maximal lifetime of a particle, in milliseconds. -->
+    <lifetime  min="1000"
+               max="2500"         />
+    
+    <!-- Size of the particles -->
+   <size min="3.0"
+         max="6.0"
+         x-increase-factor="2.1"
+         y-increase-factor="2.1" />    
+    
+    <color     min="255 255 255"
+               max="255 255 255" />
+
+</particles>
