@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!-- Generated with script from SVN rev 17016 -->
-<track  name           = "Cocoa Temple"
+<track  name           = "Cocoa Temple 2.0 rebalance"
         version        = "7"
-        groups         = "stk1"
-        designer       = "Jean-Manuel Cl&#233;men&#231;on"
+        groups         = "standard"
+        designer       = "jean-manuel cl&#233;men&#231;on"
         music          = "cocoa_river.music"
         screenshot     = "test_track_postcard.png"
         smooth-normals = "true"
