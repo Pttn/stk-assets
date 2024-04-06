@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 17016 -->
+<graph>
+  <!-- First define all nodes of the graph, and what quads they represent -->
+  <node-list from-quad="0" to-quad="336"/>  <!-- map each quad to a node  -->
+  <!-- Define the main loop -->
+  <edge-loop from="0" to="266"/>
+  <!-- Shortcut BezierCurve.015 -->
+  <edge from="127" to="267"/>
+  <edge-line from="267" to="295"/>
+  <edge from="295" to="147"/>
+  <!-- Shortcut Cube.041 -->
+  <edge from="58" to="296"/>
+  <edge-line from="296" to="327"/>
+  <edge from="327" to="127"/>
+  <!-- Shortcut Circle.025 -->
+  <edge from="20" to="328"/>
+  <edge-line from="328" to="332"/>
+  <edge from="332" to="27"/>
+  <!-- Shortcut Circle.026 -->
+  <edge from="30" to="333"/>
+  <edge-line from="333" to="336"/>
+  <edge from="336" to="35"/>
+</graph>
