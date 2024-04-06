@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <!-- Generated with script from SVN rev 17016 -->
-<track  name           = "Oliver's Math Class"
+<track  name           = "Oliver's Math Class 2.0 rebalance"
         version        = "7"
-        groups         = "stk1"
+        groups         = "standard"
         designer       = "Oliver &amp; Steve Baker"
         music          = "Boom_boom_boom.music"
         ctf            = "Y"
