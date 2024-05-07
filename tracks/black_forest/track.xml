@@ -2,7 +2,7 @@
 <!-- Generated with script from SVN rev 17016 -->
 <track  name           = "Black Forest"
         version        = "7"
-        groups         = "standard"
+        groups         = "stk1"
         designer       = "Sven Andreas Belting"
         music          = "valley.music"
         screenshot     = "sshot.jpg"
