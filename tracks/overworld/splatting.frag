@@ -59,7 +59,7 @@ void main(void)
 #if defined(Advanced_Lighting_Enabled)
     o_diffuse_color = vec4(splatted.xyz, 0.0);
     //o_diffuse_color = vec4(vec3(mitigation), 0.0);
-    o_normal_depth.xy = 0.5 * EncodeNormal(normalize(normal)) + 0.5;
+    o_normal_depth.xy = EncodeNormal(normalize(normal));
     o_normal_depth.zw = vec2(0.0);
 #else
     o_diffuse_color = vec4(splatted.xyz, 1.0);
