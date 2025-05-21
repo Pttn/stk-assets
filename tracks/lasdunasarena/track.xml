@@ -4,7 +4,7 @@
         version        = "7"
         groups         = "standard"
         designer       = "Jean-Manuel Cl&#233;men&#231;on"
-        music          = "egypt.music"
+        music          = "las_dunas.music"
         arena          = "Y"
         max-arena-players = "10"
         ctf            = "Y"

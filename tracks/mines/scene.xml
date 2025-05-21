@@ -2,15 +2,15 @@
 <!-- Generated with script from SVN rev 17016 -->
 <scene>
   <lod>
+   <group name="lantern">
+    <static-object lod_distance="20" lod_group="lantern" model="lantern_LOD20.spm" xyz="-9.20 3.95 -21.28" hpr="-90.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="80" lod_group="lantern" model="lantern_LOD50.spm" xyz="-10.20 3.95 -21.28" hpr="-90.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
    <group name="lamp2">
     <static-object lod_distance="60" lod_group="lamp2" model="lamp_2.spm" xyz="-15.48 12.01 -18.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
    </group>
    <group name="transfo">
     <static-object lod_distance="70" lod_group="transfo" model="Circle.036_Circle.000.spm" xyz="-17.36 2.09 -22.06" hpr="-90.0 115.4 -0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="lantern">
-    <static-object lod_distance="20" lod_group="lantern" model="lantern_LOD20.spm" xyz="-9.20 3.95 -21.28" hpr="-90.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-    <static-object lod_distance="80" lod_group="lantern" model="lantern_LOD50.spm" xyz="-10.20 3.95 -21.28" hpr="-90.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
    </group>
   </lod>
   <track model="mines_track.spm" x="0" y="0" z="0">
@@ -31,7 +31,7 @@
   </object>
   <object id="beam.005_Mesh.000_beam.005_Mesh.000" type="animation" xyz="14.41 0.78 -156.66" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="Rails.spm" skeletal-animation="false">
   </object>
-  <object id="cart" type="animation" xyz="37.75 1.35 65.97" hpr="0.0 48.9 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="cart_2.spm" skeletal-animation="false">
+  <object id="cart" type="animation" xyz="181.19 1.59 -47.00" hpr="-0.0 71.9 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="cart_2.spm" skeletal-animation="false">
     <curve channel="LocX" interpolation="bezier" extend="cyclic">
       <p c="1.000 37.752" h1="-3.140 34.817" h2="5.140 40.688"/>
       <p c="14.000 46.970" h1="9.788 44.138" h2="19.508 50.672"/>
@@ -111,7 +111,7 @@
       <p c="140.000 44.879" h1="136.103 58.560" h2="143.897 31.197"/>
     </curve>
   </object>
-  <object id="cart.001" type="animation" xyz="-1.93 -4.14 -196.66" hpr="0.0 33.6 0.0" scale="1.00 1.00 1.00" interaction="explode" shape="box" model="cart_hit.spm" explode="y" skeletal-animation="false">
+  <object id="cart.001" type="animation" xyz="52.98 -4.14 -196.66" hpr="-0.0 33.6 -0.0" scale="1.00 1.00 1.00" interaction="explode" shape="box" model="cart_hit.spm" explode="y" skeletal-animation="false">
     <curve channel="LocX" interpolation="bezier" extend="cyclic">
       <p c="1.000 -1.931" h1="-20.160 -1.931" h2="22.160 -1.931"/>
       <p c="55.535 -8.025" h1="36.200 -8.025" h2="76.453 -8.025"/>
@@ -130,7 +130,7 @@
       <p c="155.000 -4.136" h1="139.202 -4.136" h2="170.798 -4.136"/>
     </curve>
   </object>
-  <object id="cart.002" type="animation" xyz="37.75 1.35 65.97" hpr="0.0 48.9 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="cart_2_glow.spm" forcedbloom="true" skeletal-animation="false">
+  <object id="cart.002" type="animation" xyz="181.19 1.59 -47.00" hpr="-0.0 71.9 -0.0" scale="1.00 1.00 1.00" interaction="ghost" model="cart_2_glow.spm" forcedbloom="true" skeletal-animation="false">
     <curve channel="LocX" interpolation="bezier" extend="cyclic">
       <p c="1.000 37.752" h1="-3.140 34.817" h2="5.140 40.688"/>
       <p c="14.000 46.970" h1="9.788 44.138" h2="19.508 50.672"/>
@@ -210,7 +210,7 @@
       <p c="140.000 44.879" h1="136.103 58.560" h2="143.897 31.197"/>
     </curve>
   </object>
-  <object id="Circle.001" type="animation" xyz="-20.84 -0.72 -87.21" hpr="0.0 -17.9 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="warning_sign.spm" forcedbloom="true" skeletal-animation="false">
+  <object id="Circle.001" type="animation" xyz="-20.84 -0.72 -87.21" hpr="0.0 -17.9 0.0" scale="0.00 0.00 0.00" interaction="ghost" model="warning_sign.spm" forcedbloom="true" skeletal-animation="false">
     <curve channel="ScaleX" interpolation="bezier" extend="cyclic">
       <p c="1.000 1.000" h1="0.724 1.000" h2="1.276 1.000"/>
       <p c="2.000 0.000" h1="1.651 0.000" h2="3.746 0.000"/>
@@ -233,7 +233,7 @@
       <p c="30.000 1.000" h1="26.486 1.000" h2="33.514 1.000"/>
     </curve>
   </object>
-  <object id="Circle.005" type="animation" xyz="11.01 -4.60 -203.21" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="redSpot.spm" skeletal-animation="false">
+  <object id="Circle.005" type="animation" xyz="10.98 -4.60 -203.21" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="redSpot.spm" skeletal-animation="false">
     <curve channel="LocX" interpolation="bezier" extend="cyclic">
       <p c="1.000 11.010" h1="0.998 11.010" h2="1.002 11.010"/>
       <p c="40.500 11.010" h1="40.500 11.010" h2="40.500 11.010"/>
@@ -259,7 +259,7 @@
       <p c="155.000 -4.595" h1="133.527 -4.595" h2="176.473 -4.595"/>
     </curve>
   </object>
-  <object id="Circle.006" type="animation" xyz="-24.10 -0.72 -88.27" hpr="0.0 -17.9 0.0" scale="0.00 0.00 0.00" interaction="ghost" model="warning_sign2.spm" forcedbloom="true" skeletal-animation="false">
+  <object id="Circle.006" type="animation" xyz="-24.10 -0.72 -88.27" hpr="0.0 -17.9 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="warning_sign2.spm" forcedbloom="true" skeletal-animation="false">
     <curve channel="ScaleX" interpolation="bezier" extend="cyclic">
       <p c="1.000 0.000" h1="0.724 0.000" h2="1.276 0.000"/>
       <p c="2.000 1.000" h1="1.651 1.000" h2="3.746 1.000"/>
@@ -282,7 +282,7 @@
       <p c="30.000 0.000" h1="26.486 0.000" h2="33.514 0.000"/>
     </curve>
   </object>
-  <object id="Circle.016_Circle.000" type="animation" xyz="62.98 -25.41 -248.68" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="bucket_wheel_m.spm" skeletal-animation="false">
+  <object id="Circle.016_Circle.000" type="animation" xyz="62.98 -25.41 -248.68" hpr="123.6 -0.0 -0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="bucket_wheel_m.spm" skeletal-animation="false">
     <curve channel="RotX" interpolation="bezier" extend="cyclic">
       <p c="1.000 -0.000" h1="-37.573 -140.266" h2="39.573 140.266"/>
       <p c="100.000 360.000" h1="61.427 219.734" h2="138.573 500.266"/>
@@ -296,7 +296,7 @@
       <p c="100.000 -0.000" h1="61.349 -0.000" h2="138.651 -0.000"/>
     </curve>
   </object>
-  <object id="Circle.016_Circle.002" type="animation" xyz="62.98 -5.40 -248.68" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="bucket_wheel.spm" skeletal-animation="false">
+  <object id="Circle.016_Circle.002" type="animation" xyz="62.98 -5.40 -248.68" hpr="-123.6 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="bucket_wheel.spm" skeletal-animation="false">
     <curve channel="RotX" interpolation="bezier" extend="cyclic">
       <p c="1.000 -0.000" h1="-37.573 140.266" h2="39.573 -140.266"/>
       <p c="100.000 -360.000" h1="61.427 -219.734" h2="138.573 -500.266"/>
@@ -310,7 +310,7 @@
       <p c="100.000 -0.000" h1="61.349 -0.000" h2="138.651 -0.000"/>
     </curve>
   </object>
-  <object id="cogwheel" type="animation" xyz="153.40 -4.63 -105.63" hpr="0.0 -0.0 0.0" scale="1.23 1.23 1.23" interaction="ghost" model="cogwheel1.spm" skeletal-animation="false">
+  <object id="cogwheel" type="animation" xyz="153.40 -4.63 -105.63" hpr="-0.0 -0.0 102.9" scale="1.23 1.23 1.23" interaction="ghost" model="cogwheel1.spm" skeletal-animation="false">
     <curve channel="RotX" interpolation="bezier" extend="cyclic">
       <p c="1.000 -0.000" h1="-18.130 -0.000" h2="20.130 -0.000"/>
       <p c="50.000 -0.000" h1="30.870 -0.000" h2="69.130 -0.000"/>
@@ -340,11 +340,11 @@
           shape="box" mass="100.0" model="phys_box.spm" skeletal-animation="false"/>
   <object type="movable" id="Cube.011" xyz="46.54 -0.63 41.29" hpr="0.0 -28.7 0.0" scale="1.00 1.00 1.00"
           shape="box" mass="100.0" model="phys_box_tnt.spm" skeletal-animation="false"/>
-  <object type="movable" id="Cube.012" xyz="140.79 -0.77 12.04" hpr="0.0 30.8 0.0" scale="0.51 0.51 0.51"
+  <object type="movable" id="Cube.012" xyz="140.79 -0.77 12.04" hpr="-0.0 30.8 -0.0" scale="0.51 0.51 0.51"
           shape="box" mass="100.0" model="phys_box_dark.spm" skeletal-animation="false"/>
   <object type="movable" id="Cube.013" xyz="-18.54 -3.99 -267.44" hpr="0.0 -16.2 0.0" scale="1.00 1.00 1.00"
           shape="box" mass="100.0" model="phys_box_tnt.spm" skeletal-animation="false"/>
-  <object id="Cube.016" type="animation" xyz="-15.53 -5.01 -45.35" hpr="-37.9 -52.9 54.9" scale="0.85 0.85 0.85" interaction="ghost" model="floatingObject.spm" skeletal-animation="false">
+  <object id="Cube.016" type="animation" xyz="-15.53 -4.93 -45.35" hpr="-37.9 -52.9 54.9" scale="0.85 0.85 0.85" interaction="ghost" model="floatingObject.spm" skeletal-animation="false">
     <curve channel="LocX" interpolation="bezier" extend="cyclic">
       <p c="1.000 -15.533" h1="-18.521 -15.533" h2="20.521 -15.533"/>
       <p c="51.000 -15.533" h1="31.479 -15.533" h2="68.959 -15.533"/>
@@ -361,7 +361,7 @@
       <p c="97.000 -5.012" h1="79.041 -5.012" h2="114.959 -5.012"/>
     </curve>
   </object>
-  <object type="movable" id="Cube.017" xyz="144.58 -0.77 16.79" hpr="0.0 30.8 0.0" scale="0.51 0.51 0.51"
+  <object type="movable" id="Cube.017" xyz="144.58 -0.77 16.79" hpr="-0.0 30.8 -0.0" scale="0.51 0.51 0.51"
           shape="box" mass="100.0" model="phys_box_dark.spm" skeletal-animation="false"/>
   <object type="movable" id="Cube.024" xyz="87.58 -11.83 -261.04" hpr="0.0 -16.2 0.0" scale="1.00 1.00 1.00"
           shape="box" mass="100.0" model="phys_box_tnt.spm" skeletal-animation="false"/>
@@ -371,7 +371,7 @@
           shape="box" mass="100.0" model="phys_box_dark.spm" skeletal-animation="false"/>
   <object type="movable" id="Cube.040" xyz="82.81 -7.19 -122.07" hpr="0.0 154.1 0.7" scale="0.51 0.51 0.51"
           shape="box" mass="100.0" model="phys_box_dark.spm" skeletal-animation="false"/>
-  <object id="Cylinder.027" type="animation" xyz="97.25 -6.80 -209.37" hpr="0.0 -0.0 0.0" scale="1.94 1.94 1.94" interaction="ghost" model="cogwheel3.spm" skeletal-animation="false">
+  <object id="Cylinder.027" type="animation" xyz="97.25 -6.80 -209.37" hpr="-0.0 -0.0 102.9" scale="1.94 1.94 1.94" interaction="ghost" model="cogwheel3.spm" skeletal-animation="false">
     <curve channel="RotX" interpolation="bezier" extend="cyclic">
       <p c="1.000 -0.000" h1="-18.130 -0.000" h2="20.130 -0.000"/>
       <p c="50.000 -0.000" h1="30.870 -0.000" h2="69.130 -0.000"/>
@@ -385,7 +385,7 @@
       <p c="50.000 -0.000" h1="30.870 -0.000" h2="69.130 -0.000"/>
     </curve>
   </object>
-  <object id="Cylinder.028" type="animation" xyz="98.50 1.34 -209.37" hpr="0.0 -0.0 0.0" scale="1.48 1.48 1.48" interaction="ghost" model="cogwheel4.spm" skeletal-animation="false">
+  <object id="Cylinder.028" type="animation" xyz="98.50 1.34 -209.37" hpr="0.0 0.0 -26.1" scale="1.48 1.48 1.48" interaction="ghost" model="cogwheel4.spm" skeletal-animation="false">
     <curve channel="RotX" interpolation="bezier" extend="cyclic">
       <p c="1.000 -0.000" h1="-25.938 -0.000" h2="27.938 -0.000"/>
       <p c="70.000 -0.000" h1="43.062 -0.000" h2="96.938 -0.000"/>
@@ -399,7 +399,7 @@
       <p c="70.000 -0.000" h1="43.062 -0.000" h2="96.938 -0.000"/>
     </curve>
   </object>
-  <object id="Cylinder.029" type="animation" xyz="97.25 9.39 -209.37" hpr="0.0 -0.0 0.0" scale="1.92 1.92 1.92" interaction="ghost" model="cogwheel2.spm" skeletal-animation="false">
+  <object id="Cylinder.029" type="animation" xyz="97.25 9.39 -209.37" hpr="0.0 -0.0 -123.6" scale="1.92 1.92 1.92" interaction="ghost" model="cogwheel2.spm" skeletal-animation="false">
     <curve channel="RotX" interpolation="bezier" extend="cyclic">
       <p c="1.000 -0.000" h1="-37.651 -0.000" h2="39.651 -0.000"/>
       <p c="100.000 -0.000" h1="61.349 -0.000" h2="138.651 -0.000"/>
@@ -470,7 +470,7 @@
     <check-line kind="lap" other-ids="1" p1="4.38 0.11 8.37" p2="5.52 0.11 8.26"
                 same-group="0 6 7"/>
   </checks>
-  <particle-emitter kind="smoke_brown.xml" id="Empty.034" xyz="34.53 -1.19 69.05" h="0.00" clip_distance="80">
+  <particle-emitter kind="smoke_brown.xml" id="Empty.034" xyz="179.27 0.04 -43.22" h="-22.97" clip_distance="80">
     <curve channel="LocX" interpolation="bezier" extend="cyclic">
       <p c="1.000 34.526" h1="-3.284 31.805" h2="5.284 37.247"/>
       <p c="14.000 42.784" h1="9.701 40.087" h2="19.622 46.311"/>
@@ -849,7 +849,7 @@
       <p c="155.000 -67.731" h1="133.527 -67.731" h2="176.473 -67.731"/>
     </curve>
   </light>
-  <light xyz="34.53 -1.19 69.05" id="Lamp.012" distance="5.00" energy="0.50" color="255 0 4">
+  <light xyz="179.27 0.04 -43.22" id="Lamp.012" distance="5.00" energy="0.50" color="255 0 4">
     <curve channel="LocX" interpolation="bezier" extend="cyclic">
       <p c="1.000 34.526" h1="-3.284 31.805" h2="5.284 37.247"/>
       <p c="14.000 42.784" h1="9.701 40.087" h2="19.622 46.311"/>
@@ -914,7 +914,7 @@
   </light>
   <light xyz="93.10 -0.71 -145.84" id="Lamp.037" distance="25.00" energy="6.00" color="92 255 98">
   </light>
-  <light xyz="-19.78 -0.79 -89.85" id="Lamp.041" distance="15.00" energy="2.00" color="255 30 28">
+  <light xyz="-23.03 -0.79 -91.06" id="Lamp.041" distance="15.00" energy="2.00" color="255 30 28">
     <curve channel="LocX" interpolation="bezier" extend="cyclic">
       <p c="2.000 -23.030" h1="-5.027 -23.030" h2="9.027 -23.030"/>
       <p c="20.000 -23.030" h1="18.976 -23.030" h2="20.205 -23.030"/>
@@ -989,7 +989,7 @@
   </library>
   <library name="stklib_mineLantern_a" id="stklib_mineLantern_a_main_proxy.023" xyz="34.03 -24.58 -230.82" hpr="0.0 87.8 -180.0" scale="0.72 0.72 0.72">
   </library>
-  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.005" xyz="167.07 7.37 -38.37" hpr="0.0 82.7 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.005" xyz="167.07 7.37 -38.37" hpr="-0.0 82.7 -0.0" scale="1.00 1.00 1.00">
   </library>
   <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.018" xyz="11.90 3.26 -143.19" hpr="0.0 152.1 0.0" scale="1.00 1.00 1.00">
   </library>
@@ -1057,6 +1057,6 @@
   </library>
   <library name="stklib_woodPostLamp_a" id="stklib_woodPostLamp_a_main_proxy" xyz="44.44 -13.19 -258.16" hpr="0.0 -25.0 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_woodPostLamp_a" id="stklib_woodPostLamp_a_main_proxy.001" xyz="-31.76 -10.01 -238.81" hpr="0.0 40.0 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_woodPostLamp_a" id="stklib_woodPostLamp_a_main_proxy.001" xyz="-31.76 -10.01 -238.81" hpr="-0.0 40.0 -0.0" scale="1.00 1.00 1.00">
   </library>
 </scene>

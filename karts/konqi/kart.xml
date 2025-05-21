@@ -44,14 +44,36 @@
     <nitro-emitter-b position = "0.187960 0.189132 -0.771348" />
   </nitro-emitter>
   <headlights>
-    <object position="-0.000000 0.127065 1.560604"
-            rotation="-89.999716 91.803261 79.110277"
+    <object position="-0.108943 0.134422 0.811045"
+            rotation="0.000000 -0.000000 -0.000014"
             scale="1.000000 1.000000 1.000000"
             bone="KART"
-            model="headlight.spm"/>
+            radius="2.50"
+            energy="0.75"
+            inner-cone="0.582"
+            outer-cone="0.873"
+            type="spot"
+    />
+    <object position="0.110118 0.134417 0.811053"
+            rotation="0.000000 -0.000000 -0.000014"
+            scale="1.000000 1.000000 1.000000"
+            bone="KART"
+            radius="2.50"
+            energy="0.75"
+            inner-cone="0.582"
+            outer-cone="0.873"
+            type="spot"
+    />
+    <object position="0.000000 -0.000000 0.000000"
+            rotation="0.000000 -0.000000 0.000000"
+            scale="1.000000 1.000000 1.000000"
+            bone="KART"
+            type="mesh"
+            model="tail_light.spm"
+    />
   </headlights>
-  <hat position="0.000000 0.752568 -0.057084"
-       rotation="-3.018598 0.000000 -0.000000"
+  <hat position="0.000000 0.752611 -0.057084"
+       rotation="-3.018598 -0.000000 0.000000"
        scale="1.083600 1.083600 1.083600"
        bone="DEF-HEAD"/>
   <exhaust file="kart_exhaust.xml"/>

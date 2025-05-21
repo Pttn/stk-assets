@@ -2,7 +2,7 @@
 <!-- Generated with script from SVN rev 17016 -->
 <track  name           = "Gran Paradiso Island"
         version        = "7"
-        groups         = "stk1"
+        groups         = "standard"
         designer       = "Jean-Manuel Cl&#233;men&#231;on"
         music          = "landing_in_gran_paradiso.music"
         screenshot     = "screenshot_paradiso.png"

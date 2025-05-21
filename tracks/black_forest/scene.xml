@@ -2,246 +2,24 @@
 <!-- Generated with script from SVN rev 17016 -->
 <scene>
   <lod>
-   <group name="_single_lod_desk_a">
-    <static-object lod_distance="40" lod_group="_single_lod_desk_a" model="desk_a.spm" xyz="243.92 55.76 449.14" hpr="0.0 -67.4 0.0" scale="0.89 0.89 0.89" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_monestary_wall_broken_b">
-    <static-object lod_distance="130" lod_group="_single_lod_monestary_wall_broken_b" model="monestary_wall_broken_b.spm" xyz="-173.43 23.38 269.35" hpr="-0.0 -0.0 22.6" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="hat_a">
-    <static-object lod_distance="60" lod_group="hat_a" model="hat_a_high.spm" xyz="216.13 59.44 444.84" hpr="-22.4 2.8 -83.4" scale="0.51 0.51 0.51" interaction="ghost" skeletal-animation="false"/>
-    <static-object lod_distance="100" lod_group="hat_a" model="hat_a_low.spm" xyz="216.13 59.44 443.61" hpr="-22.4 2.8 -83.4" scale="0.51 0.51 0.51" interaction="ghost" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_flower_grass_b">
-    <static-object lod_distance="100" lod_group="_single_lod_flower_grass_b" model="flower_grass_b.spm" xyz="470.72 48.86 449.66" hpr="-0.1 0.0 3.3" scale="0.60 0.60 0.60" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_river_stones_b">
-    <static-object lod_distance="90" lod_group="_single_lod_river_stones_b" model="river_stones_b.spm" xyz="-0.09 -12.71 26.03" hpr="-45.1 27.5 -43.7" scale="0.85 0.78 0.87" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_wood">
-    <static-object lod_distance="60" lod_group="_single_lod_wood" model="wood.spm" xyz="245.45 42.91 455.25" hpr="30.5 -87.3 -16.2" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_door_a_9">
-    <static-object lod_distance="120" lod_group="_single_lod_door_a_9" model="door_a_9.spm" xyz="232.53 57.01 463.23" hpr="0.0 -86.0 0.0" scale="1.00 1.00 0.53" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_small_table_a">
-    <static-object lod_distance="60" lod_group="_single_lod_small_table_a" model="small_table_a.spm" xyz="206.11 54.16 417.71" hpr="0.0 24.3 0.0" scale="1.00 0.11 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_railway_stones">
-    <static-object lod_distance="140" lod_group="_single_lod_railway_stones" model="railway_stones.spm" xyz="234.04 31.60 535.78" hpr="-43.6 -47.5 87.5" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="bench_a">
-    <static-object lod_distance="120" lod_group="bench_a" model="bench_lod_a.spm" xyz="353.39 36.77 260.79" hpr="0.0 -73.5 0.0" scale="0.30 0.11 4.15" interaction="static" skeletal-animation="false"/>
-    <static-object lod_distance="400" lod_group="bench_a" model="bench_lod_b.spm" xyz="351.20 36.77 253.38" hpr="0.0 -73.5 0.0" scale="0.30 0.11 4.15" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_stone_c">
-    <static-object lod_distance="100" lod_group="_single_lod_stone_c" model="stone_c.spm" xyz="-83.58 11.62 476.80" hpr="-57.3 109.4 -55.3" scale="1.39 1.11 1.17" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_9">
-    <static-object lod_distance="200" lod_group="_single_lod_grass_9" model="grass_9.spm" xyz="34.76 -15.36 165.86" hpr="18.2 -144.6 -25.4" scale="0.59 0.46 0.49" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_bridge_fence_b">
-    <static-object lod_distance="200" lod_group="_single_lod_bridge_fence_b" model="bridge_fence_b.spm" xyz="-86.79 22.43 200.47" hpr="0.0 -0.0 -0.5" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_bush_a">
-    <static-object lod_distance="100" lod_group="_single_lod_bush_a" model="bush_a.spm" xyz="139.42 -2.42 171.34" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_5">
-    <static-object lod_distance="80" lod_group="_single_lod_grass_5" model="grass_5.spm" xyz="81.53 -17.40 228.76" hpr="0.0 -158.7 -0.0" scale="1.08 1.06 1.20" interaction="static" skeletal-animation="false" geometry-level="2"/>
-   </group>
-   <group name="_single_lod_monestery_wall_b">
-    <static-object lod_distance="130" lod_group="_single_lod_monestery_wall_b" model="monestery_wall_b.spm" xyz="-75.52 27.15 208.61" hpr="0.0 -0.0 0.0" scale="4.65 2.33 0.33" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_branch_b">
-    <static-object lod_distance="100" lod_group="_single_lod_branch_b" model="branch_b.spm" xyz="386.64 47.14 487.49" hpr="-2.4 -9.8 -31.9" scale="0.15 0.15 0.15" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_fence_g">
-    <static-object lod_distance="100" lod_group="_single_lod_fence_g" model="fence_g.spm" xyz="-152.54 3.91 111.20" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_graden_stones_c">
-    <static-object lod_distance="80" lod_group="_single_lod_graden_stones_c" model="graden_stones_c.spm" xyz="440.08 50.88 365.61" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_flowers_b">
-    <static-object lod_distance="140" lod_group="_single_lod_grass_flowers_b" model="grass_flowers_b.spm" xyz="-134.34 23.14 286.56" hpr="-0.0 -152.7 3.3" scale="0.84 0.78 0.85" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_brick">
-    <static-object lod_distance="250" lod_group="_single_lod_brick" model="brick.spm" xyz="136.37 21.47 554.41" hpr="0.0 -13.7 0.0" scale="0.96 0.64 4.14" interaction="ghost" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_field_a">
-    <static-object lod_distance="120" lod_group="_single_lod_grass_field_a" model="grass_field_a.spm" xyz="459.85 46.91 371.42" hpr="-1.3 -25.8 3.6" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_grass_field_f">
-    <static-object lod_distance="100" lod_group="_single_lod_grass_field_f" model="grass_field_f.spm" xyz="-49.41 33.53 250.14" hpr="-0.0 -4.7 -0.4" scale="0.30 0.28 0.26" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_liana_b">
-    <static-object lod_distance="100" lod_group="_single_lod_liana_b" model="liana_b.spm" xyz="-87.76 17.80 486.81" hpr="-105.7 24.1 -6.3" scale="0.56 0.56 0.56" interaction="ghost" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_stones_b">
-    <static-object lod_distance="200" lod_group="_single_lod_stones_b" model="stones_b.spm" xyz="-91.39 14.39 467.98" hpr="55.2 -44.8 62.6" scale="3.05 2.44 2.58" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_book_a">
-    <static-object lod_distance="30" lod_group="_single_lod_book_a" model="book_a.spm" xyz="241.86 53.45 452.20" hpr="11.5 17.6 -91.2" scale="0.84 0.84 0.84" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_field_d">
-    <static-object lod_distance="160" lod_group="_single_lod_grass_field_d" model="grass_field_d.spm" xyz="261.54 -0.28 240.70" hpr="1.0 -24.8 -9.5" scale="0.84 0.92 0.72" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_Flower_3">
-    <static-object lod_distance="100" lod_group="_single_lod_Flower_3" model="Flower_3.spm" xyz="207.31 41.50 366.07" hpr="-0.0 -152.7 3.3" scale="0.84 0.78 0.85" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_monestary_wall_broken_a">
-    <static-object lod_distance="130" lod_group="_single_lod_monestary_wall_broken_a" model="monestary_wall_broken_a.spm" xyz="-115.72 32.08 268.08" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grain_field">
-    <static-object lod_distance="170" lod_group="_single_lod_grain_field" model="grain_field.spm" xyz="284.99 14.27 276.70" hpr="-67.2 64.8 -72.0" scale="1.00 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_flower_grass_a">
-    <static-object lod_distance="120" lod_group="_single_lod_flower_grass_a" model="flower_grass_a.spm" xyz="196.95 0.80 206.77" hpr="-0.1 0.0 3.3" scale="0.60 0.60 0.60" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_cow">
-    <static-object lod_distance="250" lod_group="_single_lod_cow" model="cow.spm" xyz="111.14 18.23 347.47" hpr="0.0 -21.8 0.0" scale="0.52 0.36 0.52" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_flowers_stk">
-    <static-object lod_distance="180" lod_group="_single_lod_grass_flowers_stk" model="grass_flowers_stk.spm" xyz="-159.49 33.53 241.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" skeletal-animation="false" geometry-level="2"/>
-   </group>
-   <group name="_single_lod_flowers_grass_c">
-    <static-object lod_distance="120" lod_group="_single_lod_flowers_grass_c" model="flowers_grass_c.spm" xyz="114.38 17.13 362.49" hpr="2.5 -60.8 -5.0" scale="0.42 0.55 0.42" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_woodpile_low_b">
-    <static-object lod_distance="120" lod_group="_single_lod_woodpile_low_b" model="woodpile_low_b.spm" xyz="84.91 19.94 344.02" hpr="0.0 162.0 0.0" scale="1.68 1.68 1.68" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_river_stones_d">
-    <static-object lod_distance="160" lod_group="_single_lod_river_stones_d" model="river_stones_d.spm" xyz="24.42 -16.48 129.56" hpr="-32.6 -74.2 80.1" scale="0.79 0.73 0.81" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_stones_a">
-    <static-object lod_distance="300" lod_group="_single_lod_stones_a" model="stones_a.spm" xyz="-62.96 10.35 453.42" hpr="16.6 64.7 -157.1" scale="3.31 2.64 2.79" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_graden_stones_b">
-    <static-object lod_distance="80" lod_group="_single_lod_graden_stones_b" model="graden_stones_b.spm" xyz="398.61 36.14 315.67" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_fence_house_c">
-    <static-object lod_distance="200" lod_group="_single_lod_fence_house_c" model="fence_house_c.spm" xyz="224.23 54.53 473.23" hpr="0.0 22.6 0.0" scale="7.18 7.18 25.45" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_monestary_stones">
-    <static-object lod_distance="140" lod_group="_single_lod_monestary_stones" model="monestary_stones.spm" xyz="-91.51 5.08 308.23" hpr="-57.1 46.5 134.0" scale="3.07 3.07 3.07" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_pencil_b">
-    <static-object lod_distance="30" lod_group="_single_lod_pencil_b" model="pencil_b.spm" xyz="242.82 53.44 450.89" hpr="-51.7 -11.2 -76.1" scale="0.03 0.46 0.03" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_bed">
-    <static-object lod_distance="40" lod_group="_single_lod_bed" model="bed.spm" xyz="213.81 55.02 421.23" hpr="0.0 22.6 0.0" scale="3.88 0.69 5.90" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_field_z">
-    <static-object lod_distance="130" lod_group="_single_lod_grass_field_z" model="grass_field_z.spm" xyz="-87.36 24.29 203.44" hpr="-52.5 -17.0 8.1" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_monestery_wall_a">
-    <static-object lod_distance="130" lod_group="_single_lod_monestery_wall_a" model="monestery_wall_a.spm" xyz="-75.52 27.15 208.61" hpr="0.0 -0.0 0.0" scale="4.65 2.33 0.33" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_field_e">
-    <static-object lod_distance="160" lod_group="_single_lod_grass_field_e" model="grass_field_e.spm" xyz="339.93 12.40 291.32" hpr="-44.9 -15.7 12.7" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_bookshelf_a">
-    <static-object lod_distance="40" lod_group="_single_lod_bookshelf_a" model="bookshelf_a.spm" xyz="218.92 53.41 440.44" hpr="-0.0 -156.3 -0.0" scale="0.59 0.59 0.59" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_railroad_crossing">
-    <static-object lod_distance="200" lod_group="_single_lod_railroad_crossing" model="railroad_crossing.spm" xyz="208.42 29.60 561.16" hpr="1.0 32.5 1.9" scale="1.48 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_and_flowers_1">
-    <static-object lod_distance="150" lod_group="_single_lod_grass_and_flowers_1" model="grass_and_flowers_1.spm" xyz="191.28 35.00 389.42" hpr="-11.7 -25.3 27.6" scale="0.50 0.46 0.43" interaction="static" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_fence_f">
-    <static-object lod_distance="100" lod_group="_single_lod_fence_f" model="fence_f.spm" xyz="-104.19 28.40 284.06" hpr="-17.7 103.6 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_stone_b">
-    <static-object lod_distance="100" lod_group="_single_lod_stone_b" model="stone_b.spm" xyz="-79.90 6.43 475.56" hpr="171.1 -41.5 -27.7" scale="2.81 2.24 2.37" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_field_t">
-    <static-object lod_distance="190" lod_group="_single_lod_grass_field_t" model="grass_field_t.spm" xyz="2.00 -5.90 312.53" hpr="-7.5 -2.9 -34.6" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_river_stones_c">
-    <static-object lod_distance="120" lod_group="_single_lod_river_stones_c" model="river_stones_c.spm" xyz="3.81 -14.21 62.88" hpr="45.4 15.9 -37.8" scale="0.62 0.57 0.64" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="ekasia_tree">
-    <static-object lod_distance="120" lod_group="ekasia_tree" model="ekasia_tree_high.spm" xyz="17.44 0.00 -12.68" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-    <static-object lod_distance="2000" lod_group="ekasia_tree" model="ekasia_tree_low.spm" xyz="26.75 0.05 -12.68" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_fence_c">
-    <static-object lod_distance="110" lod_group="_single_lod_fence_c" model="fence_c.spm" xyz="-39.28 34.41 235.36" hpr="-3.0 13.6 -0.3" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_house_pillar_b">
-    <static-object lod_distance="100" lod_group="_single_lod_house_pillar_b" model="house_pillar_b.spm" xyz="224.17 50.71 466.72" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_stones_01">
-    <static-object lod_distance="100" lod_group="_single_lod_stones_01" model="stones_01.spm" xyz="436.11 50.83 481.27" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_bush_brown_leaf_a">
-    <static-object lod_distance="200" lod_group="_single_lod_bush_brown_leaf_a" model="bush_brown_leaf_a.spm" xyz="-14.29 12.56 276.99" hpr="-107.1 -39.2 98.0" scale="2.54 2.54 2.54" interaction="ghost" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_stairs_fence">
-    <static-object lod_distance="80" lod_group="_single_lod_stairs_fence" model="stairs_fence.spm" xyz="222.72 50.17 420.14" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   <group name="_single_lod_river_stones_a">
+    <static-object lod_distance="90" lod_group="_single_lod_river_stones_a" model="river_stones_a.spm" xyz="-1.40 -9.95 18.49" hpr="-25.2 7.7 20.6" scale="2.42 2.23 2.48" interaction="static" skeletal-animation="false"/>
    </group>
    <group name="_single_lod_graden_stones_d">
     <static-object lod_distance="80" lod_group="_single_lod_graden_stones_d" model="graden_stones_d.spm" xyz="466.52 47.13 388.50" hpr="-0.1 0.0 2.1" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
    </group>
-   <group name="_single_lod_stump_01">
-    <static-object lod_distance="100" lod_group="_single_lod_stump_01" model="stump_01.spm" xyz="414.69 48.64 487.74" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   <group name="_single_lod_small_table_a">
+    <static-object lod_distance="60" lod_group="_single_lod_small_table_a" model="small_table_a.spm" xyz="206.11 54.16 417.71" hpr="-0.0 24.3 -0.0" scale="1.00 0.11 1.00" interaction="static" skeletal-animation="false"/>
    </group>
-   <group name="_single_lod_painting_a">
-    <static-object lod_distance="80" lod_group="_single_lod_painting_a" model="painting_a.spm" xyz="220.57 53.61 452.13" hpr="-22.6 -0.0 -90.0" scale="1.20 1.20 1.20" interaction="ghost" skeletal-animation="false"/>
+   <group name="_single_lod_bridge_fence_a">
+    <static-object lod_distance="200" lod_group="_single_lod_bridge_fence_a" model="bridge_fence_a.spm" xyz="-85.66 21.72 195.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
    </group>
-   <group name="_single_lod_grass_field_c">
-    <static-object lod_distance="190" lod_group="_single_lod_grass_field_c" model="grass_field_c.spm" xyz="410.66 34.59 288.01" hpr="-10.9 -12.3 17.5" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   <group name="_single_lod_small_table_c">
+    <static-object lod_distance="60" lod_group="_single_lod_small_table_c" model="small_table_c.spm" xyz="223.07 54.16 455.45" hpr="-0.0 4.8 -0.0" scale="1.00 0.11 1.00" interaction="static" skeletal-animation="false"/>
    </group>
-   <group name="_single_lod_railroad_crossing_2">
-    <static-object lod_distance="200" lod_group="_single_lod_railroad_crossing_2" model="railroad_crossing_2.spm" xyz="24.99 10.68 533.28" hpr="-0.4 7.9 -1.8" scale="1.48 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_fence_a">
-    <static-object lod_distance="90" lod_group="_single_lod_fence_a" model="fence_a.spm" xyz="-58.62 33.91 284.29" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_bush_brown_leaf_b">
-    <static-object lod_distance="100" lod_group="_single_lod_bush_brown_leaf_b" model="bush_brown_leaf_b.spm" xyz="-169.92 20.11 152.51" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_stones_02">
-    <static-object lod_distance="100" lod_group="_single_lod_stones_02" model="stones_02.spm" xyz="371.03 42.75 500.38" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_branch">
-    <static-object lod_distance="100" lod_group="_single_lod_branch" model="branch.spm" xyz="-76.97 16.68 452.93" hpr="1.8 -4.3 -30.1" scale="0.15 0.15 0.15" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_bookshelf_b">
-    <static-object lod_distance="40" lod_group="_single_lod_bookshelf_b" model="bookshelf_b.spm" xyz="241.11 53.41 439.96" hpr="0.0 -66.3 0.0" scale="0.59 0.59 0.59" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_stones_09">
-    <static-object lod_distance="250" lod_group="_single_lod_stones_09" model="stones_09.spm" xyz="317.63 36.13 549.46" hpr="-163.4 -3.1 64.8" scale="3.31 2.64 2.79" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_log_big_a">
-    <static-object lod_distance="100" lod_group="_single_lod_log_big_a" model="log_big_a.spm" xyz="388.33 39.56 499.39" hpr="70.5 102.0 79.0" scale="1.30 1.30 1.30" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_grass_field_y">
-    <static-object lod_distance="100" lod_group="_single_lod_grass_field_y" model="grass_field_y.spm" xyz="-58.71 35.16 270.81" hpr="1.3 -13.9 -3.9" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="_single_lod_grass_field_g">
-    <static-object lod_distance="160" lod_group="_single_lod_grass_field_g" model="grass_field_g.spm" xyz="58.38 -11.28 172.26" hpr="-4.6 -12.4 16.9" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
-   </group>
-   <group name="log_small_a">
-    <static-object lod_distance="50" lod_group="log_small_a" model="log_small_001_lod_model_a.spm" xyz="48.94 -12.38 110.42" hpr="-90.7 106.5 0.0" scale="2.96 2.96 2.96" interaction="static" skeletal-animation="false"/>
-    <static-object lod_distance="200" lod_group="log_small_a" model="log_small_001_lod_model_b.spm" xyz="47.87 -12.38 106.80" hpr="-90.7 106.5 0.0" scale="2.96 2.96 2.96" interaction="static" skeletal-animation="false"/>
-    <static-object lod_distance="500" lod_group="log_small_a" model="log_small_001_lod_model_c.spm" xyz="46.61 -12.38 102.51" hpr="-90.7 106.5 0.0" scale="2.96 2.96 2.96" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_river_stones_a">
-    <static-object lod_distance="90" lod_group="_single_lod_river_stones_a" model="river_stones_a.spm" xyz="-1.40 -9.95 18.49" hpr="-25.2 7.7 20.6" scale="2.42 2.23 2.48" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_liana">
-    <static-object lod_distance="100" lod_group="_single_lod_liana" model="liana.spm" xyz="-68.36 14.93 419.61" hpr="-105.6 28.7 -27.8" scale="0.81 0.81 0.81" interaction="ghost" skeletal-animation="false"/>
-   </group>
-   <group name="antlers">
-    <static-object lod_distance="20" lod_group="antlers" model="antlers_high.spm" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-    <static-object lod_distance="60" lod_group="antlers" model="antlers_mid.spm" xyz="-4.91 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-    <static-object lod_distance="200" lod_group="antlers" model="antlers_low.spm" xyz="-10.57 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_fence_house_a">
-    <static-object lod_distance="200" lod_group="_single_lod_fence_house_a" model="fence_house_a.spm" xyz="198.73 54.53 411.97" hpr="0.0 22.6 0.0" scale="7.18 7.18 25.45" interaction="static" skeletal-animation="false"/>
-   </group>
-   <group name="_single_lod_corn_field">
-    <static-object lod_distance="140" lod_group="_single_lod_corn_field" model="corn_field.spm" xyz="511.30 53.24 394.95" hpr="6.0 -0.0 90.0" scale="3.72 3.72 7.44" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   <group name="bench_a">
+    <static-object lod_distance="120" lod_group="bench_a" model="bench_lod_a.spm" xyz="353.39 36.77 260.79" hpr="0.0 -73.5 0.0" scale="0.30 0.11 4.15" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="400" lod_group="bench_a" model="bench_lod_b.spm" xyz="351.20 36.77 253.38" hpr="0.0 -73.5 0.0" scale="0.30 0.11 4.15" interaction="static" skeletal-animation="false"/>
    </group>
    <group name="_single_lod_grass_field_b">
     <static-object lod_distance="100" lod_group="_single_lod_grass_field_b" model="grass_field_b.spm" xyz="397.97 49.14 337.36" hpr="-40.5 -25.4 15.1" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
@@ -249,34 +27,256 @@
    <group name="_single_lod_house_pillar_a">
     <static-object lod_distance="100" lod_group="_single_lod_house_pillar_a" model="house_pillar_a.spm" xyz="203.19 50.71 416.58" hpr="-0.0 90.0 0.0" scale="0.35 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
    </group>
-   <group name="_single_lod_books_a">
-    <static-object lod_distance="35" lod_group="_single_lod_books_a" model="books_a.spm" xyz="245.09 57.55 450.51" hpr="0.0 -66.3 0.0" scale="0.53 0.53 0.53" interaction="static" skeletal-animation="false"/>
+   <group name="_single_lod_railway_stones">
+    <static-object lod_distance="140" lod_group="_single_lod_railway_stones" model="railway_stones.spm" xyz="234.04 31.60 535.78" hpr="-43.6 -47.5 87.5" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
    </group>
-   <group name="_single_lod_bridge_fence_a">
-    <static-object lod_distance="200" lod_group="_single_lod_bridge_fence_a" model="bridge_fence_a.spm" xyz="-85.66 21.72 195.65" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   <group name="_single_lod_book_a">
+    <static-object lod_distance="30" lod_group="_single_lod_book_a" model="book_a.spm" xyz="241.86 53.45 452.20" hpr="11.5 17.6 -91.2" scale="0.84 0.84 0.84" interaction="static" skeletal-animation="false"/>
    </group>
-   <group name="_single_lod_fence_b">
-    <static-object lod_distance="100" lod_group="_single_lod_fence_b" model="fence_b.spm" xyz="-43.12 34.88 269.26" hpr="-4.3 -11.5 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   <group name="_single_lod_stones_b">
+    <static-object lod_distance="200" lod_group="_single_lod_stones_b" model="stones_b.spm" xyz="-91.39 14.39 467.98" hpr="55.2 -44.8 62.6" scale="3.05 2.44 2.58" interaction="static" skeletal-animation="false"/>
    </group>
-   <group name="_single_lod_small_table_c">
-    <static-object lod_distance="60" lod_group="_single_lod_small_table_c" model="small_table_c.spm" xyz="223.07 54.16 455.45" hpr="0.0 4.8 0.0" scale="1.00 0.11 1.00" interaction="static" skeletal-animation="false"/>
+   <group name="_single_lod_brick">
+    <static-object lod_distance="250" lod_group="_single_lod_brick" model="brick.spm" xyz="136.37 21.47 554.41" hpr="0.0 -13.7 0.0" scale="0.96 0.64 4.14" interaction="ghost" skeletal-animation="false"/>
    </group>
-   <group name="_single_lod_grass_field_p">
-    <static-object lod_distance="190" lod_group="_single_lod_grass_field_p" model="grass_field_p.spm" xyz="-18.84 -7.91 186.66" hpr="-26.7 -0.1 -4.5" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   <group name="hat_a">
+    <static-object lod_distance="60" lod_group="hat_a" model="hat_a_high.spm" xyz="216.13 59.44 444.84" hpr="-22.4 2.8 -83.4" scale="0.51 0.51 0.51" interaction="ghost" skeletal-animation="false"/>
+    <static-object lod_distance="100" lod_group="hat_a" model="hat_a_low.spm" xyz="216.13 59.44 443.61" hpr="-22.4 2.8 -83.4" scale="0.51 0.51 0.51" interaction="ghost" skeletal-animation="false"/>
    </group>
-   <group name="_single_lod_small_table_b">
-    <static-object lod_distance="60" lod_group="_single_lod_small_table_b" model="small_table_b.spm" xyz="216.84 54.16 412.77" hpr="0.0 12.3 0.0" scale="1.00 0.11 1.00" interaction="static" skeletal-animation="false"/>
+   <group name="_single_lod_stone_b">
+    <static-object lod_distance="100" lod_group="_single_lod_stone_b" model="stone_b.spm" xyz="-79.90 6.43 475.56" hpr="171.1 -41.5 -27.7" scale="2.81 2.24 2.37" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_fence_c">
+    <static-object lod_distance="110" lod_group="_single_lod_fence_c" model="fence_c.spm" xyz="-39.28 34.41 235.36" hpr="-3.0 13.6 -0.3" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_desk_a">
+    <static-object lod_distance="40" lod_group="_single_lod_desk_a" model="desk_a.spm" xyz="243.92 55.76 449.14" hpr="0.0 -67.4 0.0" scale="0.89 0.89 0.89" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_field_a">
+    <static-object lod_distance="120" lod_group="_single_lod_grass_field_a" model="grass_field_a.spm" xyz="459.85 46.91 371.42" hpr="-1.3 -25.8 3.6" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_monestary_stones">
+    <static-object lod_distance="140" lod_group="_single_lod_monestary_stones" model="monestary_stones.spm" xyz="-91.51 5.08 308.23" hpr="-57.1 46.5 134.0" scale="3.07 3.07 3.07" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_bush_brown_leaf_a">
+    <static-object lod_distance="200" lod_group="_single_lod_bush_brown_leaf_a" model="bush_brown_leaf_a.spm" xyz="-14.29 12.56 276.99" hpr="-107.1 -39.2 98.0" scale="2.54 2.54 2.54" interaction="ghost" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_5">
+    <static-object lod_distance="80" lod_group="_single_lod_grass_5" model="grass_5.spm" xyz="81.53 -17.40 228.76" hpr="0.0 -158.7 -0.0" scale="1.08 1.06 1.20" interaction="static" skeletal-animation="false" geometry-level="2"/>
+   </group>
+   <group name="_single_lod_river_stones_d">
+    <static-object lod_distance="160" lod_group="_single_lod_river_stones_d" model="river_stones_d.spm" xyz="24.42 -16.48 129.56" hpr="-32.6 -74.2 80.1" scale="0.79 0.73 0.81" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_wood">
+    <static-object lod_distance="60" lod_group="_single_lod_wood" model="wood.spm" xyz="245.45 42.91 455.25" hpr="30.5 -87.3 -16.2" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_field_f">
+    <static-object lod_distance="100" lod_group="_single_lod_grass_field_f" model="grass_field_f.spm" xyz="-49.41 33.53 250.14" hpr="-0.0 -4.7 -0.4" scale="0.30 0.28 0.26" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_liana">
+    <static-object lod_distance="100" lod_group="_single_lod_liana" model="liana.spm" xyz="-68.36 14.93 419.61" hpr="-105.6 28.7 -27.8" scale="0.81 0.81 0.81" interaction="ghost" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_monestary_wall_broken_a">
+    <static-object lod_distance="130" lod_group="_single_lod_monestary_wall_broken_a" model="monestary_wall_broken_a.spm" xyz="-115.72 32.08 268.08" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_bookshelf_b">
+    <static-object lod_distance="40" lod_group="_single_lod_bookshelf_b" model="bookshelf_b.spm" xyz="241.11 53.41 439.96" hpr="0.0 -66.3 0.0" scale="0.59 0.59 0.59" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_graden_stones_c">
+    <static-object lod_distance="80" lod_group="_single_lod_graden_stones_c" model="graden_stones_c.spm" xyz="440.08 50.88 365.61" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_bed">
+    <static-object lod_distance="40" lod_group="_single_lod_bed" model="bed.spm" xyz="213.81 55.02 421.23" hpr="-0.0 22.6 -0.0" scale="3.88 0.69 5.90" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="antlers">
+    <static-object lod_distance="20" lod_group="antlers" model="antlers_high.spm" xyz="0.00 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="60" lod_group="antlers" model="antlers_mid.spm" xyz="-4.91 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="200" lod_group="antlers" model="antlers_low.spm" xyz="-10.57 0.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_bush_brown_leaf_b">
+    <static-object lod_distance="100" lod_group="_single_lod_bush_brown_leaf_b" model="bush_brown_leaf_b.spm" xyz="-169.92 20.11 152.51" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_Flower_3">
+    <static-object lod_distance="100" lod_group="_single_lod_Flower_3" model="Flower_3.spm" xyz="207.31 41.50 366.07" hpr="-0.0 -152.7 3.3" scale="0.84 0.78 0.85" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_stone_c">
+    <static-object lod_distance="100" lod_group="_single_lod_stone_c" model="stone_c.spm" xyz="-83.58 11.62 476.80" hpr="-57.3 109.4 -55.3" scale="1.39 1.11 1.17" interaction="static" skeletal-animation="false"/>
    </group>
    <group name="_single_lod_graden_stones_a">
     <static-object lod_distance="80" lod_group="_single_lod_graden_stones_a" model="graden_stones_a.spm" xyz="419.59 37.50 299.46" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
    </group>
+   <group name="_single_lod_graden_stones_b">
+    <static-object lod_distance="80" lod_group="_single_lod_graden_stones_b" model="graden_stones_b.spm" xyz="398.61 36.14 315.67" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_field_g">
+    <static-object lod_distance="160" lod_group="_single_lod_grass_field_g" model="grass_field_g.spm" xyz="58.38 -11.28 172.26" hpr="-4.6 -12.4 16.9" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_grass_field_e">
+    <static-object lod_distance="160" lod_group="_single_lod_grass_field_e" model="grass_field_e.spm" xyz="339.93 12.40 291.32" hpr="-44.9 -15.7 12.7" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_stones_a">
+    <static-object lod_distance="300" lod_group="_single_lod_stones_a" model="stones_a.spm" xyz="-62.96 10.35 453.42" hpr="16.6 64.7 -157.1" scale="3.31 2.64 2.79" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_corn_field">
+    <static-object lod_distance="140" lod_group="_single_lod_corn_field" model="corn_field.spm" xyz="511.30 53.24 394.95" hpr="6.0 -0.0 90.0" scale="3.72 3.72 7.44" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_books_a">
+    <static-object lod_distance="35" lod_group="_single_lod_books_a" model="books_a.spm" xyz="245.09 57.55 450.51" hpr="0.0 -66.3 0.0" scale="0.53 0.53 0.53" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_bush_a">
+    <static-object lod_distance="100" lod_group="_single_lod_bush_a" model="bush_a.spm" xyz="139.42 -2.42 171.34" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_fence_g">
+    <static-object lod_distance="100" lod_group="_single_lod_fence_g" model="fence_g.spm" xyz="-152.54 3.91 111.20" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_9">
+    <static-object lod_distance="200" lod_group="_single_lod_grass_9" model="grass_9.spm" xyz="34.76 -15.36 165.86" hpr="18.2 -144.6 -25.4" scale="0.59 0.46 0.49" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_fence_house_a">
+    <static-object lod_distance="200" lod_group="_single_lod_fence_house_a" model="fence_house_a.spm" xyz="198.73 54.53 411.97" hpr="-0.0 22.6 -0.0" scale="7.18 7.18 25.45" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_monestery_wall_b">
+    <static-object lod_distance="130" lod_group="_single_lod_monestery_wall_b" model="monestery_wall_b.spm" xyz="-75.52 27.15 208.61" hpr="0.0 -0.0 0.0" scale="4.65 2.33 0.33" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_field_y">
+    <static-object lod_distance="100" lod_group="_single_lod_grass_field_y" model="grass_field_y.spm" xyz="-58.71 35.16 270.81" hpr="1.3 -13.9 -3.9" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_house_pillar_b">
+    <static-object lod_distance="100" lod_group="_single_lod_house_pillar_b" model="house_pillar_b.spm" xyz="224.17 50.71 466.72" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_liana_b">
+    <static-object lod_distance="100" lod_group="_single_lod_liana_b" model="liana_b.spm" xyz="-87.76 17.80 486.81" hpr="-105.7 24.1 -6.3" scale="0.56 0.56 0.56" interaction="ghost" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_door_a_9">
+    <static-object lod_distance="120" lod_group="_single_lod_door_a_9" model="door_a_9.spm" xyz="232.53 57.01 463.23" hpr="0.0 -86.0 0.0" scale="1.00 1.00 0.53" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_field_z">
+    <static-object lod_distance="130" lod_group="_single_lod_grass_field_z" model="grass_field_z.spm" xyz="-87.36 24.29 203.44" hpr="-52.5 -17.0 8.1" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_flower_grass_b">
+    <static-object lod_distance="100" lod_group="_single_lod_flower_grass_b" model="flower_grass_b.spm" xyz="470.72 48.86 449.66" hpr="-0.1 0.0 3.3" scale="0.60 0.60 0.60" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_stairs_fence">
+    <static-object lod_distance="80" lod_group="_single_lod_stairs_fence" model="stairs_fence.spm" xyz="222.72 50.17 420.14" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_stones_02">
+    <static-object lod_distance="100" lod_group="_single_lod_stones_02" model="stones_02.spm" xyz="371.03 42.75 500.38" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_fence_house_c">
+    <static-object lod_distance="200" lod_group="_single_lod_fence_house_c" model="fence_house_c.spm" xyz="224.23 54.53 473.23" hpr="-0.0 22.6 -0.0" scale="7.18 7.18 25.45" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_stump_01">
+    <static-object lod_distance="100" lod_group="_single_lod_stump_01" model="stump_01.spm" xyz="414.69 48.64 487.74" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_field_t">
+    <static-object lod_distance="190" lod_group="_single_lod_grass_field_t" model="grass_field_t.spm" xyz="2.00 -5.90 312.53" hpr="-7.5 -2.9 -34.6" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_fence_b">
+    <static-object lod_distance="100" lod_group="_single_lod_fence_b" model="fence_b.spm" xyz="-43.12 34.88 269.26" hpr="-4.3 -11.5 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_flowers_grass_c">
+    <static-object lod_distance="120" lod_group="_single_lod_flowers_grass_c" model="flowers_grass_c.spm" xyz="114.38 17.13 362.49" hpr="2.5 -60.8 -5.0" scale="0.42 0.55 0.42" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="log_small_a">
+    <static-object lod_distance="50" lod_group="log_small_a" model="log_small_001_lod_model_a.spm" xyz="48.94 -12.38 110.42" hpr="-90.7 106.5 0.0" scale="2.96 2.96 2.96" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="200" lod_group="log_small_a" model="log_small_001_lod_model_b.spm" xyz="47.87 -12.38 106.80" hpr="-90.7 106.5 0.0" scale="2.96 2.96 2.96" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="500" lod_group="log_small_a" model="log_small_001_lod_model_c.spm" xyz="46.61 -12.38 102.51" hpr="-90.7 106.5 0.0" scale="2.96 2.96 2.96" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_field_d">
+    <static-object lod_distance="160" lod_group="_single_lod_grass_field_d" model="grass_field_d.spm" xyz="261.54 -0.28 240.70" hpr="1.0 -24.8 -9.5" scale="0.84 0.92 0.72" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_grass_and_flowers_1">
+    <static-object lod_distance="150" lod_group="_single_lod_grass_and_flowers_1" model="grass_and_flowers_1.spm" xyz="191.28 35.00 389.42" hpr="-11.7 -25.3 27.6" scale="0.50 0.46 0.43" interaction="static" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_monestery_wall_a">
+    <static-object lod_distance="130" lod_group="_single_lod_monestery_wall_a" model="monestery_wall_a.spm" xyz="-75.52 27.15 208.61" hpr="0.0 -0.0 0.0" scale="4.65 2.33 0.33" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_railroad_crossing">
+    <static-object lod_distance="200" lod_group="_single_lod_railroad_crossing" model="railroad_crossing.spm" xyz="208.42 29.60 561.16" hpr="1.0 32.5 1.9" scale="1.48 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_monestary_wall_broken_b">
+    <static-object lod_distance="130" lod_group="_single_lod_monestary_wall_broken_b" model="monestary_wall_broken_b.spm" xyz="-173.43 23.38 269.35" hpr="-0.0 -0.0 22.6" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_branch">
+    <static-object lod_distance="100" lod_group="_single_lod_branch" model="branch.spm" xyz="-76.97 16.68 452.93" hpr="1.8 -4.3 -30.1" scale="0.15 0.15 0.15" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_pencil_b">
+    <static-object lod_distance="30" lod_group="_single_lod_pencil_b" model="pencil_b.spm" xyz="242.82 53.44 450.89" hpr="-51.7 -11.2 -76.1" scale="0.03 0.46 0.03" interaction="static" skeletal-animation="false"/>
+   </group>
    <group name="_single_lod_fence_house_b">
-    <static-object lod_distance="200" lod_group="_single_lod_fence_house_b" model="fence_house_b.spm" xyz="195.63 54.53 413.26" hpr="0.0 22.6 0.0" scale="7.18 7.18 25.45" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="200" lod_group="_single_lod_fence_house_b" model="fence_house_b.spm" xyz="195.63 54.53 413.26" hpr="-0.0 22.6 -0.0" scale="7.18 7.18 25.45" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_field_c">
+    <static-object lod_distance="190" lod_group="_single_lod_grass_field_c" model="grass_field_c.spm" xyz="410.66 34.59 288.01" hpr="-10.9 -12.3 17.5" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_cow">
+    <static-object lod_distance="250" lod_group="_single_lod_cow" model="cow.spm" xyz="111.14 18.23 347.47" hpr="0.0 -21.8 0.0" scale="0.52 0.36 0.52" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_railroad_crossing_2">
+    <static-object lod_distance="200" lod_group="_single_lod_railroad_crossing_2" model="railroad_crossing_2.spm" xyz="24.99 10.68 533.28" hpr="-0.4 7.9 -1.8" scale="1.48 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_river_stones_c">
+    <static-object lod_distance="120" lod_group="_single_lod_river_stones_c" model="river_stones_c.spm" xyz="3.81 -14.21 62.88" hpr="45.4 15.9 -37.8" scale="0.62 0.57 0.64" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_woodpile_low_b">
+    <static-object lod_distance="120" lod_group="_single_lod_woodpile_low_b" model="woodpile_low_b.spm" xyz="84.91 19.94 344.02" hpr="0.0 162.0 0.0" scale="1.68 1.68 1.68" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grain_field">
+    <static-object lod_distance="170" lod_group="_single_lod_grain_field" model="grain_field.spm" xyz="284.99 14.27 276.70" hpr="-67.2 64.8 -72.0" scale="1.00 1.00 1.00" interaction="ghost" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_flower_grass_a">
+    <static-object lod_distance="120" lod_group="_single_lod_flower_grass_a" model="flower_grass_a.spm" xyz="196.95 0.80 206.77" hpr="-0.1 0.0 3.3" scale="0.60 0.60 0.60" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_painting_a">
+    <static-object lod_distance="80" lod_group="_single_lod_painting_a" model="painting_a.spm" xyz="220.57 53.61 452.13" hpr="-22.6 -0.0 -90.0" scale="1.20 1.20 1.20" interaction="ghost" skeletal-animation="false"/>
+   </group>
+   <group name="ekasia_tree">
+    <static-object lod_distance="120" lod_group="ekasia_tree" model="ekasia_tree_high.spm" xyz="17.44 0.00 -12.68" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="2000" lod_group="ekasia_tree" model="ekasia_tree_low.spm" xyz="26.75 0.05 -12.68" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_fence_f">
+    <static-object lod_distance="100" lod_group="_single_lod_fence_f" model="fence_f.spm" xyz="-104.19 28.40 284.06" hpr="-17.7 103.6 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_river_stones_b">
+    <static-object lod_distance="90" lod_group="_single_lod_river_stones_b" model="river_stones_b.spm" xyz="-0.09 -12.71 26.03" hpr="-45.1 27.5 -43.7" scale="0.85 0.78 0.87" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_branch_b">
+    <static-object lod_distance="100" lod_group="_single_lod_branch_b" model="branch_b.spm" xyz="386.64 47.14 487.49" hpr="-2.4 -9.8 -31.9" scale="0.15 0.15 0.15" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_stones_01">
+    <static-object lod_distance="100" lod_group="_single_lod_stones_01" model="stones_01.spm" xyz="436.11 50.83 481.27" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_stones_09">
+    <static-object lod_distance="250" lod_group="_single_lod_stones_09" model="stones_09.spm" xyz="317.63 36.13 549.46" hpr="-163.4 -3.1 64.8" scale="3.31 2.64 2.79" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_flowers_b">
+    <static-object lod_distance="140" lod_group="_single_lod_grass_flowers_b" model="grass_flowers_b.spm" xyz="-134.34 23.14 286.56" hpr="-0.0 -152.7 3.3" scale="0.84 0.78 0.85" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
+   </group>
+   <group name="_single_lod_small_table_b">
+    <static-object lod_distance="60" lod_group="_single_lod_small_table_b" model="small_table_b.spm" xyz="216.84 54.16 412.77" hpr="-0.0 12.3 -0.0" scale="1.00 0.11 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_fence_a">
+    <static-object lod_distance="90" lod_group="_single_lod_fence_a" model="fence_a.spm" xyz="-58.62 33.91 284.29" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_flowers_stk">
+    <static-object lod_distance="180" lod_group="_single_lod_grass_flowers_stk" model="grass_flowers_stk.spm" xyz="-159.49 33.53 241.43" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" skeletal-animation="false" geometry-level="2"/>
+   </group>
+   <group name="_single_lod_bridge_fence_b">
+    <static-object lod_distance="200" lod_group="_single_lod_bridge_fence_b" model="bridge_fence_b.spm" xyz="-86.79 22.43 200.47" hpr="0.0 -0.0 -0.5" scale="1.00 1.00 1.00" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_bookshelf_a">
+    <static-object lod_distance="40" lod_group="_single_lod_bookshelf_a" model="bookshelf_a.spm" xyz="218.92 53.41 440.44" hpr="-0.0 -156.3 -0.0" scale="0.59 0.59 0.59" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_log_big_a">
+    <static-object lod_distance="100" lod_group="_single_lod_log_big_a" model="log_big_a.spm" xyz="388.33 39.56 499.39" hpr="70.5 102.0 79.0" scale="1.30 1.30 1.30" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="_single_lod_grass_field_p">
+    <static-object lod_distance="190" lod_group="_single_lod_grass_field_p" model="grass_field_p.spm" xyz="-18.84 -7.91 186.66" hpr="-26.7 -0.1 -4.5" scale="0.50 0.46 0.43" interaction="ghost" skeletal-animation="false" geometry-level="1"/>
    </group>
   </lod>
   <track model="black_forest_track.spm" x="0" y="0" z="0">
-    <static-object  lod_instance="true" lod_group="bench_a" xyz="209.57 44.45 439.37" hpr="0.0 17.5 0.0" scale="0.30 0.11 4.15"/>
-    <static-object  lod_instance="true" lod_group="bench_a" xyz="59.69 -15.85 232.00" hpr="0.0 33.1 0.0" scale="0.30 0.11 4.15"/>
+    <static-object  lod_instance="true" lod_group="bench_a" xyz="209.57 44.45 439.37" hpr="-0.0 17.5 -0.0" scale="0.30 0.11 4.15"/>
+    <static-object  lod_instance="true" lod_group="bench_a" xyz="59.69 -15.85 232.00" hpr="-0.0 33.1 -0.0" scale="0.30 0.11 4.15"/>
     <static-object  lod_instance="true" lod_group="bench_a" xyz="369.34 36.77 314.73" hpr="0.0 -73.5 0.0" scale="0.30 0.11 4.15"/>
     <static-object  lod_instance="true" lod_group="bench_a" xyz="441.35 55.59 384.43" hpr="-0.0 -160.5 -0.0" scale="0.30 0.11 4.15"/>
     <static-object  lod_instance="true" lod_group="_single_lod_bookshelf_b" xyz="241.11 53.41 439.96" hpr="0.0 -66.3 0.0" scale="0.59 0.59 0.59"/>
@@ -286,21 +286,21 @@
     <static-object  lod_instance="true" lod_group="_single_lod_bush_a" xyz="139.42 -2.42 171.34" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
     <static-object  lod_instance="true" lod_group="_single_lod_bush_brown_leaf_b" xyz="-169.92 20.11 152.51" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
     <static-object  lod_instance="true" lod_group="_single_lod_bush_brown_leaf_a" xyz="-14.29 12.56 276.99" hpr="-107.1 -39.2 98.0" scale="2.54 2.54 2.54"/>
-    <static-object  lod_instance="true" lod_group="_single_lod_bed" xyz="213.81 55.02 421.23" hpr="0.0 22.6 0.0" scale="3.88 0.69 5.90"/>
-    <static-object  lod_instance="true" lod_group="_single_lod_small_table_a" xyz="206.11 54.16 417.71" hpr="0.0 24.3 0.0" scale="1.00 0.11 1.00"/>
+    <static-object  lod_instance="true" lod_group="_single_lod_bed" xyz="213.81 55.02 421.23" hpr="-0.0 22.6 -0.0" scale="3.88 0.69 5.90"/>
+    <static-object  lod_instance="true" lod_group="_single_lod_small_table_a" xyz="206.11 54.16 417.71" hpr="-0.0 24.3 -0.0" scale="1.00 0.11 1.00"/>
     <static-object  model="schiene_b.spm" xyz="272.51 36.64 497.94" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="physics-only"/>
     <static-object  model="track_b.spm" xyz="-149.93 36.64 497.94" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
     <static-object  model="door_a.spm" xyz="230.37 57.01 436.29" hpr="0.0 -81.6 0.0" scale="1.00 1.00 0.53"/>
     <static-object  model="door_b.spm" xyz="222.14 57.01 426.40" hpr="-0.0 86.2 -0.0" scale="1.00 1.00 0.53"/>
     <static-object  model="door_b.spm" xyz="227.41 45.30 419.36" hpr="0.0 -67.4 0.0" scale="0.77 0.77 0.40"/>
     <static-object  lod_instance="true" lod_group="_single_lod_graden_stones_b" xyz="398.61 36.14 315.67" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
-    <static-object  lod_instance="true" lod_group="_single_lod_small_table_c" xyz="223.07 54.16 455.45" hpr="0.0 4.8 0.0" scale="1.00 0.11 1.00"/>
+    <static-object  lod_instance="true" lod_group="_single_lod_small_table_c" xyz="223.07 54.16 455.45" hpr="-0.0 4.8 -0.0" scale="1.00 0.11 1.00"/>
     <static-object  lod_instance="true" lod_group="_single_lod_door_a_9" xyz="232.53 57.01 463.23" hpr="0.0 -86.0 0.0" scale="1.00 1.00 0.53"/>
-    <static-object  lod_instance="true" lod_group="_single_lod_small_table_b" xyz="216.84 54.16 412.77" hpr="0.0 12.3 0.0" scale="1.00 0.11 1.00"/>
+    <static-object  lod_instance="true" lod_group="_single_lod_small_table_b" xyz="216.84 54.16 412.77" hpr="-0.0 12.3 -0.0" scale="1.00 0.11 1.00"/>
     <static-object  model="rail_road_barrier.spm" xyz="21.05 9.81 530.79" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="physics-only"/>
     <static-object  model="rail_road_barrier.spm" xyz="31.90 10.21 535.34" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="physics-only"/>
     <static-object  lod_instance="true" lod_group="_single_lod_graden_stones_c" xyz="440.08 50.88 365.61" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
-    <static-object  model="door_b.spm" xyz="226.46 46.11 424.67" hpr="-0.0 -32.2 0.0" scale="1.00 1.00 0.53"/>
+    <static-object  model="door_b.spm" xyz="226.46 46.11 424.67" hpr="0.0 -32.2 -0.0" scale="1.00 1.00 0.53"/>
     <static-object  lod_instance="true" lod_group="_single_lod_graden_stones_d" xyz="466.52 47.13 388.50" hpr="-0.1 0.0 2.1" scale="1.00 1.00 1.00"/>
     <static-object  model="door_b.spm" xyz="212.45 57.01 438.43" hpr="-0.0 168.9 -0.0" scale="1.00 1.00 0.53"/>
     <static-object  lod_instance="true" lod_group="_single_lod_graden_stones_a" xyz="419.59 37.50 299.46" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
@@ -356,14 +356,14 @@
     <static-object  model="house_drive_in.spm" xyz="206.68 42.47 427.84" hpr="1.9 22.5 4.9" scale="1.00 1.00 11.99" interaction="physics-only"/>
     <static-object  lod_instance="true" lod_group="_single_lod_painting_a" xyz="220.57 53.61 452.13" hpr="-22.6 -0.0 -90.0" scale="1.20 1.20 1.20"/>
     <static-object  lod_instance="true" lod_group="_single_lod_fence_a" xyz="-58.62 33.91 284.29" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
-    <static-object  lod_instance="true" lod_group="_single_lod_fence_house_b" xyz="195.63 54.53 413.26" hpr="0.0 22.6 0.0" scale="7.18 7.18 25.45"/>
+    <static-object  lod_instance="true" lod_group="_single_lod_fence_house_b" xyz="195.63 54.53 413.26" hpr="-0.0 22.6 -0.0" scale="7.18 7.18 25.45"/>
     <static-object  lod_instance="true" lod_group="_single_lod_house_pillar_a" xyz="203.19 50.71 416.58" hpr="-0.0 90.0 0.0" scale="0.35 1.00 1.00"/>
-    <static-object  lod_instance="true" lod_group="_single_lod_fence_house_a" xyz="198.73 54.53 411.97" hpr="0.0 22.6 0.0" scale="7.18 7.18 25.45"/>
-    <static-object  lod_instance="true" lod_group="_single_lod_fence_house_c" xyz="224.23 54.53 473.23" hpr="0.0 22.6 0.0" scale="7.18 7.18 25.45"/>
+    <static-object  lod_instance="true" lod_group="_single_lod_fence_house_a" xyz="198.73 54.53 411.97" hpr="-0.0 22.6 -0.0" scale="7.18 7.18 25.45"/>
+    <static-object  lod_instance="true" lod_group="_single_lod_fence_house_c" xyz="224.23 54.53 473.23" hpr="-0.0 22.6 -0.0" scale="7.18 7.18 25.45"/>
     <static-object  lod_instance="true" lod_group="_single_lod_grain_field" xyz="284.99 14.27 276.70" hpr="-67.2 64.8 -72.0" scale="1.00 1.00 1.00"/>
     <static-object  model="track_barrier_a.spm" xyz="174.95 41.16 364.26" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="physics-only"/>
     <static-object  lod_instance="true" lod_group="_single_lod_railroad_crossing" xyz="208.42 29.60 561.16" hpr="1.0 32.5 1.9" scale="1.48 1.00 1.00"/>
-    <static-object  model="rail_static.spm" xyz="233.75 20.16 547.23" hpr="0.0 32.6 0.0" scale="1.00 1.00 1.00" interaction="physics-only"/>
+    <static-object  model="rail_static.spm" xyz="233.75 20.16 547.23" hpr="-0.0 32.6 -0.0" scale="1.00 1.00 1.00" interaction="physics-only"/>
     <static-object  model="railroad_crossing_staric.spm" xyz="210.05 28.79 560.61" hpr="1.0 32.5 1.9" scale="1.48 1.00 1.00" interaction="physics-only"/>
     <static-object  lod_instance="true" lod_group="_single_lod_railroad_crossing_2" xyz="24.99 10.68 533.28" hpr="-0.4 7.9 -1.8" scale="1.48 1.00 1.00"/>
     <static-object  model="railroad_crossing_static_2.spm" xyz="24.99 10.69 533.28" hpr="-0.4 7.9 -1.8" scale="1.48 1.00 1.00" interaction="physics-only"/>
@@ -405,7 +405,7 @@
     <static-object  lod_instance="true" lod_group="_single_lod_stones_a" xyz="-62.96 10.35 453.42" hpr="16.6 64.7 -157.1" scale="3.31 2.64 2.79"/>
     <static-object  lod_instance="true" lod_group="_single_lod_stump_01" xyz="414.69 48.64 487.74" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"/>
     <static-object  lod_instance="true" lod_group="_single_lod_cow" xyz="111.14 18.23 347.47" hpr="0.0 -21.8 0.0" scale="0.52 0.36 0.52"/>
-    <static-object  model="woodpile.spm" xyz="239.57 41.54 468.30" hpr="7.3 -0.0 0.0" scale="1.68 1.68 1.68"/>
+    <static-object  model="woodpile.spm" xyz="239.57 41.54 468.30" hpr="7.3 -0.0 -0.0" scale="1.68 1.68 1.68"/>
     <static-object  model="woodpile_low.spm" xyz="234.73 41.99 463.73" hpr="0.0 113.1 0.0" scale="1.68 1.68 1.68"/>
     <static-object  lod_instance="true" lod_group="_single_lod_woodpile_low_b" xyz="84.91 19.94 344.02" hpr="0.0 162.0 0.0" scale="1.68 1.68 1.68"/>
     <animated-texture name="stkflag_greenCheckBorard_a.png" dx="-0.45000"  dy="1.20000" />
@@ -418,7 +418,7 @@
   </object>
   <object id="antlers_instance.002" type="animation" xyz="-100.57 11.18 69.43" hpr="-90.0 129.5 0.0" scale="1.56 1.56 1.56" interaction="ghost"  lod_instance="true" lod_group="antlers" skeletal-animation="false">
   </object>
-  <object id="Cube.056" type="animation" xyz="-105.76 17.10 63.81" hpr="-0.0 137.9 -0.0" scale="2.27 0.24 0.24" interaction="ghost" model="start_flag_b.spm" skeletal-animation="false">
+  <object id="Cube.056" type="animation" xyz="-105.76 17.10 63.81" hpr="0.0 137.9 0.0" scale="2.35 0.27 0.25" interaction="ghost" model="start_flag_b.spm" skeletal-animation="false">
     <curve channel="ScaleX" interpolation="bezier" extend="cyclic">
       <p c="1.000 2.268" h1="-18.130 2.268" h2="20.130 2.268"/>
       <p c="50.000 2.998" h1="30.870 2.711" h2="69.521 3.290"/>
@@ -449,7 +449,7 @@
           shape="box" mass="100.0" model="chair_a.spm" skeletal-animation="false"/>
   <object type="movable" id="Cube.173" xyz="225.05 44.09 441.38" hpr="0.0 -57.8 0.0" scale="0.31 0.31 0.31"
           shape="box" mass="100.0" model="chair_a.spm" skeletal-animation="false"/>
-  <object type="movable" id="Cube.174" xyz="226.41 44.09 435.52" hpr="0.0 32.0 0.0" scale="0.31 0.31 0.31"
+  <object type="movable" id="Cube.174" xyz="226.41 44.09 435.52" hpr="-0.0 32.0 -0.0" scale="0.31 0.31 0.31"
           shape="box" mass="100.0" model="chair_a.spm" skeletal-animation="false"/>
   <object id="Cube.186" type="animation" xyz="-149.93 36.64 497.94" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="ghost" model="train_track_b.spm" skeletal-animation="false">
   </object>
@@ -457,7 +457,7 @@
   </object>
   <object id="Cube.195" type="animation" xyz="226.18 45.21 409.91" hpr="-0.0 22.6 -0.0" scale="2.55 2.55 2.55" interaction="ghost" model="stair_board.spm" skeletal-animation="false">
   </object>
-  <object id="Cube.199" type="animation" xyz="-105.89 17.10 63.95" hpr="0.0 -42.1 -0.0" scale="2.27 0.24 0.24" interaction="ghost" model="start_flag_a.spm" skeletal-animation="false">
+  <object id="Cube.199" type="animation" xyz="-105.89 17.10 63.95" hpr="0.0 -42.1 -0.0" scale="2.35 0.27 0.25" interaction="ghost" model="start_flag_a.spm" skeletal-animation="false">
     <curve channel="ScaleX" interpolation="bezier" extend="cyclic">
       <p c="1.000 2.268" h1="-18.130 2.268" h2="20.130 2.268"/>
       <p c="50.000 2.998" h1="30.870 2.711" h2="69.521 3.290"/>
@@ -685,7 +685,7 @@
   </object>
   <object id="stklib_animGrass_a.001" type="animation" xyz="451.16 44.58 334.78" hpr="-0.0 90.0 0.0" scale="1.37 1.37 1.37" interaction="ghost" model="stklib_animGrass_a_main_b.spm" skeletal-animation="false">
   </object>
-  <object id="stklib_animGrass_a.002" type="animation" xyz="316.05 2.86 234.04" hpr="-0.0 90.2 -0.0" scale="1.37 1.37 1.37" interaction="ghost" model="stklib_animGrass_a_main_c.spm" skeletal-animation="false">
+  <object id="stklib_animGrass_a.002" type="animation" xyz="316.05 2.86 234.04" hpr="0.0 90.2 0.0" scale="1.37 1.37 1.37" interaction="ghost" model="stklib_animGrass_a_main_c.spm" skeletal-animation="false">
   </object>
   <object id="stklib_animGrass_a.003" type="animation" xyz="214.32 4.40 241.08" hpr="0.0 90.2 0.0" scale="1.37 1.37 1.37" interaction="ghost" model="stklib_animGrass_a_main_09.spm" skeletal-animation="false">
   </object>
@@ -931,7 +931,7 @@
       <p c="450.000 30.204" h1="444.925 30.204" h2="455.075 30.204"/>
     </curve>
   </object>
-  <object id="stklib_woodLodge_a_main" type="animation" xyz="-29.32 3.97 588.01" hpr="0.0 32.8 0.0" scale="1.23 1.23 1.23" interaction="ghost" model="woodLodge.spm" skeletal-animation="false">
+  <object id="stklib_woodLodge_a_main" type="animation" xyz="-29.32 3.97 588.01" hpr="-0.0 32.8 -0.0" scale="1.23 1.23 1.23" interaction="ghost" model="woodLodge.spm" skeletal-animation="false">
   </object>
   <sun  fog="true" fog-color="65 130 181" fog-max="0.699999988079071" fog-start="70.00" fog-end="300.00" xyz="4.08 375.58 -312.71" sun-specular="255 204 50" sun-diffuse="255 205 50" ambient="75 90 145"/>
   <sky-color rgb="13 165 255"/>
@@ -2222,13 +2222,13 @@
                  upwards-distance  ="1.05"/>
   <library name="stk_combineHarvester_a" id="stk_combineHarvester_a_main_proxy" xyz="318.24 35.27 322.26" hpr="32.9 -157.8 -12.8" scale="1.08 1.08 1.08">
   </library>
-  <library name="stklib_armchair_a" id="stklib_armchair_a_main_proxy" xyz="241.33 54.56 449.50" hpr="0.0 63.9 0.0" scale="1.91 1.91 1.91">
+  <library name="stklib_armchair_a" id="stklib_armchair_a_main_proxy" xyz="241.33 54.56 449.50" hpr="-0.0 63.9 -0.0" scale="1.91 1.91 1.91">
   </library>
   <library name="stklib_armchair_a" id="stklib_armchair_a_main_proxy.001" xyz="219.69 54.93 445.13" hpr="0.0 -20.3 0.0" scale="2.48 2.48 2.48">
   </library>
-  <library name="stklib_armchair_a" id="stklib_armchair_a_main_proxy.002" xyz="219.58 54.93 449.27" hpr="0.0 19.7 0.0" scale="2.48 2.48 2.48">
+  <library name="stklib_armchair_a" id="stklib_armchair_a_main_proxy.002" xyz="219.58 54.93 449.27" hpr="-0.0 19.7 -0.0" scale="2.48 2.48 2.48">
   </library>
-  <library name="stklib_armchair_a" id="stklib_armchair_a_main_proxy.003" xyz="222.62 54.93 442.12" hpr="-0.0 -64.5 0.0" scale="2.48 2.48 2.48">
+  <library name="stklib_armchair_a" id="stklib_armchair_a_main_proxy.003" xyz="222.62 54.93 442.12" hpr="0.0 -64.5 -0.0" scale="2.48 2.48 2.48">
   </library>
   <library name="stklib_armchair_a" id="stklib_armchair_a_main_proxy.004" xyz="242.18 44.10 448.17" hpr="-0.0 -163.7 -0.0" scale="2.48 2.48 2.48">
   </library>
@@ -2238,9 +2238,9 @@
   </library>
   <library name="stklib_autumnBirch_a" id="stklib_autumnBirch_a_main_proxy.002" xyz="-42.37 2.47 16.53" hpr="0.0 -0.0 0.0" scale="1.63 1.63 1.63">
   </library>
-  <library name="stklib_autumnBirch_a" id="stklib_autumnBirch_a_main_proxy.003" xyz="334.24 -10.42 250.49" hpr="0.0 25.2 0.0" scale="1.63 1.63 1.63">
+  <library name="stklib_autumnBirch_a" id="stklib_autumnBirch_a_main_proxy.003" xyz="334.24 -10.42 250.49" hpr="-0.0 25.2 -0.0" scale="1.63 1.63 1.63">
   </library>
-  <library name="stklib_autumnBirch_a" id="stklib_autumnBirch_a_main_proxy.004" xyz="339.20 -0.94 268.52" hpr="0.0 8.0 0.0" scale="1.63 1.63 1.63">
+  <library name="stklib_autumnBirch_a" id="stklib_autumnBirch_a_main_proxy.004" xyz="339.20 -0.94 268.52" hpr="-0.0 8.0 -0.0" scale="1.63 1.63 1.63">
   </library>
   <library name="stklib_autumnBirch_a" id="stklib_autumnBirch_a_main_proxy.005" xyz="321.90 -11.73 241.33" hpr="-0.0 -90.0 0.0" scale="1.63 1.63 1.63">
   </library>
@@ -2324,15 +2324,15 @@
   </library>
   <library name="stklib_autumnTree_b" id="stklib_autumnTree_b_main_proxy.001" xyz="201.29 6.43 259.10" hpr="0.0 -64.4 0.0" scale="1.33 1.33 1.33">
   </library>
-  <library name="stklib_autumnTree_b" id="stklib_autumnTree_b_main_proxy.002" xyz="329.08 -11.38 246.03" hpr="0.0 85.2 0.0" scale="1.33 1.33 1.33">
+  <library name="stklib_autumnTree_b" id="stklib_autumnTree_b_main_proxy.002" xyz="329.08 -11.38 246.03" hpr="-0.0 85.2 -0.0" scale="1.33 1.33 1.33">
   </library>
-  <library name="stklib_autumnTree_b" id="stklib_autumnTree_b_main_proxy.003" xyz="262.32 -1.21 225.78" hpr="0.0 50.3 0.0" scale="1.33 1.33 1.33">
+  <library name="stklib_autumnTree_b" id="stklib_autumnTree_b_main_proxy.003" xyz="262.32 -1.21 225.78" hpr="-0.0 50.3 -0.0" scale="1.33 1.33 1.33">
   </library>
   <library name="stklib_autumnTree_b" id="stklib_autumnTree_b_main_proxy.004" xyz="104.98 -3.93 194.31" hpr="0.0 -0.0 0.0" scale="1.33 1.33 1.33">
   </library>
   <library name="stklib_autumnTree_b" id="stklib_autumnTree_b_main_proxy.005" xyz="55.72 18.04 494.52" hpr="0.0 68.6 0.0" scale="1.57 1.57 1.57">
   </library>
-  <library name="stklib_autumnTree_b" id="stklib_autumnTree_b_main_proxy.006" xyz="11.86 25.82 486.33" hpr="-0.0 95.0 -0.0" scale="1.57 1.57 1.57">
+  <library name="stklib_autumnTree_b" id="stklib_autumnTree_b_main_proxy.006" xyz="11.86 25.82 486.33" hpr="0.0 95.0 0.0" scale="1.57 1.57 1.57">
   </library>
   <library name="stklib_autumnTree_b" id="stklib_autumnTree_b_main_proxy.007" xyz="-45.06 26.00 485.25" hpr="0.0 -81.7 0.0" scale="1.57 1.57 1.57">
   </library>
@@ -2426,7 +2426,7 @@
   </library>
   <library name="stklib_autumnTree_c" id="stklib_autumnTree_c_main_proxy.003" xyz="333.32 59.86 377.49" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_autumnTree_c" id="stklib_autumnTree_c_main_proxy.004" xyz="345.09 -1.98 264.72" hpr="0.0 49.6 0.0" scale="1.33 1.33 1.33">
+  <library name="stklib_autumnTree_c" id="stklib_autumnTree_c_main_proxy.004" xyz="345.09 -1.98 264.72" hpr="-0.0 49.6 -0.0" scale="1.33 1.33 1.33">
   </library>
   <library name="stklib_autumnTree_c" id="stklib_autumnTree_c_main_proxy.005" xyz="309.15 -9.81 234.38" hpr="0.0 -0.0 0.0" scale="1.33 1.33 1.33">
   </library>
@@ -2692,7 +2692,7 @@
   </library>
   <library name="stklib_autumnTree_d" id="stklib_autumnTree_d_main_proxy.062" xyz="105.77 -9.97 115.51" hpr="0.0 -0.0 0.0" scale="1.33 1.33 1.33">
   </library>
-  <library name="stklib_autumnTree_e" id="stklib_autumnTree_e_main_proxy.001" xyz="-183.37 8.46 115.57" hpr="-0.0 174.2 -0.0" scale="2.45 2.45 2.45">
+  <library name="stklib_autumnTree_e" id="stklib_autumnTree_e_main_proxy.001" xyz="-183.37 8.46 115.57" hpr="0.0 174.2 0.0" scale="2.45 2.45 2.45">
   </library>
   <library name="stklib_autumnTree_e" id="stklib_autumnTree_e_main_proxy.002" xyz="-164.54 10.68 134.63" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
   </library>
@@ -2700,19 +2700,19 @@
   </library>
   <library name="stklib_autumnTree_e" id="stklib_autumnTree_e_main_proxy.004" xyz="-171.97 34.01 235.64" hpr="0.0 172.3 0.0" scale="2.45 2.45 2.45">
   </library>
-  <library name="stklib_autumnTree_e" id="stklib_autumnTree_e_main_proxy.005" xyz="257.31 32.95 565.80" hpr="-0.0 -85.8 0.0" scale="1.16 1.16 1.16">
+  <library name="stklib_autumnTree_e" id="stklib_autumnTree_e_main_proxy.005" xyz="257.31 32.95 565.80" hpr="0.0 -85.8 -0.0" scale="1.16 1.16 1.16">
   </library>
   <library name="stklib_autumnTree_e" id="stklib_autumnTree_e_main_proxy.006" xyz="37.69 -10.13 130.28" hpr="-0.0 9.5 -0.0" scale="2.29 2.29 2.29">
   </library>
-  <library name="stklib_autumnTree_e" id="stklib_autumnTree_e_main_proxy.007" xyz="451.08 54.65 400.97" hpr="-0.0 -1.5 0.0" scale="2.29 2.29 2.29">
+  <library name="stklib_autumnTree_e" id="stklib_autumnTree_e_main_proxy.007" xyz="451.08 54.65 400.97" hpr="0.0 -1.5 -0.0" scale="2.29 2.29 2.29">
   </library>
   <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy.001" xyz="-160.38 34.41 196.81" hpr="-0.0 99.2 -0.0" scale="2.43 2.43 2.43">
   </library>
   <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy.002" xyz="207.68 3.93 218.61" hpr="-0.0 99.2 -0.0" scale="1.86 1.86 1.86">
   </library>
-  <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy.003" xyz="205.24 4.86 232.74" hpr="0.0 20.3 0.0" scale="1.86 1.86 1.86">
+  <library name="stklib_autumnTree_f" id="stklib_autumnTree_f_main_proxy.003" xyz="205.24 4.86 232.74" hpr="-0.0 20.3 -0.0" scale="1.86 1.86 1.86">
   </library>
-  <library name="stklib_autumnTree_g" id="stklib_autumnTree_g_main_proxy.000" xyz="91.31 -14.29 229.41" hpr="-0.0 105.0 -0.0" scale="3.00 3.00 3.00">
+  <library name="stklib_autumnTree_g" id="stklib_autumnTree_g_main_proxy.000" xyz="91.31 -14.29 229.41" hpr="0.0 105.0 0.0" scale="3.00 3.00 3.00">
   </library>
   <library name="stklib_autumnTree_g" id="stklib_autumnTree_g_main_proxy.001" xyz="219.94 43.82 383.68" hpr="0.0 -0.0 0.0" scale="2.73 2.73 2.73">
   </library>
@@ -2843,41 +2843,41 @@
       <p c="333.000 1.000" h1="272.877 1.000" h2="393.123 1.000"/>
     </curve>
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy" xyz="-5.38 -12.83 16.97" hpr="-0.0 122.3 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy" xyz="-5.38 -12.83 16.97" hpr="0.0 122.3 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.001" xyz="-5.59 -12.63 20.53" hpr="-0.0 122.3 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.001" xyz="-5.59 -12.63 20.53" hpr="0.0 122.3 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.002" xyz="-4.95 -12.60 22.71" hpr="-0.0 122.3 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.002" xyz="-4.95 -12.60 22.71" hpr="0.0 122.3 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.003" xyz="-5.50 -12.71 19.35" hpr="-0.0 122.3 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.003" xyz="-5.50 -12.71 19.35" hpr="0.0 122.3 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.004" xyz="56.05 -17.90 196.10" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.004" xyz="56.05 -17.90 196.10" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.005" xyz="50.92 -21.05 229.32" hpr="-0.0 122.3 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.005" xyz="50.92 -21.05 229.32" hpr="0.0 122.3 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.006" xyz="48.43 -20.34 228.04" hpr="-0.0 122.3 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.006" xyz="48.43 -20.34 228.04" hpr="0.0 122.3 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.007" xyz="49.46 -22.30 231.07" hpr="-0.0 122.3 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.007" xyz="49.46 -22.30 231.07" hpr="0.0 122.3 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.008" xyz="55.95 -17.89 194.02" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.008" xyz="55.95 -17.89 194.02" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.009" xyz="55.51 -18.08 197.66" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.009" xyz="55.51 -18.08 197.66" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.010" xyz="54.86 -18.13 198.61" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.010" xyz="54.86 -18.13 198.61" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.011" xyz="33.07 -15.77 147.12" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.011" xyz="33.07 -15.77 147.12" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.012" xyz="31.48 -15.93 146.37" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.012" xyz="31.48 -15.93 146.37" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.013" xyz="29.42 -16.09 145.65" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.013" xyz="29.42 -16.09 145.65" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.014" xyz="32.02 -15.82 147.21" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.014" xyz="32.02 -15.82 147.21" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.015" xyz="30.39 -15.95 146.68" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.015" xyz="30.39 -15.95 146.68" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.016" xyz="34.19 -16.03 148.18" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.016" xyz="34.19 -16.03 148.18" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
-  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.017" xyz="35.15 -16.06 148.89" hpr="-0.0 122.3 -0.0" scale="0.58 0.58 0.58">
+  <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.017" xyz="35.15 -16.06 148.89" hpr="0.0 122.3 0.0" scale="0.58 0.58 0.58">
   </library>
   <library name="stklib_cattail_a" id="stklib_cattail_a_main_proxy.018" xyz="57.66 -19.60 242.55" hpr="-15.3 19.0 -10.7" scale="0.85 0.85 0.85">
   </library>
@@ -2943,7 +2943,7 @@
   </library>
   <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.006" xyz="484.97 47.19 378.05" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.007" xyz="480.97 46.95 367.69" hpr="-0.0 132.1 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.007" xyz="480.97 46.95 367.69" hpr="0.0 132.1 0.0" scale="1.00 1.00 1.00">
   </library>
   <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.008" xyz="480.83 46.39 371.26" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00">
   </library>
@@ -2977,9 +2977,9 @@
   </library>
   <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.023" xyz="489.05 46.71 394.11" hpr="0.0 -63.6 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.024" xyz="491.79 47.73 401.55" hpr="-0.0 101.6 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.024" xyz="491.79 47.73 401.55" hpr="0.0 101.6 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.025" xyz="488.74 46.87 398.86" hpr="-0.0 103.3 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.025" xyz="488.74 46.87 398.86" hpr="0.0 103.3 0.0" scale="1.00 1.00 1.00">
   </library>
   <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.026" xyz="489.87 48.09 409.57" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00">
   </library>
@@ -3029,7 +3029,7 @@
   </library>
   <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.049" xyz="494.35 48.42 442.24" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.050" xyz="489.29 48.22 403.35" hpr="-0.0 101.6 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.050" xyz="489.29 48.22 403.35" hpr="0.0 101.6 0.0" scale="1.00 1.00 1.00">
   </library>
   <library name="stklib_cornPlant_a" id="stklib_cornPlant_a_main_proxy.051" xyz="492.75 47.92 411.37" hpr="-0.0 -90.0 0.0" scale="1.00 1.00 1.00">
   </library>
@@ -3305,9 +3305,9 @@
   </library>
   <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.018" xyz="20.63 11.00 549.08" hpr="0.0 -51.3 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.019" xyz="275.38 42.69 497.71" hpr="0.0 14.1 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.019" xyz="275.38 42.69 497.71" hpr="-0.0 14.1 -0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.020" xyz="282.10 42.69 496.16" hpr="0.0 14.1 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.020" xyz="282.10 42.69 496.16" hpr="-0.0 14.1 -0.0" scale="1.00 1.00 1.00">
   </library>
   <library name="stklib_oldLantern_a" id="stklib_oldLantern_a_main_proxy.021" xyz="23.99 9.77 553.28" hpr="0.0 -51.3 0.0" scale="1.00 1.00 1.00">
   </library>
@@ -5177,11 +5177,11 @@
   </library>
   <library name="stklib_pinetree_b" id="stklib_pinetree_b_main_proxy.914" xyz="102.84 -8.47 124.65" hpr="0.0 -0.0 0.0" scale="1.51 1.51 1.51">
   </library>
-  <library name="stklib_redFlowerBush_a" id="stklib_redFlowerBush_a_main_proxy" xyz="387.68 36.15 322.79" hpr="0.0 9.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_redFlowerBush_a" id="stklib_redFlowerBush_a_main_proxy" xyz="387.68 36.15 322.79" hpr="-0.0 9.8 -0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_redFlowerBush_a" id="stklib_redFlowerBush_a_main_proxy.001" xyz="427.36 39.92 312.46" hpr="-0.0 128.3 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_redFlowerBush_a" id="stklib_redFlowerBush_a_main_proxy.001" xyz="427.36 39.92 312.46" hpr="0.0 128.3 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_redFlowerBush_a" id="stklib_redFlowerBush_a_main_proxy.002" xyz="428.26 39.78 309.60" hpr="-0.0 128.3 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_redFlowerBush_a" id="stklib_redFlowerBush_a_main_proxy.002" xyz="428.26 39.78 309.60" hpr="0.0 128.3 0.0" scale="1.00 1.00 1.00">
   </library>
   <library name="stklib_redFlowerBush_a" id="stklib_redFlowerBush_a_main_proxy.003" xyz="470.99 47.30 394.36" hpr="-0.0 73.0 -0.0" scale="1.00 1.00 1.00">
   </library>
@@ -5191,21 +5191,21 @@
   </library>
   <library name="stklib_redFlowerBush_a" id="stklib_redFlowerBush_a_main_proxy.007" xyz="51.45 -17.58 219.03" hpr="-0.0 -167.4 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy" xyz="432.77 54.30 375.34" hpr="0.0 76.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy" xyz="432.77 54.30 375.34" hpr="-0.0 76.8 -0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.001" xyz="448.96 52.67 393.06" hpr="0.0 76.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.001" xyz="448.96 52.67 393.06" hpr="-0.0 76.8 -0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.002" xyz="454.39 51.14 395.70" hpr="0.0 76.8 0.0" scale="1.30 1.30 1.30">
+  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.002" xyz="454.39 51.14 395.70" hpr="-0.0 76.8 -0.0" scale="1.30 1.30 1.30">
   </library>
-  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.003" xyz="451.43 52.16 395.38" hpr="0.0 76.8 0.0" scale="1.35 1.35 1.35">
+  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.003" xyz="451.43 52.16 395.38" hpr="-0.0 76.8 -0.0" scale="1.35 1.35 1.35">
   </library>
-  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.004" xyz="462.33 47.72 393.35" hpr="0.0 53.4 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.004" xyz="462.33 47.72 393.35" hpr="-0.0 53.4 -0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.005" xyz="459.67 48.22 392.50" hpr="0.0 28.8 0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.005" xyz="459.67 48.22 392.50" hpr="-0.0 28.8 -0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.006" xyz="54.74 -17.40 224.35" hpr="0.0 -154.8 -0.0" scale="1.00 1.00 1.00">
+  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.006" xyz="54.74 -17.40 224.35" hpr="-0.0 -154.8 0.0" scale="1.00 1.00 1.00">
   </library>
-  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.007" xyz="50.32 -17.40 216.36" hpr="0.0 -169.5 -0.0" scale="0.85 0.85 0.85">
+  <library name="stklib_sagebrush_a" id="stklib_sagebrush_a_main_proxy.007" xyz="50.32 -17.40 216.36" hpr="-0.0 -169.5 0.0" scale="0.85 0.85 0.85">
   </library>
   <library name="stklib_stkVertical_a" id="stklib_stkVertical_a_main_proxy" xyz="-98.10 15.78 70.85" hpr="-0.0 137.9 -0.0" scale="0.80 0.80 0.80">
   </library>

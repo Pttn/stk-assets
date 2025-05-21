@@ -55,6 +55,10 @@ Files: landing_in_gran_paradiso.ogg
 Copyright: Ozoneone & Krobonil
 License: CC-BY-SA 3.0
 
+Files: las_dunas.ogg
+Copyright: ALBatross
+License: CC-BY-SA 4.0
+
 Files: Lava.ogg
 Copyright: Kalsan
 License: CC-BY-SA 3.0

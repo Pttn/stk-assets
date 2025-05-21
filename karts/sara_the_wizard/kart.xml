@@ -51,14 +51,26 @@
     <nitro-emitter-b position = "-0.154859 0.256226 -0.666196" />
   </nitro-emitter>
   <headlights>
-    <object position="0.000000 0.265830 1.645025"
-            rotation="0.000000 -0.000000 0.000000"
-            scale="1.000000 1.103573 1.103573"
+    <object position="0.000479 0.410917 0.429782"
+            rotation="0.000000 -0.000000 -0.000000"
+            scale="1.000000 1.000000 1.000000"
             bone="Main"
-            model="Headlight.spm"/>
+            radius="5.00"
+            energy="1.50"
+            inner-cone="0.524"
+            outer-cone="0.785"
+            type="spot"
+    />
+    <object position="0.000000 0.000000 0.000000"
+            rotation="0.000000 -0.000000 0.000000"
+            scale="1.000000 1.000000 1.000000"
+            bone="Main"
+            type="mesh"
+            model="tail_light.spm"
+    />
   </headlights>
   <hat position="0.001154 0.912441 0.000260"
-       rotation="3.673095 0.000335 1.513430"
+       rotation="3.673096 0.000335 1.513430"
        scale="1.000000 1.000000 1.000000"
        bone="Head"/>
   <lean max="*0-10"/>

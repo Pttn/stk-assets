@@ -33,7 +33,7 @@
     <nitro-emitter-b position = "-0.237400 0.489350 -0.326533" />
   </nitro-emitter>
   <headlights>
-    <object position="0.000439 0.336334 0.697927"
+    <object position="-0.005000 0.320000 0.640000"
             rotation="5.201238 -0.000000 0.000000"
             scale="1.000000 1.000000 1.000000"
             bone="Kart"

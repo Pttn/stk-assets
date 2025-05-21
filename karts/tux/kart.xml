@@ -36,12 +36,12 @@
     <nitro-emitter-b position = "-0.200000 0.360000 -0.580000" />
   </nitro-emitter>
   <headlights>
-    <object position="-0.261508 0.124717 0.724599"
+    <object position="-0.258784 0.125951 0.704622"
             rotation="-0.000011 -0.000000 0.000000"
             scale="1.000000 1.000000 1.000000"
             bone="Car"
             model="headlight.spm"/>
-    <object position="0.257051 0.124717 0.724599"
+    <object position="0.259808 0.125951 0.704622"
             rotation="-0.000011 -0.000000 0.000000"
             scale="1.000000 1.000000 1.000000"
             bone="Car"

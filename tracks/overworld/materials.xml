@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <!-- Generated with script from SVN rev Unknown -->
 <materials>
+  <material name="alpha_sea.png" shader="alphablend" collision-detect="Y" falling-effect="Y" reset="Y" collision-reaction="reset"/>
   <material name="bubble.png" ignore="Y" shader="alphablend"/>
   <material name="bubble_solid_texture.png" collision-detect="Y" collision-reaction="push" collision-particles="sparks.xml" shader="alphatest"/>
   <material name="BurdockLeaf.png" ignore="Y" shader="alphatest"/>
@@ -21,6 +22,8 @@
   <material name="GrassTall.png" ignore="Y" shader="alphatest"/>
   <material name="GroundCover.png" ignore="Y" shader="alphatest"/>
   <material name="Jackinthepulpit.png" ignore="Y" shader="alphatest"/>
+  <material name="lava_2k_diffuse.jpg" gloss-map="lava_2k_glossy.jpg" normal-map="lava_2k_nm.jpg" collision-detect="Y" falling-effect="Y" reset="Y" collision-reaction="reset"/>
+  <material name="light-1.png" shader="alphablend"/>
   <material name="light.png" ignore="Y" clampu="Y" shader="alphablend"/>
   <material name="marble_column.jpg" normal-map="column_normal_map.png"/>
   <material name="Mint.png" ignore="Y" shader="alphatest"/>

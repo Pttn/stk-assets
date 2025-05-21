@@ -2,7 +2,7 @@
 <!-- Generated with script from SVN rev 17016 -->
 <scene>
   <track model="hole_drop_track.spm" x="0" y="0" z="0"/>
-  <object id="background_fan" type="animation" xyz="0.00 -10.00 0.00" hpr="0.0 -7.2 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="background_fan.spm" skeletal-animation="false">
+  <object id="background_fan" type="animation" xyz="0.00 -10.00 0.00" hpr="0.0 36.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="exact" model="background_fan.spm" skeletal-animation="false">
     <curve channel="RotY" interpolation="linear" extend="cyclic">
       <p c="0.000 -0.000"/>
       <p c="50.000 -360.000"/>
@@ -18,13 +18,13 @@
   </object>
   <object type="movable" id="Puck" xyz="0.00 3.00 0.00" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00"
           shape="cylinderY" mass="20.0" model="puck.spm" soccer_ball="true" friction="0.5" restitution="0.6" linear-factor="1.0 1.0 1.0" angular-factor="0.0 1.0 0.0" linear-damping="0.0" angular-damping="0.9" skeletal-animation="false"/>
-  <object id="pusher_blue" type="animation" xyz="0.00 -5.00 42.84" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="pusher_blue.spm" shadow-pass="false" skeletal-animation="false">
+  <object id="pusher_blue" type="animation" xyz="0.00 -5.00 68.30" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="pusher_blue.spm" shadow-pass="false" skeletal-animation="false">
     <curve channel="LocZ" interpolation="linear" extend="cyclic">
       <p c="0.000 41.500"/>
       <p c="25.000 75.000"/>
     </curve>
   </object>
-  <object id="pusher_red" type="animation" xyz="0.00 -5.00 -42.84" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="pusher_red.spm" shadow-pass="false" skeletal-animation="false">
+  <object id="pusher_red" type="animation" xyz="0.00 -5.00 -68.30" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00" interaction="static" shape="box" model="pusher_red.spm" shadow-pass="false" skeletal-animation="false">
     <curve channel="LocZ" interpolation="linear" extend="cyclic">
       <p c="0.000 -41.500"/>
       <p c="25.000 -75.000"/>
@@ -32,7 +32,7 @@
   </object>
   <sun  fog="true" fog-color="50 50 50" fog-max="0.5" fog-start="15.00" fog-end="500.00" xyz="296.24 -0.01 10.79" sun-specular="24 53 150" sun-diffuse="24 53 150" ambient="220 220 220"/>
   <weather particles="rain.xml"/>
-  <sky-box texture="skybox-top.jpg skybox-bottom.jpg skybox-east.jpg skybox-west.jpg skybox-south.jpg skybox-north.jpg" sh-texture="ibl.jpg ibl.jpg ibl.jpg ibl.jpg ibl.jpg ibl.jpg"/>
+  <sky-box texture="skybox-top.jpg skybox-bottom.jpg skybox-east.jpg skybox-west.jpg skybox-south.jpg skybox-north.jpg" sh-texture="skybox-top.jpg skybox-bottom.jpg ibl.jpg ibl.jpg ibl.jpg ibl.jpg"/>
   <camera far="1000.0"/>
   <checks>
     <check-line kind="lap" p1="-1.00 0.00" p2="1.00 0.00"
@@ -52,25 +52,25 @@
   <small-nitro id="Nitro.001" x="31.16" y="10.00" z="47.73" />
   <small-nitro id="Nitro.002" x="-31.16" y="10.00" z="-47.73" />
   <small-nitro id="Nitro.003" x="31.16" y="10.00" z="-47.73" />
-  <light xyz="-20.94 0.83 64.15" id="Light.000" distance="100.00" energy="10.00" color="0 63 255">
+  <light xyz="-20.94 0.83 64.15" id="Light.000" distance="25.00" energy="10.00" color="0 63 255">
   </light>
-  <light xyz="20.94 0.83 64.15" id="Light.001" distance="100.00" energy="10.00" color="0 63 255">
+  <light xyz="20.94 0.83 64.15" id="Light.001" distance="25.00" energy="10.00" color="0 63 255">
   </light>
-  <light xyz="45.64 0.83 39.46" id="Light.002" distance="100.00" energy="10.00" color="0 63 255">
+  <light xyz="45.64 0.83 39.46" id="Light.002" distance="25.00" energy="10.00" color="0 63 255">
   </light>
-  <light xyz="-45.64 0.83 39.46" id="Light.003" distance="100.00" energy="10.00" color="0 63 255">
+  <light xyz="-45.64 0.83 39.46" id="Light.003" distance="25.00" energy="10.00" color="0 63 255">
   </light>
-  <light xyz="-45.64 0.83 0.00" id="Light.004" distance="100.00" energy="5.00" color="255 255 255">
+  <light xyz="-45.64 0.83 0.00" id="Light.004" distance="25.00" energy="5.00" color="255 255 255">
   </light>
-  <light xyz="45.64 0.83 0.00" id="Light.005" distance="100.00" energy="5.00" color="255 255 255">
+  <light xyz="45.64 0.83 0.00" id="Light.005" distance="25.00" energy="5.00" color="255 255 255">
   </light>
-  <light xyz="-20.94 0.83 -64.15" id="Light.006" distance="100.00" energy="10.00" color="255 0 0">
+  <light xyz="-20.94 0.83 -64.15" id="Light.006" distance="25.00" energy="10.00" color="255 0 0">
   </light>
-  <light xyz="20.94 0.83 -64.15" id="Light.007" distance="100.00" energy="10.00" color="255 0 0">
+  <light xyz="20.94 0.83 -64.15" id="Light.007" distance="25.00" energy="10.00" color="255 0 0">
   </light>
-  <light xyz="45.64 0.83 -39.46" id="Light.008" distance="100.00" energy="10.00" color="255 0 0">
+  <light xyz="45.64 0.83 -39.46" id="Light.008" distance="25.00" energy="10.00" color="255 0 0">
   </light>
-  <light xyz="-45.64 0.83 -39.46" id="Light.009" distance="100.00" energy="10.00" color="255 0 0">
+  <light xyz="-45.64 0.83 -39.46" id="Light.009" distance="25.00" energy="10.00" color="255 0 0">
   </light>
   <default-start karts-per-row     ="3"
                  forwards-distance ="1.50"

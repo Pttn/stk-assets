@@ -31,11 +31,11 @@
     <static-object  model="boost_arrows.spm" xyz="90.97 5.51 105.53" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
     <animated-texture name="zipper.png" dy="1.50000" />
     </static-object>
-    <static-object  model="Plane.043.spm" xyz="388.00 4.05 13.78" hpr="0.0 86.7 0.0" scale="2.51 2.51 2.51"/>
-    <static-object  model="Plane.044.spm" xyz="388.00 11.03 153.43" hpr="0.0 56.7 0.0" scale="2.88 2.88 2.88"/>
-    <static-object  model="Plane.045.spm" xyz="388.00 1.69 -116.02" hpr="0.0 32.7 0.0" scale="3.76 3.76 3.76"/>
-    <static-object  model="Plane.046.spm" xyz="311.03 4.97 68.85" hpr="0.0 56.7 0.0" scale="2.88 2.88 2.88"/>
-    <static-object  model="Plane.047.spm" xyz="309.84 -3.36 13.81" hpr="0.0 56.7 0.0" scale="2.88 2.88 2.88"/>
+    <static-object  model="Plane.043.spm" xyz="388.00 4.05 13.78" hpr="-0.0 86.7 -0.0" scale="2.51 2.51 2.51"/>
+    <static-object  model="Plane.044.spm" xyz="388.00 11.03 153.43" hpr="-0.0 56.7 -0.0" scale="2.88 2.88 2.88"/>
+    <static-object  model="Plane.045.spm" xyz="388.00 1.69 -116.02" hpr="-0.0 32.7 -0.0" scale="3.76 3.76 3.76"/>
+    <static-object  model="Plane.046.spm" xyz="311.03 4.97 68.85" hpr="-0.0 56.7 -0.0" scale="2.88 2.88 2.88"/>
+    <static-object  model="Plane.047.spm" xyz="309.84 -3.36 13.81" hpr="-0.0 56.7 -0.0" scale="2.88 2.88 2.88"/>
     <static-object  model="Plane.050.spm" xyz="384.46 -7.07 -25.18" hpr="-90.0 45.0 -0.0" scale="1.00 1.00 1.00"/>
     <static-object  model="arrow2.spm" xyz="150.00 -10.92 -5.08" hpr="-0.0 83.1 -0.0" scale="1.00 1.00 1.00">
     <animated-texture name="zipper-effect.png" dy="0.10000" />
@@ -56,17 +56,25 @@
   <sky-box texture="blue_sky_top.jpg yellow_dirt.jpg blue_sky_east.jpg blue_sky_west.jpg blue_sky_south.jpg blue_sky_north.jpg" sh-texture="blue_sky_top.jpg blue_sky_top.jpg blue_sky_ibl.jpg blue_sky_ibl.jpg blue_sky_ibl.jpg blue_sky_ibl.jpg"/>
   <camera far="2500.0"/>
   <checks>
-    <check-lap kind="lap" same-group="0 4 5" other-ids="1" />
-    <check-line kind="activate" other-ids="2" p1="227.98 -0.01 109.13" p2="229.34 -0.01 90.07"
+    <check-lap kind="lap" same-group="0 8 9" other-ids="1" />
+    <check-line kind="activate" other-ids="2" p1="64.36 -0.40 87.06" p2="64.36 -0.40 113.05"
                 same-group="1"/>
-    <check-line kind="activate" other-ids="3" p1="180.19 -15.13 -12.67" p2="163.88 -15.13 -32.79"
+    <check-line kind="activate" other-ids="3 4" p1="231.02 -0.40 87.06" p2="231.02 -0.40 113.05"
                 same-group="2"/>
-    <check-line kind="activate" other-ids="0 4 5" p1="75.13 -10.14 -96.99" p2="51.45 -10.14 -107.49"
-                same-group="3"/>
+    <check-line kind="activate" other-ids="5" p1="292.42 3.96 177.24" p2="275.88 3.96 157.19"
+                same-group="3 4"/>
+    <check-line kind="activate" other-ids="5" p1="280.86 4.15 163.23" p2="275.28 -2.27 156.47"
+                same-group="3 4"/>
+    <check-line kind="activate" other-ids="6" p1="242.52 4.14 54.28" p2="216.72 4.14 51.09"
+                same-group="5"/>
+    <check-line kind="activate" other-ids="7" p1="152.89 -19.95 -33.17" p2="127.49 -19.95 -27.66"
+                same-group="6"/>
+    <check-line kind="activate" other-ids="0 8 9" p1="49.41 -10.68 -106.40" p2="73.85 -10.68 -97.53"
+                same-group="7"/>
     <check-line kind="lap" other-ids="1" p1="-6.06 -0.45 0.02" p2="-4.01 -0.45 0.02"
-                same-group="0 4 5"/>
+                same-group="0 8 9"/>
     <check-line kind="lap" other-ids="1" p1="4.02 -0.45 -0.02" p2="6.07 -0.45 -0.02"
-                same-group="0 4 5"/>
+                same-group="0 8 9"/>
   </checks>
   <item id="Empty.000" x="74.00" y="-0.13" z="98.24" />
   <small-nitro id="Empty.001" x="96.66" y="-13.19" z="-135.58" h="-96.66" />
@@ -121,7 +129,7 @@
                  upwards-distance  ="0.10"/>
   <library name="stklib_accacia_a" id="stklib_accacia_a_main_proxy" xyz="-16.93 -0.62 84.79" hpr="0.0 -0.0 0.0" scale="1.94 1.94 1.94">
   </library>
-  <library name="stklib_accacia_a" id="stklib_accacia_a_main_proxy.001" xyz="-10.19 -0.67 103.75" hpr="0.0 62.2 0.0" scale="2.30 2.30 2.30">
+  <library name="stklib_accacia_a" id="stklib_accacia_a_main_proxy.001" xyz="-10.19 -0.67 103.75" hpr="-0.0 62.2 -0.0" scale="2.30 2.30 2.30">
   </library>
   <library name="stklib_agave_a" id="stklib_agave_a_main_proxy" xyz="11.59 -0.30 -0.30" hpr="0.0 -0.0 0.0" scale="1.74 1.74 1.74">
   </library>
@@ -183,13 +191,13 @@
   </library>
   <library name="stklib_logBarrier_a" id="stklib_logBarrier_a_main_proxy" xyz="-0.75 -1.06 87.83" hpr="0.0 -42.5 0.0" scale="0.75 0.75 0.75">
   </library>
-  <library name="stklib_logBarrier_a" id="stklib_logBarrier_a_main_proxy.001" xyz="141.18 -1.18 109.83" hpr="0.0 0.5 0.0" scale="0.75 0.75 0.75">
+  <library name="stklib_logBarrier_a" id="stklib_logBarrier_a_main_proxy.001" xyz="141.18 -1.18 109.83" hpr="-0.0 0.5 -0.0" scale="0.75 0.75 0.75">
   </library>
-  <library name="stklib_logBarrier_a" id="stklib_logBarrier_a_main_proxy.002" xyz="188.19 -1.18 109.83" hpr="0.0 0.5 0.0" scale="0.75 0.75 0.75">
+  <library name="stklib_logBarrier_a" id="stklib_logBarrier_a_main_proxy.002" xyz="188.19 -1.18 109.83" hpr="-0.0 0.5 -0.0" scale="0.75 0.75 0.75">
   </library>
-  <library name="stklib_logBarrier_a" id="stklib_logBarrier_a_main_proxy.003" xyz="161.18 -1.18 89.96" hpr="0.0 0.5 0.0" scale="0.75 0.75 0.75">
+  <library name="stklib_logBarrier_a" id="stklib_logBarrier_a_main_proxy.003" xyz="161.18 -1.18 89.96" hpr="-0.0 0.5 -0.0" scale="0.75 0.75 0.75">
   </library>
-  <library name="stklib_logBarrier_a" id="stklib_logBarrier_a_main_proxy.004" xyz="127.16 -1.18 90.00" hpr="0.0 0.5 0.0" scale="0.75 0.75 0.75">
+  <library name="stklib_logBarrier_a" id="stklib_logBarrier_a_main_proxy.004" xyz="127.16 -1.18 90.00" hpr="-0.0 0.5 -0.0" scale="0.75 0.75 0.75">
   </library>
   <library name="stklib_logBarrierEndPost_a" id="stklib_logBarrierEndPost_a_main_proxy" xyz="8.26 -2.57 96.25" hpr="0.0 -0.0 0.0" scale="1.00 1.00 1.00">
   </library>
@@ -259,9 +267,9 @@
   </library>
   <library name="stklib_stkVertical_a" id="stklib_stkVertical_a_main_proxy.001" xyz="64.70 8.34 94.84" hpr="-0.0 90.0 0.0" scale="0.72 0.72 0.72">
   </library>
-  <library name="stklib_windpump_a" id="stklib_windpump_a_main_proxy" xyz="248.68 11.09 -155.62" hpr="0.0 60.6 0.0" scale="2.05 2.05 2.05">
+  <library name="stklib_windpump_a" id="stklib_windpump_a_main_proxy" xyz="248.68 11.09 -155.62" hpr="-0.0 60.6 -0.0" scale="2.05 2.05 2.05">
   </library>
-  <library name="stklib_windpump_a" id="stklib_windpump_a_main_proxy.001" xyz="334.60 -11.29 -182.24" hpr="0.0 88.9 0.0" scale="2.34 2.34 2.34">
+  <library name="stklib_windpump_a" id="stklib_windpump_a_main_proxy.001" xyz="334.60 -11.29 -182.24" hpr="-0.0 88.9 -0.0" scale="2.34 2.34 2.34">
   </library>
   <library name="stklib_windpump_a" id="stklib_windpump_a_main_proxy.002" xyz="270.86 2.35 -280.01" hpr="0.0 83.1 0.0" scale="2.34 2.34 2.34">
   </library>

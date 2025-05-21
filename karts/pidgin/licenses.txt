@@ -5,7 +5,8 @@ Source: https://supertuxkart.net
 License: CC-BY-SA 3.0
 
 Files:
- headlights.spm
+ headlight_left.spm
+ headlight_right.spm
 Copyright:
  Copyright 2017 Jean-Manuel "samuncle" Clémençon <sam.un@protonmail.com>
  Copyright 2017 Néd J. "jymis" Édoire <nwad@crypticgate.net>

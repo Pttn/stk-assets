@@ -31,7 +31,7 @@
               selection-end = "779"/>
   <speed-weighted-objects>
     <object position="-0.000000 0.309056 0.043688"
-            rotation="3.736795 -0.000000 -0.000000"
+            rotation="3.736794 -0.000000 -0.000000"
             scale="1.000000 1.000000 1.000000"
             bone="root"
             speed-factor="1.100000"
@@ -43,20 +43,22 @@
   </nitro-emitter>
   <headlights>
     <object position="-0.307101 0.405814 0.539214"
-            rotation="3.736795 -0.000000 -0.000000"
+            rotation="3.736794 -0.000000 -0.000000"
             scale="1.000000 1.000000 1.000000"
             bone="root"
             color="255 232 57"
-            model="lantern_1.spm"/>
+            model="lantern_1.spm"
+    />
     <object position="0.307101 0.405814 0.539214"
-            rotation="3.736795 -0.000000 -0.000000"
+            rotation="3.736794 -0.000000 -0.000000"
             scale="1.000000 1.000000 1.000000"
             bone="root"
             color="255 232 57"
-            model="lantern_1.spm"/>
+            model="lantern_1.spm"
+    />
   </headlights>
   <hat position="0.003708 1.084066 -0.035620"
-       rotation="9.833380 -0.466672 1.279527"
+       rotation="9.833382 -0.466672 1.279527"
        scale="1.000000 1.000000 1.000000"
        bone="Head"/>
 </kart>
