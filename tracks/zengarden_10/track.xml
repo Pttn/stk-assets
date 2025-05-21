@@ -2,7 +2,7 @@
 <!-- Generated with script from SVN rev 17016 -->
 <track  name           = "Zen Garden 10"
         version        = "7"
-        groups         = "stk1"
+        groups         = "ScaleTest"
         designer       = "jean-Manuel Clamencon"
         music          = "garden.music"
         screenshot     = "screenshot.jpg"

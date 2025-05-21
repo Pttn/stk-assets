@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<!-- Generated with script from SVN rev 17016 -->
+<scene>
+  <lod>
+   <group name="aliens">
+    <static-object lod_distance="60" lod_group="aliens" model="aliens_hi.spm" xyz="-52.65 6.75 109.51" hpr="-90.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="200" lod_group="aliens" model="aliens_lo.spm" xyz="-47.64 6.02 107.03" hpr="-90.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="static" skeletal-animation="false"/>
+   </group>
+   <group name="robot1">
+    <static-object lod_distance="40" lod_group="robot1" model="robot_high.spm" xyz="37.85 -5.44 -228.39" hpr="-90.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="static" skeletal-animation="false"/>
+    <static-object lod_distance="200" lod_group="robot1" model="robot1_low.spm" xyz="50.74 -5.44 -226.16" hpr="-90.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="static" skeletal-animation="false"/>
+   </group>
+  </lod>
+  <track model="xr591_up_12%_track.spm" x="0" y="0" z="0">
+    <static-object  model="water2.spm" xyz="12.01 -18.96 117.04" hpr="0.0 -0.0 0.0" scale="1.12 1.12 1.12"/>
+    <static-object  model="tube 2.spm" xyz="-19.74 13.65 41.82" hpr="-0.0 -0.0 5.0" scale="1.12 1.12 1.12"/>
+    <static-object  model="tube 1.spm" xyz="55.30 20.91 13.06" hpr="-0.0 180.0 -5.0" scale="1.12 1.12 1.12"/>
+    <static-object  lod_instance="true" lod_group="aliens" xyz="-59.42 10.12 112.22" hpr="-90.0 -0.0 0.0" scale="1.12 1.12 1.12"/>
+    <static-object  model="curiosity.spm" xyz="-104.79 6.37 159.97" hpr="-0.0 -105.0 9.2" scale="3.66 3.66 3.66"/>
+    <static-object  model="curious.spm" xyz="-104.26 8.71 159.07" hpr="0.0 -0.0 0.0" scale="1.12 1.12 1.12"/>
+    <static-object  model="love.spm" xyz="-103.33 4.93 177.64" hpr="0.0 -0.0 0.0" scale="1.12 1.12 1.12"/>
+    <animated-texture name="acid_lake.jpg" dx="0.00000"  dy="0.50000" />
+    <animated-texture name="arc1.png" dx="0.00000"  dy="0.10000" />
+    <animated-texture name="arc1.png" dx="0.00000"  dy="0.10000" />
+    <animated-texture name="acid_lake.jpg" dx="0.00000"  dy="0.50000" />
+    <animated-texture name="arc1.png" dx="2.00000" />
+    <animated-texture name="arc2.png" dx="-1.70000" />
+  </track>
+  <object id="arrows" type="animation" xyz="1.10 -0.53 -4.38" hpr="0.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="ghost" model="arrows.spm" skeletal-animation="false">
+    <animated-texture name="arrows.png" dx="-0.50000" />
+  </object>
+  <object id="Circle.040" type="animation" xyz="270.02 113.38 154.36" hpr="-25.0 60.0 0.0" scale="1.12 1.12 1.12" interaction="ghost" model="sky_beam_2.spm" skeletal-animation="false">
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -25.000" h1="-37.651 -25.000" h2="39.651 -25.000"/>
+      <p c="100.000 -25.000" h1="61.349 -25.000" h2="139.041 -25.000"/>
+      <p c="200.000 -25.000" h1="160.959 -25.000" h2="239.041 -25.000"/>
+    </curve>
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-37.651 -0.000" h2="39.651 -0.000"/>
+      <p c="100.000 0.000" h1="61.349 0.000" h2="139.041 0.000"/>
+      <p c="200.000 0.000" h1="160.959 0.000" h2="239.041 -0.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 60.000" h1="-37.651 -10.274" h2="39.651 130.274"/>
+      <p c="100.000 240.000" h1="61.349 170.077" h2="139.041 310.629"/>
+      <p c="200.000 420.000" h1="160.959 349.726" h2="239.041 490.274"/>
+    </curve>
+  </object>
+  <object id="Circle.043" type="animation" xyz="270.02 113.38 -155.88" hpr="-25.0 120.0 0.0" scale="1.12 1.12 1.12" interaction="ghost" model="sky_beam_3.spm" skeletal-animation="false">
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -25.000" h1="-37.651 -25.000" h2="39.651 -25.000"/>
+      <p c="100.000 -25.000" h1="61.349 -25.000" h2="139.041 -25.000"/>
+      <p c="200.000 -25.000" h1="160.959 -25.000" h2="239.041 -25.000"/>
+    </curve>
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-37.651 -0.000" h2="39.651 -0.000"/>
+      <p c="100.000 -0.000" h1="61.349 -0.000" h2="139.041 -0.000"/>
+      <p c="200.000 0.000" h1="160.959 0.000" h2="239.041 -0.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 120.000" h1="-37.651 49.726" h2="39.651 190.274"/>
+      <p c="100.000 300.000" h1="61.349 230.077" h2="139.041 370.629"/>
+      <p c="200.000 480.000" h1="160.959 409.726" h2="239.041 550.274"/>
+    </curve>
+  </object>
+  <object id="Circle.044" type="animation" xyz="1.35 113.38 -311.00" hpr="-25.0 -180.0 0.0" scale="1.12 1.12 1.12" interaction="ghost" model="sky_beam_4.spm" skeletal-animation="false">
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -25.000" h1="-37.651 -25.000" h2="39.651 -25.000"/>
+      <p c="100.000 -25.000" h1="61.349 -25.000" h2="139.041 -25.000"/>
+      <p c="200.000 -25.000" h1="160.959 -25.000" h2="239.041 -25.000"/>
+    </curve>
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-37.651 -0.000" h2="39.651 -0.000"/>
+      <p c="100.000 0.000" h1="61.349 0.000" h2="139.041 0.000"/>
+      <p c="200.000 0.000" h1="160.959 0.000" h2="239.041 -0.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 180.000" h1="-37.651 109.726" h2="39.651 250.274"/>
+      <p c="100.000 360.000" h1="61.349 290.077" h2="139.041 430.629"/>
+      <p c="200.000 540.000" h1="160.959 469.726" h2="239.041 610.274"/>
+    </curve>
+  </object>
+  <object id="Circle.045" type="animation" xyz="-267.33 113.38 -155.88" hpr="-25.0 -120.0 -0.0" scale="1.12 1.12 1.12" interaction="ghost" model="sky_beam_5.spm" skeletal-animation="false">
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -25.000" h1="-37.651 -25.000" h2="39.651 -25.000"/>
+      <p c="100.000 -25.000" h1="61.349 -25.000" h2="139.041 -25.000"/>
+      <p c="200.000 -25.000" h1="160.959 -25.000" h2="239.041 -25.000"/>
+    </curve>
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-37.651 -0.000" h2="39.651 -0.000"/>
+      <p c="100.000 0.000" h1="61.349 0.000" h2="139.041 0.000"/>
+      <p c="200.000 0.000" h1="160.959 0.000" h2="239.041 -0.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 240.000" h1="-37.651 169.726" h2="39.651 310.274"/>
+      <p c="100.000 420.000" h1="61.349 350.077" h2="139.041 490.629"/>
+      <p c="200.000 600.000" h1="160.959 529.726" h2="239.041 670.274"/>
+    </curve>
+  </object>
+  <object id="Circle.046" type="animation" xyz="1.35 113.38 309.48" hpr="-25.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="ghost" model="sky_beam_1.spm" skeletal-animation="false">
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -25.000" h1="-37.651 -25.000" h2="39.651 -25.000"/>
+      <p c="100.000 -25.000" h1="61.349 -25.000" h2="139.041 -25.000"/>
+      <p c="200.000 -25.000" h1="160.959 -25.000" h2="239.041 -25.000"/>
+    </curve>
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-37.651 -0.000" h2="39.651 -0.000"/>
+      <p c="100.000 0.000" h1="61.349 0.000" h2="139.041 0.000"/>
+      <p c="200.000 -0.000" h1="160.959 -0.000" h2="239.041 -0.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-37.651 -70.274" h2="39.651 70.274"/>
+      <p c="100.000 180.000" h1="61.349 110.077" h2="139.041 250.629"/>
+      <p c="200.000 360.000" h1="160.959 289.726" h2="239.041 430.274"/>
+    </curve>
+  </object>
+  <object id="Circle.047" type="animation" xyz="-267.33 113.38 154.36" hpr="-25.0 -60.0 0.0" scale="1.12 1.12 1.12" interaction="ghost" model="sky_beam_0.spm" skeletal-animation="false">
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -25.000" h1="-37.651 -25.000" h2="39.651 -25.000"/>
+      <p c="100.000 -25.000" h1="61.349 -25.000" h2="139.041 -25.000"/>
+      <p c="200.000 -25.000" h1="160.959 -25.000" h2="239.041 -25.000"/>
+    </curve>
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.000" h1="-37.651 -0.000" h2="39.651 -0.000"/>
+      <p c="100.000 0.000" h1="61.349 0.000" h2="139.041 0.000"/>
+      <p c="200.000 -0.000" h1="160.959 -0.000" h2="239.041 -0.000"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 300.000" h1="-37.651 229.726" h2="39.651 370.274"/>
+      <p c="100.000 480.000" h1="61.349 410.077" h2="139.041 550.629"/>
+      <p c="200.000 660.000" h1="160.959 589.726" h2="239.041 730.274"/>
+    </curve>
+  </object>
+  <object id="Circle.055" type="animation" xyz="-62.64 27.87 10.05" hpr="0.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="ghost" model="sign_correct_direction.spm" skeletal-animation="false">
+    <animated-texture name="arrows.png" dx="-0.50000" />
+  </object>
+  <object id="Circle.056" type="animation" xyz="-62.64 27.87 10.05" hpr="0.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="ghost" model="sign_correct_direction2.spm" skeletal-animation="false" if="isNotReverse">
+    <animated-texture name="arrows.png" dx="-0.50000" />
+  </object>
+  <object id="InvisibleWalls" type="animation" xyz="-110.81 -5.79 26.46" hpr="0.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="physicsonly" shape="exact" model="InvisibleWalls.spm" shadow-pass="false" skeletal-animation="false">
+  </object>
+  <object id="Plane.007" type="animation" xyz="-66.98 -8.74 -48.83" hpr="0.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="ghost" model="green_water_dist.spm" skeletal-animation="false">
+  </object>
+  <object id="Plane.008" type="animation" xyz="-66.98 -8.74 -48.83" hpr="0.0 -0.0 0.0" scale="1.12 1.12 1.12" interaction="ghost" model="green_water_dist_1.spm" skeletal-animation="false">
+  </object>
+  <object id="Sphere.012" type="animation" xyz="-65.85 -15.98 -40.11" hpr="-90.0 0.0 20.0" scale="1.32 1.32 1.32" interaction="ghost" model="monster2.spm" skeletal-animation="false">
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 20.000" h1="-18.067 35.565" h2="20.067 4.435"/>
+      <p c="50.000 -20.000" h1="30.870 -20.000" h2="69.521 -20.000"/>
+      <p c="100.000 20.000" h1="80.542 4.433" h2="119.458 35.567"/>
+    </curve>
+  </object>
+  <object id="Sphere.020" type="animation" xyz="43.27 -20.22 153.62" hpr="-95.1 -0.1 -18.7" scale="1.12 1.12 1.12" interaction="ghost" model="monster1.spm" skeletal-animation="false">
+    <curve channel="RotX" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -95.079" h1="-18.125 -99.729" h2="20.125 -90.430"/>
+      <p c="50.000 -83.167" h1="30.870 -83.167" h2="69.521 -83.167"/>
+      <p c="100.000 -93.575" h1="80.484 -89.513" h2="119.516 -97.638"/>
+    </curve>
+    <curve channel="RotZ" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -18.712" h1="-18.092 -30.791" h2="20.092 -6.633"/>
+      <p c="50.000 12.289" h1="30.870 12.289" h2="69.521 12.289"/>
+      <p c="100.000 -17.646" h1="80.514 -5.980" h2="119.486 -29.311"/>
+    </curve>
+    <curve channel="RotY" interpolation="bezier" extend="cyclic">
+      <p c="1.000 -0.078" h1="-18.129 1.587" h2="20.129 -1.743"/>
+      <p c="50.000 -4.343" h1="30.870 -4.343" h2="69.521 -4.343"/>
+      <p c="100.000 -0.163" h1="80.480 -1.795" h2="119.520 1.469"/>
+    </curve>
+  </object>
+  <sun  fog="true" fog-color="66 11 14" fog-max="0.5" fog-start="15.00" fog-end="400.00" xyz="345.84 184.39 -39.25" sun-diffuse="208 175 119" ambient="84 68 67"/>
+  <sky-color rgb="104 50 52"/>
+  <sky-box texture="SKY0006.png sandred.jpg SKY0002.png SKY0004.png SKY0005.png SKY0003.png" sh-texture="sandred.jpg sandred.jpg SKY0002.png SKY0002.png SKY0002.png SKY0002.png"/>
+  <camera far="1000.0"/>
+  <checks>
+    <check-lap kind="lap" same-group="0" other-ids="1" />
+    <check-line kind="activate" other-ids="2" p1="1.17 -12.45 99.56" p2="24.53 -11.84 101.69"
+                same-group="1"/>
+    <check-line kind="activate" other-ids="3" p1="59.53 17.25 26.89" p2="83.54 17.26 23.42"
+                same-group="2"/>
+    <check-line kind="activate" other-ids="4" p1="-81.33 10.39 56.88" p2="-85.82 8.30 38.31"
+                same-group="3"/>
+    <check-line kind="activate" other-ids="5" p1="-90.51 -10.03 -92.91" p2="-72.31 -10.03 -88.03"
+                same-group="4"/>
+    <check-line kind="activate" other-ids="6" p1="-38.04 -7.32 -87.34" p2="-56.47 -6.98 -89.41"
+                same-group="5"/>
+    <check-line kind="activate" other-ids="0" p1="10.84 -6.79 -137.30" p2="7.87 -7.59 -117.07"
+                same-group="6"/>
+  </checks>
+  <banana id="Empty" x="3.99" y="-2.42" z="-46.80" />
+  <banana id="Empty.001" x="24.06" y="-5.65" z="-110.82" />
+  <banana id="Empty.002" x="-43.38" y="-9.09" z="-40.23" />
+  <banana id="Empty.003" x="-56.67" y="-7.93" z="-133.57" />
+  <banana id="Empty.004" x="-54.75" y="22.74" z="67.39" />
+  <banana id="Empty.005" x="34.59" y="15.95" z="38.44" />
+  <banana id="Empty.006" x="-4.75" y="12.82" z="42.81" />
+  <banana id="Empty.007" x="-34.43" y="25.03" z="37.90" />
+  <banana id="Empty.008" x="-17.80" y="-8.01" z="145.12" />
+  <banana id="Empty.009" x="-76.51" y="5.43" z="137.49" />
+  <item id="Empty.010" x="-86.80" y="3.67" z="158.03" />
+  <item id="Empty.011" x="-90.11" y="3.67" z="154.04" />
+  <item id="Empty.012" x="-93.54" y="3.67" z="150.51" />
+  <item id="Empty.013" x="-31.53" y="-6.53" z="140.10" />
+  <item id="Empty.014" x="-26.40" y="-6.53" z="146.36" />
+  <item id="Empty.015" x="-24.04" y="-6.53" z="148.70" />
+  <small-nitro id="Empty.016" x="-28.98" y="-6.53" z="143.22" />
+  <item id="Empty.017" x="-1.59" y="-3.28" z="39.53" />
+  <small-nitro id="Empty.018" x="-7.39" y="-3.41" z="39.81" />
+  <item id="Empty.019" x="11.67" y="-6.44" z="-121.04" />
+  <item id="Empty.020" x="17.18" y="-6.44" z="-125.64" />
+  <small-nitro id="Empty.021" x="14.69" y="-6.44" z="-123.65" />
+  <small-nitro id="Empty.022" x="19.31" y="-6.44" z="-127.21" />
+  <item id="Empty.023" x="-72.16" y="-10.55" z="-110.37" />
+  <item id="Empty.024" x="-75.33" y="-10.55" z="-109.82" />
+  <item id="Empty.025" x="-81.56" y="-10.55" z="-109.89" />
+  <small-nitro id="Empty.026" x="-78.40" y="-10.55" z="-110.03" />
+  <small-nitro id="Empty.027" x="-36.20" y="-7.50" z="-121.47" />
+  <small-nitro id="Empty.028" x="-42.50" y="-7.57" z="-134.64" />
+  <item id="Empty.029" x="-106.02" y="15.20" z="29.94" />
+  <small-nitro id="Empty.030" x="-108.62" y="15.01" z="29.94" />
+  <item id="Empty.031" x="-111.19" y="15.01" z="29.80" />
+  <item id="Empty.032" x="-114.18" y="15.01" z="29.63" />
+  <item id="Empty.033" x="-57.55" y="21.61" z="46.70" />
+  <item id="Empty.034" x="-54.56" y="21.61" z="46.87" />
+  <small-nitro id="Empty.035" x="-51.99" y="21.61" z="47.01" />
+  <item id="Empty.036" x="-49.39" y="21.80" z="47.01" />
+  <item id="Empty.037" x="31.37" y="23.18" z="9.62" h="-98.25" />
+  <small-nitro id="Empty.038" x="31.74" y="23.00" z="12.19" h="-98.25" />
+  <item id="Empty.039" x="31.97" y="23.00" z="14.75" h="-98.25" />
+  <item id="Empty.040" x="32.23" y="23.00" z="17.74" h="-98.25" />
+  <item id="Empty.041" x="-40.04" y="8.98" z="43.57" h="-98.25" />
+  <item id="Empty.042" x="-40.08" y="8.98" z="39.01" h="-98.25" />
+  <item id="Empty.043" x="-40.36" y="8.98" z="34.33" h="-98.25" />
+  <banana id="Empty.045" x="-78.54" y="4.55" z="99.79" />
+  <small-nitro id="Empty.046" x="-48.55" y="-7.10" z="-71.22" />
+  <small-nitro id="Empty.047" x="-95.91" y="-4.08" z="-35.24" />
+  <banana id="Empty.048" x="-97.43" y="-6.27" z="-53.72" />
+  <small-nitro id="Empty.049" x="15.57" y="-11.97" z="116.24" />
+  <small-nitro id="Empty.050" x="74.43" y="19.05" z="23.94" />
+  <small-nitro id="Empty.051" x="-38.04" y="22.25" z="72.26" />
+  <item id="Empty.052" x="-26.73" y="23.33" z="-12.09" />
+  <small-nitro id="Empty.053" x="-29.31" y="23.06" z="-12.07" />
+  <item id="Empty.054" x="-31.87" y="23.32" z="-12.20" />
+  <item id="Empty.055" x="-34.87" y="23.32" z="-12.37" />
+  <banana id="Empty.056" x="-54.75" y="22.74" z="-36.85" />
+  <banana id="Empty.057" x="-32.47" y="22.74" z="-36.85" />
+  <light xyz="28.67 -4.40 -120.47" id="Lamp" distance="25.00" energy="1.50" color="0 115 255">
+  </light>
+  <light xyz="20.96 -4.40 -131.25" id="Lamp.001" distance="25.00" energy="1.50" color="0 115 255">
+  </light>
+  <light xyz="7.77 -4.40 -136.08" id="Lamp.002" distance="25.00" energy="1.50" color="0 115 255">
+  </light>
+  <light xyz="-6.43 -4.56 -133.83" id="Lamp.003" distance="25.00" energy="1.50" color="0 115 255">
+  </light>
+  <light xyz="-16.51 -4.45 -123.68" id="Lamp.004" distance="25.00" energy="1.50" color="0 115 255">
+  </light>
+  <light xyz="-32.58 -8.30 -81.75" id="Lamp.005" distance="25.00" energy="1.50" color="75 255 47">
+  </light>
+  <light xyz="-66.98 -8.74 -48.83" id="Lamp.006" distance="25.00" energy="1.50" color="75 255 47">
+  </light>
+  <light xyz="39.86 -13.27 142.48" id="Lamp.007" distance="25.00" energy="1.50" color="75 255 47">
+  </light>
+  <light xyz="-12.99 -13.61 87.84" id="Lamp.008" distance="25.00" energy="1.50" color="75 255 47">
+  </light>
+  <light xyz="-19.42 -13.53 105.45" id="Lamp.009" distance="25.00" energy="1.50" color="0 115 255">
+  </light>
+  <light xyz="-1.78 8.47 -21.79" id="Lamp.010" distance="25.00" energy="2.00" color="0 150 255">
+  </light>
+  <light xyz="3.39 8.51 -22.02" id="Lamp.011" distance="25.00" energy="2.00" color="0 150 255">
+  </light>
+  <lightshaft xyz="972.78 95.80 23.71" id="Sun.001" opacity="0.50" color="255 95 52"/>
+  <default-start karts-per-row     ="2"
+                 forwards-distance ="1.50"
+                 sidewards-distance="3.00"
+                 upwards-distance  ="0.10"/>
+  <library name="gfx_solarCore_a" id="gfx_solarCore_a_main_proxy" xyz="964.35 82.82 26.52" hpr="0.0 -0.0 0.0" scale="1.12 1.12 1.12">
+  </library>
+</scene>
