@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!-- Generated with script from SVN rev Unknown -->
+<?xml version="1.0" encoding="utf-8"?>
 <materials>
   <material name="goal.png" shader="alphablend"/>
   <material name="puck.png" gloss-map="puck_gloss.png"/>

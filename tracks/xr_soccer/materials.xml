@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!-- Generated with script from SVN rev Unknown -->
+<?xml version="1.0" encoding="utf-8"?>
 <materials>
   <material name="acid_lake.jpg" gloss-map="acid_glow.png"/>
   <material name="ball.png" gloss-map="ball_gloss.png"/>
@@ -9,7 +8,6 @@
   <material name="ground_pattern.png" shader="alphatest" ignore="Y"/>
   <material name="light.png" shader="additive"/>
   <material name="light_goal.png" shader="additive"/>
-  <material name="metal_ground.jpg" gloss-map="metal_gloss.png"/>
   <material name="road_dirt_red.jpg">
     <particles base="smoke_red.xml" condition="skid drive"/>
   </material>

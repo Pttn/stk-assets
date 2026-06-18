@@ -6,7 +6,7 @@ The repository aims to put together current changes and help making testing sess
 
 ```bash
 git clone https://github.com/Pttn/stk-assets.git
-git clone https://github.com/Alayan-stk-2/stk-code.git -b BalanceSTK2
+git clone https://github.com/SuperTuxKart/stk-code.git -b BalanceSTK2
 # then build as usual
 ```
 

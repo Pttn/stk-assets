@@ -10,17 +10,17 @@
   </object>
   <sun  fog="true" fog-color="35 28 21" fog-max="0.20000000298023224" fog-start="15.00" fog-end="150.00" xyz="182.84 216.71 -12.69" sun-diffuse="255 251 176" ambient="85 85 85"/>
   <sky-box texture="mathclassceiling.png mathclassceiling.png mathclassceiling.png mathclassceiling.png mathclassceiling.png mathclassceiling.png" sh-texture="mathclassceiling_ibl.png mathclassceiling_ibl.png mathclassceiling_ibl.png mathclassceiling_ibl.png mathclassceiling_ibl.png mathclassceiling_ibl.png"/>
-  <camera far="1200.0"/>
+  <camera far="1500.0"/>
   <checks>
     <check-lap kind="lap" same-group="0 3 4" other-ids="1" />
-    <check-line kind="activate" other-ids="2" p1="-9.19 30.86" p2="-9.31 90.36"
-                min-height="0.60" same-group="1"/>
-    <check-line kind="activate" other-ids="0 3 4" p1="-63.05 -41.34" p2="-90.53 -56.04"
-                min-height="0.01" same-group="2"/>
-    <check-line kind="lap" other-ids="1" p1="-18.87 -5.06" p2="-21.96 -5.06"
-                min-height="-0.09" same-group="0 3 4"/>
-    <check-line kind="lap" other-ids="1" p1="-5.13 -6.20" p2="-8.22 -6.20"
-                min-height="-0.09" same-group="0 3 4"/>
+    <check-line kind="activate" other-ids="2" p1="-9.19 0.60 30.86" p2="-9.31 0.60 90.36"
+                same-group="1"/>
+    <check-line kind="activate" other-ids="0 3 4" p1="-63.05 0.01 -41.34" p2="-90.53 0.01 -56.04"
+                same-group="2"/>
+    <check-line kind="lap" other-ids="1" p1="-18.87 -0.09 -5.06" p2="-21.96 -0.09 -5.06"
+                same-group="0 3 4"/>
+    <check-line kind="lap" other-ids="1" p1="-5.13 -0.09 -6.20" p2="-8.22 -0.09 -6.20"
+                same-group="0 3 4"/>
     <cannon p1="33.41 2.24 61.39" p2="38.16 2.24 61.39" target-p1="31.67 10.82 72.72" target-p2="31.67 10.82 67.97">
     <curve channel="LocXYZ" speed="8.00" interpolation="bezier" extend="const">
       <point c="35.789127 2.244259 61.423374" h1="35.789127 2.244259 59.005764" h2="35.789127 2.244259 62.632179" />
